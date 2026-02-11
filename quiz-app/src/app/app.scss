@@ -1,0 +1,39 @@
+@use 'sass:color';
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+.app-header {
+  background: #060b3a;
+  color: #ffffff;
+  padding: 10px 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+}
+
+.app-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.app-header .brand-logo {
+  height: 40px;
+  width: auto;
+}
+
+.app-header .brand-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.app-main {
+  flex: 1;
+  padding: 24px 12px 40px;
+  background: #f5f8e0;
+}

@@ -1,0 +1,38 @@
+<div class="home-page">
+  <div class="home-intro">
+    <h1>Exemples de questions pour l'évaluation phytolicence</h1>
+    <p>L'évaluation porte sur la matière de l'annexe 1 de l'Arrêté ministériel du 10/06/2016.</p>
+    <p>Consultez les exemples de questions et les réponses afin de vous préparer efficacement.</p>
+  </div>
+
+  <section class="cards">
+    <article class="licence-card" *ngFor="let l of licences">
+      <header class="licence-header">
+        <h2>{{ l.title }}</h2>
+      </header>
+
+      <div class="licence-body">
+        <p>{{ l.description }}</p>
+      </div>
+
+      <!-- Barre encadrée du bas (comme sur ton style de référence) -->
+      <div class="licence-footer">
+        <span class="footer-label">{{ l.title }}</span>
+
+        <a
+          class="footer-link"
+          [routerLink]="'/quiz'"
+          [queryParams]="{ bank: l.bank }"
+        >
+          30 questions
+        </a>        <a
+          class="footer-link"
+          [routerLink]="'/quiz'"
+          [queryParams]="{ bank: l.bank, mode: 'all' }"
+        >
+          Toutes les questions
+        </a>
+      </div>
+    </article>
+  </section>
+</div>

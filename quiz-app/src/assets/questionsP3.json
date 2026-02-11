@@ -1,0 +1,2793 @@
+[
+    {
+      "id": 1,
+      "question": "En Belgique, pour demander la mise sur le marché d’un produit phytopharmaceutique, la substance active contenue dans ce produit phytopharmaceutique doit au préalable être autorisée :",
+      "choices": [
+        { "key": "a", "text": "Au niveau mondial" },
+        { "key": "b", "text": "Au niveau belge" },
+        { "key": "c", "text": "Au niveau européen" },
+        { "key": "d", "text": "Au niveau régional" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 2,
+      "question": "En Belgique, je peux mélanger des produits phytopharmaceutiques :",
+      "choices": [
+        { "key": "a", "text": "Faux, sauf si l’un des pathogènes ciblés est résistant à l’un des produits utilisés" },
+        { "key": "b", "text": "Vrai, en l'absence de contre-indications légales ou techniques et sous la responsabilité du détenteur d’une phytolicence P2 ou P3" },
+        { "key": "c", "text": "Faux, il est interdit de procéder à de tels mélanges à cause du risque de phytotoxicité" },
+        { "key": "d", "text": "Faux, tous les mélanges de substances actives doivent être agréés et vendus sous la forme d’un unique produit" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 3,
+      "question": "Je détiens un bidon de produit phytopharmaceutique de 30L. J’aimerais remplir une bouteille avec 1L de produit afin d’éviter de devoir transporter mon bidon de 30L :",
+      "choices": [
+        { "key": "a", "text": "Je peux tout à fait le faire" },
+        { "key": "b", "text": "Je ne peux pas le faire car c’est interdit par la loi" },
+        { "key": "c", "text": "Je peux le faire mais uniquement avec un récipient résistant aux produits chimiques" },
+        { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 4,
+      "question": "Qu’est-ce qu’une LMR ?",
+      "choices": [
+        { "key": "a", "text": "La durée minimale avant de pouvoir pénétrer dans l’aire traitée sans vêtements de protection" },
+        { "key": "b", "text": "Une phrase de risque indiquant le danger du produit pour la santé humaine" },
+        { "key": "c", "text": "La plus haute concentration de résidus d’un produit phytopharmaceutique autorisée dans les denrées alimentaires" },
+        { "key": "d", "text": "Niveau de la réaction d’une personne exposée à un agent chimique ou biologique : réaction faible à modérée (Low or moderate reaction)" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 5,
+      "question": "La législation belge impose que l’application d’un produit phytopharmaceutique respecte l’autorisation :",
+      "choices": [
+        { "key": "a", "text": "Pour le parasite uniquement" },
+        { "key": "b", "text": "Pour la culture et le parasite ciblé" },
+        { "key": "c", "text": "Pour la culture uniquement" },
+        { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "question": "En Wallonie, tout producteur se doit de conserver un registre d’utilisation des produits phytopharmaceutiques pendant :",
+      "choices": [
+        { "key": "a", "text": "1 an" },
+        { "key": "b", "text": "3 ans" },
+        { "key": "c", "text": "4 ans" },
+        { "key": "d", "text": "6 ans" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 7,
+      "question": "En Wallonie, tout horticulteur qui produit ou récolte des produits végétaux non destinés à l’alimentation doit conserver le registre d’utilisation des produits phytopharmaceutiques pendant :",
+      "choices": [
+        { "key": "a", "text": "1 an" },
+        { "key": "b", "text": "3 ans" },
+        { "key": "c", "text": "4 ans" },
+        { "key": "d", "text": "6 ans" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "question": "Dans le cadre de la législation belge, un entrepreneur de parcs et jardins doit conserver le registre d’utilisation des produits phytopharmaceutiques pendant :",
+      "choices": [
+        { "key": "a", "text": "2 ans" },
+        { "key": "b", "text": "3 ans" },
+        { "key": "c", "text": "4 ans" },
+        { "key": "d", "text": "6 ans" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 9,
+      "question": "En Wallonie, les distributeurs de produits phytopharmaceutiques gardent leurs registres de vente au moins :",
+      "choices": [
+        { "key": "a", "text": "2 ans" },
+        { "key": "b", "text": "3 ans" },
+        { "key": "c", "text": "4 ans" },
+        { "key": "d", "text": "5 ans" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 10,
+      "question": "Quel type de phytolicence faut-il pour acheter des produits phytopharmaceutiques à usage professionnel ?",
+      "choices": [
+        { "key": "a", "text": "NP" },
+        { "key": "b", "text": "PP" },
+        { "key": "c", "text": "P1" },
+        { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 11,
+      "question": "Un ouvrier détenteur d'une phytolicence P1 doit utiliser les produits phytopharmaceutiques sous l'autorité d'un :",
+      "choices": [
+        { "key": "a", "text": "NP" },
+        { "key": "b", "text": "P2" },
+        { "key": "c", "text": "P1" },
+        { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 12,
+      "question": "Quel type de phytolicence faut-il pour vendre des produits phytopharmaceutiques à usage professionnel ?",
+      "choices": [
+        { "key": "a", "text": "P2" },
+        { "key": "b", "text": "P1" },
+        { "key": "c", "text": "NP" },
+        { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 13,
+      "question": "Quel type de phytolicence faut-il pour vendre des produits phytopharmaceutiques à usage professionnel ?",
+      "choices": [
+        { "key": "a", "text": "P2" },
+        { "key": "b", "text": "P1" },
+        { "key": "c", "text": "P3" },
+        { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 14,
+      "question": "Parmi les propositions suivantes, qui peut utiliser des produits phytopharmaceutiques à usage professionnel ?",
+      "choices": [
+        { "key": "a", "text": "Toute personne détenant une phytolicence (NP, P1, P2 et P3)" },
+        { "key": "b", "text": "Uniquement les jardiniers amateurs" },
+        { "key": "c", "text": "Une personne détenant une P1 sous l’autorité d’une personne détenant une P2" },
+        { "key": "d", "text": "Une personne ne possédant pas de phytolicence mais travaillant dans le secteur agricole/horticole" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 15,
+      "question": "Qui peut utiliser des produits phytopharmaceutiques à usage non professionnel ?",
+      "choices": [
+        { "key": "a", "text": "Uniquement les détenteurs d’une phytolicence P1" },
+        { "key": "b", "text": "Uniquement les détenteurs d’une phytolicence NP" },
+        { "key": "c", "text": "Uniquement les particuliers" },
+        { "key": "d", "text": "Les particuliers et les personnes détenant une phytolicence" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 16,
+      "question": "Un entrepreneur de parcs et jardins n’utilise que des produits phytopharmaceutiques à usage non professionnel. Quel type de phytolicence doit-il posséder ?",
+      "choices": [
+        { "key": "a", "text": "NP" },
+        { "key": "b", "text": "P2" },
+        { "key": "c", "text": "P1" },
+        { "key": "d", "text": "Il ne doit pas forcément posséder de phytolicence car il n’utilise pas de produits phytopharmaceutiques à usage professionnel" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 17,
+      "question": "Combien d'assistants détenant une phytolicence P1 peuvent utiliser des produits phytopharmaceutiques à usage professionnel sous l'autorité d'un même titulaire d'une phytolicence “Usage professionnel” (P2) ou “Distribution/Conseil” (P3) ?",
+      "choices": [
+        { "key": "a", "text": "4" },
+        { "key": "b", "text": "6" },
+        { "key": "c", "text": "8" },
+        { "key": "d", "text": "10" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 18,
+      "question": "Un entrepreneur agricole souhaite engager une personne afin d’effectuer des travaux de pulvérisation chez un tiers. La personne engagée pourra réaliser ces travaux si elle possède :",
+      "choices": [
+        { "key": "a", "text": "Une P1" },
+        { "key": "b", "text": "Une P2 ou une P3" },
+        { "key": "c", "text": "Une NP" },
+        { "key": "d", "text": "La détention d’une phytolicence n’est pas nécessaire pour ce genre de travaux" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 19,
+      "question": "Pour charger, décharger et livrer des produits phytopharmaceutiques, il faut détenir :",
+      "choices": [
+        { "key": "a", "text": "Au minimum une P1" },
+        { "key": "b", "text": "Au minimum une P2" },
+        { "key": "c", "text": "Au minimum une P3" },
+        { "key": "d", "text": "La détention d'une phytolicence n'est pas obligatoire" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 20,
+      "question": "Qui peut procéder à l’enlèvement (et non à l’achat) d’un produit phytopharmaceutique à usage professionnel chez un vendeur ?",
+      "choices": [
+        { "key": "a", "text": "Uniquement une personne détenant une phytolicence P1" },
+        { "key": "b", "text": "Toute personne majeure agissant au nom d’un acheteur en possession d’une phytolicence P2 ou P3" },
+        { "key": "c", "text": "Uniquement une personne détenant une phytolicence P1, P2, P3 ou NP" },
+        { "key": "d", "text": "Uniquement une personne détenant une phytolicence P2 ou P3" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 21,
+      "question": "Un utilisateur professionnel qui détient une phytolicence P2 a commandé un produit phytopharmaceutique à usage professionnel chez son distributeur. L’enlèvement auprès du vendeur ne doit pas nécessairement être réalisé directement par l’utilisateur professionnel et peut être réalisé par une tierce personne :",
+      "choices": [
+        { "key": "a", "text": "Vrai, à condition que cette tierce personne ait au moins 18 ans et que son nom soit mentionné sur la facture" },
+        { "key": "b", "text": "Vrai, à condition que cette personne détienne au moins une phytolicence P1" },
+        { "key": "c", "text": "Vrai, à condition que cette personne ait un lien de parenté (au 1er degré) avec l’utilisateur professionnel" },
+        { "key": "d", "text": "Faux, l’enlèvement ne doit se faire que par l’utilisateur professionnel détenant une P2 ou P3" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 22,
+      "question": "Le titulaire d'une phytolicence “Distribution/Conseil” (P3) peut-il accomplir les mêmes tâches que le titulaire d'une phytolicence “Usage professionnel” (P2), en ce qui concerne l'utilisation de produits phytopharmaceutiques ?",
+      "choices": [
+        { "key": "a", "text": "Non" },
+        { "key": "b", "text": "Oui" },
+        { "key": "c", "text": "Aucune des propositions n’est correcte, cela dépend du type de produit qui sera utilisé" },
+        { "key": "d", "text": "Aucune des propositions n’est correcte, cela dépend de l'activité professionnelle du P2/P3" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 23,
+      "question": "Un titulaire d’une phytolicence P3 peut se faire assister lors de l’utilisation de produits phytopharmaceutiques à usage professionnel par :",
+      "choices": [
+        { "key": "a", "text": "Un préposé d'au moins 18 ans ne disposant d’aucune phytolicence s’il reste sous sa surveillance directe" },
+        { "key": "b", "text": "Une personne détenant au minimum une P1" },
+        { "key": "c", "text": "Une personne détenant au minimum une NP" },
+        { "key": "d", "text": "Aucune des propositions suivantes n’est correcte" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 24,
+      "question": "Un utilisateur souhaite acheter un produit phytopharmaceutique à usage professionnel chez son distributeur. En l’absence d’un titulaire de phytolicence P3, qui peut procurer des conseils au client et réaliser la vente du produit phytopharmaceutique ?",
+      "choices": [
+        { "key": "a", "text": "Un préposé d'au moins 18 ans ne disposant d’aucune phytolicence" },
+        { "key": "b", "text": "Une personne détenant au minimum une P1" },
+        { "key": "c", "text": "Une personne détenant au minimum une NP" },
+        { "key": "d", "text": "Aucune des propositions suivantes n’est correcte" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 25,
+      "question": "En Région wallonne, quelle est la distance minimale non traitée par un produit phytopharmaceutique à respecter par rapport au cours d’eau ?",
+      "choices": [
+        { "key": "a", "text": "Au moins 1 mètre" },
+        { "key": "b", "text": "Au moins 3 mètres" },
+        { "key": "c", "text": "Au moins 6 mètres" },
+        { "key": "d", "text": "Aucune distance minimale non traitée n’est à l’heure actuelle obligatoire, à moins qu’une zone tampon spécifique liée au produit ne soit indiquée sur l’étiquette" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 26,
+      "question": "Je souhaite traiter un trottoir avec un produit phytopharmaceutique. Quelle est la distance minimum à respecter par rapport au filet d'eau ?",
+      "choices": [
+        { "key": "a", "text": "1 mètre" },
+        { "key": "b", "text": "3 mètres" },
+        { "key": "c", "text": "6 mètres" },
+        { "key": "d", "text": "Le trottoir ne peut pas être traité" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 27,
+      "question": "En Région wallonne, quelle est la distance minimum de la zone tampon à respecter le long d’un cours d’eau ?",
+      "choices": [
+        { "key": "a", "text": "Au moins 2 mètres" },
+        { "key": "b", "text": "Au moins 4 mètres" },
+        { "key": "c", "text": "Au moins 6 mètres" },
+        { "key": "d", "text": "Au moins 8 mètres" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 28,
+      "question": "Doubler la dose agréée lors d’un traitement phytosanitaire sur une culture d’épinards :",
+      "choices": [
+        { "key": "a", "text": "Risque d’entraîner un dépassement de la LMR (limite maximale de résidus)" },
+        { "key": "b", "text": "Est autorisé mais n’est pas économiquement intéressant" },
+        { "key": "c", "text": "N’entraîne jamais un dépassement de la LMR (limite maximale de résidus)" },
+        { "key": "d", "text": "Allonge le délai de ré-accession" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 29,
+      "question": "Lors de la pulvérisation de terbuthylazine lors d’un désherbage en maïs, le non-respect des zones tampons enherbées peut avoir pour conséquence :",
+      "choices": [
+        { "key": "a", "text": "La contamination des eaux menant à terme à une interdiction du produit" },
+        { "key": "b", "text": "Une hausse de la biodiversité en bordure du cours d’eau" },
+        { "key": "c", "text": "Une diminution de la fertilité du sol en bordure du cours d’eau" },
+        { "key": "d", "text": "Une fatigue du sol" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 30,
+      "question": "La lutte intégrée :",
+      "choices": [
+        { "key": "a", "text": "Implique l’utilisation du pâturage comme unique moyen de désherbage" },
+        { "key": "b", "text": "Privilégie les méthodes de lutte alternatives aux produits phytopharmaceutiques sans en interdire leur utilisation" },
+        { "key": "c", "text": "Interdit l'utilisation de produits phytopharmaceutiques à l’exception de ceux agréés en agriculture biologique" },
+        { "key": "d", "text": "Fournit une juste rétribution aux producteurs en interdisant l’emploi d’intrants issus de l’agrochimie" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 31,
+      "question": "Qu’est-ce que la lutte biologique ?",
+      "choices": [
+        { "key": "a", "text": "L’ensemble des moyens de lutte autorisés en agriculture biologique (physiques, chimiques et biologiques)" },
+        { "key": "b", "text": "Une méthode de lutte contre les organismes nuisibles au moyen d’organismes vivants antagonistes ou de leurs produits" },
+        { "key": "c", "text": "L’ensemble des méthodes favorisant la biodiversité du sol" },
+        { "key": "d", "text": "L’ensemble des mesures prophylactiques permettant de réduire le risque d’infection primaire" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 32,
+      "question": "Qu’est-ce qu’une culture associée :",
+      "choices": [
+        { "key": "a", "text": "Un système de culture consistant à appliquer des rotations longues" },
+        { "key": "b", "text": "Un système de culture consistant à cultiver plusieurs espèces végétales ou variétés sur la même parcelle en même temps" },
+        { "key": "c", "text": "Un système de culture consistant à réduire sensiblement le travail du sol" },
+        { "key": "d", "text": "Un système de culture privilégiant les variétés anciennes et/ou rustiques" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 33,
+      "question": "En agriculture, qu’est-ce que la prophylaxie ?",
+      "choices": [
+        { "key": "a", "text": "L’ensemble des mesures (physiques, variétales, biologiques...) permettant de réduire le risque d’apparition d’ennemis des cultures" },
+        { "key": "b", "text": "L’ensemble des produits phytopharmaceutiques autorisés pour la lutte préventive" },
+        { "key": "c", "text": "L’ensemble des mesures physiques permettant de lutter contre les adventices présentes au champ" },
+        { "key": "d", "text": "L’ensemble des mesures favorisant la biodiversité du sol" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 34,
+      "question": "Laquelle de ces méthodes de lutte n’est pas une méthode prophylactique ?",
+      "choices": [
+        { "key": "a", "text": "La rotation des cultures" },
+        { "key": "b", "text": "Le déstockage" },
+        { "key": "c", "text": "La lutte chimique curative" },
+        { "key": "d", "text": "La bonne gestion des résidus de récolte" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 35,
+      "question": "On peut réduire la pression parasitaire du mildiou de la pomme de terre :",
+      "choices": [
+        { "key": "a", "text": "En réduisant la durée de la rotation" },
+        { "key": "b", "text": "En retardant le défanage" },
+        { "key": "c", "text": "En avançant de quelques semaines la plantation" },
+        { "key": "d", "text": "En utilisant des variétés moins sensibles" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 36,
+      "question": "En général, l'apport excessif de fumure azotée en début de végétation :",
+      "choices": [
+        { "key": "a", "text": "N’a pas d’incidence sur les maladies cryptogamiques" },
+        { "key": "b", "text": "Défavorise le développement et la croissance des champignons phytopathogènes" },
+        { "key": "c", "text": "Peut favoriser le développement des maladies cryptogamiques" },
+        { "key": "d", "text": "Stimule les voies de la résistance systémique acquise" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 37,
+      "question": "Afin de favoriser la venue d’organismes auxiliaires au champ, il est recommandé :",
+      "choices": [
+        { "key": "a", "text": "De limiter l’emploi de produits phytopharmaceutiques" },
+        { "key": "b", "text": "D’implanter des haies aux abords du champ" },
+        { "key": "c", "text": "D’implanter des bandes fleuries aux abords du champ" },
+        { "key": "d", "text": "Toutes ces propositions sont correctes" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 38,
+      "question": "La rotation des cultures permet :",
+      "choices": [
+        { "key": "a", "text": "D’améliorer la structure du sol" },
+        { "key": "b", "text": "De rompre le cycle biologique des pathogènes du sol" },
+        { "key": "c", "text": "De limiter le développement de certaines adventices" },
+        { "key": "d", "text": "Toutes ces propositions sont correctes" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 39,
+      "question": "L’application des bonnes pratiques agricoles :",
+      "choices": [
+        { "key": "a", "text": "Permet d’optimiser la production agricole tout en réduisant les risques pour la santé humaine et l’environnement" },
+        { "key": "b", "text": "Interdit tout usage de produits phytopharmaceutiques" },
+        { "key": "c", "text": "Implique une culture sans labour" },
+        { "key": "d", "text": "Est uniquement réalisable en agriculture biologique" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 40,
+      "question": "Les bonnes pratiques agricoles concernant les sols incluent :",
+      "choices": [
+        { "key": "a", "text": "Le maintien ou l’augmentation de la teneur en matière organique du sol" },
+        { "key": "b", "text": "Une augmentation systématique de la fertilisation des sols agricoles" },
+        { "key": "c", "text": "Une lutte intensive contre les pathogènes du sol" },
+        { "key": "d", "text": "L’augmentation du travail mécanique du sol" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 41,
+      "question": "Dans le cadre des bonnes pratiques agricoles :",
+      "choices": [
+        { "key": "a", "text": "L’ensemble des organismes nuisibles à une culture doivent être éliminés le plus rapidement possible" },
+        { "key": "b", "text": "L’utilisation de produits phytopharmaceutiques doit être réduite au strict nécessaire" },
+        { "key": "c", "text": "Seules les méthodes de lutte biologique peuvent être employées" },
+        { "key": "d", "text": "Seuls les produits agréés en agriculture biologique peuvent être utilisés" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 42,
+      "question": "En épidémiologie, le seuil d’intervention est dépassé lorsque :",
+      "choices": [
+        { "key": "a", "text": "La perte économique engendrée par l’ennemi de la culture devient supérieure au coût du traitement" },
+        { "key": "b", "text": "Une fréquence potentielle d’infection de 100% est constatée au champ" },
+        { "key": "c", "text": "Les premiers symptômes sont visibles au champ" },
+        { "key": "d", "text": "Les plantes ont atteint un certain stade de développement" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 43,
+      "question": "Afin de lutter contre une maladie au champ, j’adapte les moyens de lutte employés :",
+      "choices": [
+        { "key": "a", "text": "À l’organisme nuisible en présence" },
+        { "key": "b", "text": "À la culture emblavée" },
+        { "key": "c", "text": "Au stade de développement de la culture" },
+        { "key": "d", "text": "Toutes ces propositions sont correctes" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 44,
+      "question": "En culture de betteraves, on observe un jaunissement des feuilles :",
+      "choices": [
+        { "key": "a", "text": "Il s’agit toujours d’une bactériose" },
+        { "key": "b", "text": "Une analyse des feuilles/ du sol doit être réalisée pour identifier la cause" },
+        { "key": "c", "text": "La cause est facilement identifiable. Il s’agit soit de la cercosporiose, soit de la ramulariose de la betterave" },
+        { "key": "d", "text": "Il s’agit probablement d’une carence en phosphore" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 45,
+      "question": "Lors d’un contrôle de l’AFSCA, on constate un dépassement de la LMR (limite maximale de résidus) pour une culture donnée. Dans la plupart des cas, ce dépassement est dû :",
+      "choices": [
+        { "key": "a", "text": "Au non-respect des conditions d’application d’un produit phytopharmaceutique" },
+        { "key": "b", "text": "À une situation climatique particulière" },
+        { "key": "c", "text": "À un apport excessif d’engrais" },
+        { "key": "d", "text": "Toutes ces propositions sont correctes" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 46,
+      "question": "En céréales, les seuils de nuisibilité pour les maladies foliaires dépendent :",
+      "choices": [
+        { "key": "a", "text": "De la sensibilité variétale" },
+        { "key": "b", "text": "Du stade phénologique de la plante" },
+        { "key": "c", "text": "Du pathogène en présence" },
+        { "key": "d", "text": "Toutes ces propositions sont correctes" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 47,
+      "question": "Un faux semis consiste en :",
+      "choices": [
+        { "key": "a", "text": "Un semis réalisé après la récolte alors que le couvert végétal est toujours en place" },
+        { "key": "b", "text": "Un semis réalisé sans travail préalable du sol" },
+        { "key": "c", "text": "Un travail superficiel visant à favoriser la germination des adventices suivi de leur destruction" },
+        { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 48,
+      "question": "De manière générale, laquelle de ces cultures est la moins étouffante vis-à-vis des adventices ?",
+      "choices": [
+        { "key": "a", "text": "La luzernière de minimum deux années" },
+        { "key": "b", "text": "Le maïs" },
+        { "key": "c", "text": "La prairie temporaire" },
+        { "key": "d", "text": "Le pois" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 49,
+      "question": "Parmi les techniques suivantes, laquelle est efficace pour affaiblir un rumex déjà bien installé en prairie ?",
+      "choices": [
+        { "key": "a", "text": "Passer la herse étrille une seule fois" },
+        { "key": "b", "text": "Passer la bineuse une seule fois" },
+        { "key": "c", "text": "Faucher à plusieurs reprises" },
+        { "key": "d", "text": "Faucher une seule fois" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 50,
+      "question": "Une culture dérobée est :",
+      "choices": [
+        { "key": "a", "text": "Une culture sur un terrain à faible portance" },
+        { "key": "b", "text": "Une culture comprenant une seule espèce de plante" },
+        { "key": "c", "text": "Une inter-culture" },
+        { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 51,
+      "question": "Parmi les éléments suivants, lequel ne fait pas partie de la stratégie de maîtrise des adventices sans herbicide ?",
+      "choices": [
+        { "key": "a", "text": "L’emploi de variétés dites étouffantes" },
+        { "key": "b", "text": "Le non-labour" },
+        { "key": "c", "text": "L’alternance des périodes de semis" },
+        { "key": "d", "text": "Le déchaumage" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 52,
+      "question": "Parmi les éléments suivants, lequel ne fait pas partie de la stratégie de maîtrise des adventices sans herbicide ?",
+      "choices": [
+        { "key": "a", "text": "La rotation des cultures" },
+        { "key": "b", "text": "Le labour" },
+        { "key": "c", "text": "Le faux-semis" },
+        { "key": "d", "text": "Le diquat" }
+      ],
+      "answer": "d"
+    },
+    {
+      "id": 53,
+      "question": "En culture de froment :",
+      "choices": [
+        { "key": "a", "text": "On traite systématiquement contre les pucerons dès la reprise de la végétation sur l’ensemble du territoire de la Région wallonne" },
+        { "key": "b", "text": "On peut être amené à traiter contre les pucerons mais ce n’est pas systématique" },
+        { "key": "c", "text": "On traite dès l’observation d’un seul puceron dans le champ" },
+        { "key": "d", "text": "Les traitements contre les pucerons sont interdits car ils détruiraient tous les auxiliaires" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 54,
+      "question": "En culture de froment, pour lutter contre la jaunisse nanisante :",
+      "choices": [
+        { "key": "a", "text": "On traite systématiquement contre les pucerons dès la reprise de la végétation sur l’ensemble du territoire de la Région wallonne" },
+        { "key": "b", "text": "On ne traite que rarement contre les pucerons dans ce but car le froment est peu sensible à la jaunisse" },
+        { "key": "c", "text": "On traite dès l’observation d’un seul puceron dans le champ" },
+        { "key": "d", "text": "Les traitements contre les pucerons sont interdits car ils détruiraient tous les auxiliaires" }
+      ],
+      "answer": "b"
+    },
+    {
+        "id": 55,
+        "question": "En culture d’escourgeon, pour lutter contre la jaunisse nanisante :",
+        "choices": [
+          {
+            "key": "a",
+            "text": "On traite systématiquement contre les pucerons dès la reprise de la végétation sur l’ensemble du territoire de la Région wallonne"
+          },
+          {
+            "key": "b",
+            "text": "On traite contre les pucerons si l’on constate leur présence sur un nombre significatif de plantes (ex : plus de 10 plantes infestées par m²)"
+          },
+          { "key": "c", "text": "On traite dès l’observation d’un seul puceron dans le champ" },
+          { "key": "d", "text": "Les traitements contre les pucerons sont interdits car ils détruiraient tous les auxiliaires" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 56,
+        "question": "Contre la septoriose du froment, il est recommandé :",
+        "choices": [
+          { "key": "a", "text": "De traiter systématiquement au stade 31" },
+          { "key": "b", "text": "De ne jamais traiter" },
+          { "key": "c", "text": "D’appliquer au minimum 2 traitements par an" },
+          { "key": "d", "text": "De traiter en fonction de la pression de la maladie et de la variété" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 57,
+        "question": "Afin de lutter contre le mildiou de la pomme de terre, il est recommandé :",
+        "choices": [
+          { "key": "a", "text": "D’utiliser uniquement une stratégie de lutte curative" },
+          { "key": "b", "text": "De traiter préventivement chaque semaine" },
+          { "key": "c", "text": "De traiter préventivement si les conditions sont favorables au développement de la maladie" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 58,
+        "question": "Parmi les propositions suivantes, laquelle définit le terme « pesticide » de manière la plus complète ?",
+        "choices": [
+          { "key": "a", "text": "Les produits phytopharmaceutiques et les biocides" },
+          { "key": "b", "text": "Les produits phytopharmaceutiques et les bio-pesticides" },
+          { "key": "c", "text": "Les biocides et les bio-pesticides" },
+          { "key": "d", "text": "Les produits phytopharmaceutiques conventionnels et biologiques" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 59,
+        "question": "Parmi les classes de fongicides suivantes, laquelle comprend des substances actives autorisées en agriculture biologique ?",
+        "choices": [
+          { "key": "a", "text": "Les préparations à base de roche" },
+          { "key": "b", "text": "Les carbamates" },
+          { "key": "c", "text": "Les triazoles" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 60,
+        "question": "Parmi les classes de fongicides suivantes, laquelle comprend des substances actives autorisées en agriculture biologique ?",
+        "choices": [
+          { "key": "a", "text": "Les thiophanates" },
+          { "key": "b", "text": "Les SDHI (Inhibiteurs de la succinate déshydrogénase)" },
+          { "key": "c", "text": "Les huiles essentielles" },
+          { "key": "d", "text": "Des carbamates" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 61,
+        "question": "Parmi les classes de fongicides suivantes, laquelle comprend des substances actives autorisées en agriculture biologique ?",
+        "choices": [
+          { "key": "a", "text": "Les dicarboximides" },
+          { "key": "b", "text": "Les minéraux (soufre, ...)" },
+          { "key": "c", "text": "Les benzimidazoles" },
+          { "key": "d", "text": "Les thiocarbamates" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 62,
+        "question": "Parmi les classes de fongicides suivantes, laquelle comprend des substances actives autorisées en agriculture biologique ?",
+        "choices": [
+          { "key": "a", "text": "Les pyridines" },
+          { "key": "b", "text": "Les triazoles" },
+          { "key": "c", "text": "Les sels de cuivre" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 63,
+        "question": "Parmi les classes de fongicides suivantes, laquelle comprend des substances actives autorisées en agriculture biologique ?",
+        "choices": [
+          { "key": "a", "text": "Les triazoles" },
+          { "key": "b", "text": "Les SDHI (Inhibiteurs de la succinate déshydrogénase)" },
+          { "key": "c", "text": "Les carbamates" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 64,
+        "question": "Parmi les classes d’insecticide suivantes, laquelle comprend des substances actives autorisées en agriculture biologique ?",
+        "choices": [
+          { "key": "a", "text": "Les pyréthrinoïdes" },
+          { "key": "b", "text": "Les benzoylurées" },
+          { "key": "c", "text": "Les carbamates" },
+          { "key": "d", "text": "Les néonicotinoïdes" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 65,
+        "question": "Parmi les propositions suivantes, quel sigle indique qu’un produit phytopharmaceutique est conditionné sous forme de poudre pour poudrage ?",
+        "choices": [
+          { "key": "a", "text": "DP" },
+          { "key": "b", "text": "WG" },
+          { "key": "c", "text": "SC" },
+          { "key": "d", "text": "EC" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 66,
+        "question": "Parmi les propositions suivantes, quel sigle indique qu’un produit phytopharmaceutique est conditionné sous forme d’une solution concentrée homogène destinée à être diluée dans l’eau sous forme d’une solution vraie ?",
+        "choices": [
+          { "key": "a", "text": "WG" },
+          { "key": "b", "text": "GR" },
+          { "key": "c", "text": "CS" },
+          { "key": "d", "text": "SL" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 67,
+        "question": "Parmi les propositions suivantes, quel sigle indique qu’un produit phytopharmaceutique est conditionné sous forme d’un liquide homogène destiné à être dilué dans de l’eau sous forme d’émulsion ?",
+        "choices": [
+          { "key": "a", "text": "WG" },
+          { "key": "b", "text": "SL" },
+          { "key": "c", "text": "EC" },
+          { "key": "d", "text": "DP" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 68,
+        "question": "Parmi les propositions suivantes, quel sigle indique qu’un produit phytopharmaceutique est conditionné sous forme de granulés devant être dispersés dans l’eau ?",
+        "choices": [
+          { "key": "a", "text": "DP" },
+          { "key": "b", "text": "CS" },
+          { "key": "c", "text": "WP" },
+          { "key": "d", "text": "WG" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 69,
+        "question": "Parmi les propositions suivantes, quel sigle indique qu’un produit phytopharmaceutique est conditionné sous forme de capsules en suspension dans un liquide ?",
+        "choices": [
+          { "key": "a", "text": "EC" },
+          { "key": "b", "text": "CS" },
+          { "key": "c", "text": "SC" },
+          { "key": "d", "text": "DP" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 70,
+        "question": "Parmi les propositions suivantes, quel sigle indique qu’un produit phytopharmaceutique est conditionné sous forme de granulés ?",
+        "choices": [
+          { "key": "a", "text": "DP" },
+          { "key": "b", "text": "GR" },
+          { "key": "c", "text": "SC" },
+          { "key": "d", "text": "SL" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 71,
+        "question": "Parmi les propositions suivantes, quel sigle indique qu’un produit phytopharmaceutique est conditionné sous forme de suspension concentrée ?",
+        "choices": [
+          { "key": "a", "text": "CS" },
+          { "key": "b", "text": "SC" },
+          { "key": "c", "text": "SL" },
+          { "key": "d", "text": "EC" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 72,
+        "question": "Parmi les propositions suivantes, quel sigle indique que le produit phytopharmaceutique est conditionné sous forme de poudre destinée à être solubilisée dans l’eau ?",
+        "choices": [
+          { "key": "a", "text": "SP" },
+          { "key": "b", "text": "CS" },
+          { "key": "c", "text": "SL" },
+          { "key": "d", "text": "EC" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 73,
+        "question": "Parmi les propositions suivantes, quel sigle indique qu’un produit phytopharmaceutique est conditionné sous forme de poudre destinée à être dispersée dans l’eau ?",
+        "choices": [
+          { "key": "a", "text": "DP" },
+          { "key": "b", "text": "WP" },
+          { "key": "c", "text": "SL" },
+          { "key": "d", "text": "CS" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 74,
+        "question": "Dans son emballage, un produit caractérisé par une formulation « WP » est :",
+        "choices": [
+          { "key": "a", "text": "Sous forme liquide" },
+          { "key": "b", "text": "Sous forme gazeuse" },
+          { "key": "c", "text": "Sous forme solide" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 75,
+        "question": "Parmi les propositions suivantes, choisissez celle qui illustre la sélectivité de position :",
+        "choices": [
+          { "key": "a", "text": "Un herbicide agissant par suite d’une absorption foliaire et racinaire" },
+          {
+            "key": "b",
+            "text": "Un herbicide agissant par suite d’une absorption racinaire localisée dans les premiers centimètres du sol en l’absence d’absorption foliaire"
+          },
+          { "key": "c", "text": "Un herbicide agissant uniquement par temps sec et ensoleillé" },
+          { "key": "d", "text": "Un herbicide agissant uniquement au stade 4 feuilles" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 76,
+        "question": "Les herbicides dérivés de l’urée expriment mieux leur spectre d’action :",
+        "choices": [
+          { "key": "a", "text": "En sol humide" },
+          { "key": "b", "text": "En sol sec" },
+          { "key": "c", "text": "Dans les sols à structure grossière" },
+          { "key": "d", "text": "En sol riche en matière organique" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 77,
+        "question": "Les fongicides préventifs (cuivre, soufre, ...) :",
+        "choices": [
+          { "key": "a", "text": "Ont généralement une action de contact" },
+          { "key": "b", "text": "Ont généralement une action multisite" },
+          { "key": "c", "text": "Doivent être utilisés avant l’apparition des symptômes" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 78,
+        "question": "Quel est le mode d’action d’un fongicide dont la substance active est le soufre ?",
+        "choices": [
+          { "key": "a", "text": "Inhibition de la formation des stérols" },
+          { "key": "b", "text": "Action multisite" },
+          { "key": "c", "text": "Inhibition de la succinate déshydrogénase" },
+          { "key": "d", "text": "Inhibition de l’ARN polymérase" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 79,
+        "question": "Quel est le mode d’action d’un fongicide dont la substance active est le cuivre ?",
+        "choices": [
+          { "key": "a", "text": "Inhibition de l’ARN polymérase" },
+          { "key": "b", "text": "Action multisite" },
+          { "key": "c", "text": "Action sur le cytochrome III de la chaîne respiratoire" },
+          { "key": "d", "text": "Inhibition de la succinate déshydrogénase" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 80,
+        "question": "En l’absence de contre-indications légales ou techniques (incompatibilité physico-chimique, phytotoxicité, ...), le mélange d’herbicides :",
+        "choices": [
+          { "key": "a", "text": "Favorise toujours l’apparition de résistances" },
+          { "key": "b", "text": "Permet d’améliorer la sélectivité" },
+          { "key": "c", "text": "Permet d’élargir le spectre d’activité si les spectres d’action sont complémentaires" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "c"
+      },
+    
+      {
+        "id": 81,
+        "question": "Que signifie ce pictogramme ?",
+        "choices": [
+          { "key": "a", "text": "Comburant" },
+          { "key": "b", "text": "Toxique" },
+          { "key": "c", "text": "Corrosif" },
+          { "key": "d", "text": "Nocif ou irritant" }
+        ],
+        "answer": "c",
+        "image": "assets/qcm/q2/q79.png.jpg"
+      },
+      {
+        "id": 82,
+        "question": "Que signifie ce pictogramme ?",
+        "choices": [
+          { "key": "a", "text": "Toxique" },
+          { "key": "b", "text": "Corrosif" },
+          { "key": "c", "text": "Dangereux pour la santé" },
+          { "key": "d", "text": "Danger de mort" }
+        ],
+        "answer": "c",
+        "image": "assets/qcm/q2/q80.PNG.jpg"
+      },
+      {
+        "id": 83,
+        "question": "Que signifie ce pictogramme ?",
+        "choices": [
+          { "key": "a", "text": "Toxique" },
+          { "key": "b", "text": "Nocif" },
+          { "key": "c", "text": "Très dangereux" },
+          { "key": "d", "text": "Corrosif" }
+        ],
+        "answer": "a",
+        "image": "assets/qcm/q2/q81.PNG.jpg"
+      },
+      {
+        "id": 84,
+        "question": "Que signifie ce pictogramme ?",
+        "choices": [
+          { "key": "a", "text": "Très dangereux pour la santé (cancéigène, toxique pour la reproduction, ...)" },
+          { "key": "b", "text": "Nocif ou irritant" },
+          { "key": "c", "text": "Toxique pour l'homme" },
+          { "key": "d", "text": "Danger de mort" }
+        ],
+        "answer": "a",
+        "image": "assets/qcm/q82.PNG.jpg"
+      },
+      {
+        "id": 85,
+        "question": "Lequel de ces pictogrammes indique qu’un produit phytopharmaceutique est susceptible de causer des effets graves sur la santé lors d'une exposition sans le port d’un équipement de protection ?",
+        "choices": [
+          { "key": "a", "text": "a)" },
+          { "key": "b", "text": "b)" },
+          { "key": "c", "text": "c)" },
+          { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
+        ],
+        "answer": "c",
+        "image": "assets/qcm/q83.PNG.jpg"
+      },
+      {
+        "id": 86,
+        "question": "Lequel de ces pictogrammes n’indique pas de risque pour la santé de l’utilisateur ?",
+        "choices": [
+          { "key": "a", "text": "a)" },
+          { "key": "b", "text": "b)" },
+          { "key": "c", "text": "c)" },
+          { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
+        ],
+        "answer": "d",
+        "image": "assets/qcm/q84.PNG.jpg"
+      },
+      {
+        "id": 87,
+        "question": "Lequel de ces pictogrammes indique l’existence d’un risque pour l’environnement ?",
+        "choices": [
+          { "key": "a", "text": "a)" },
+          { "key": "b", "text": "b)" },
+          { "key": "c", "text": "c)" },
+          { "key": "d", "text": "d)" }
+        ],
+        "answer": "a",
+        "image": "assets/qcm/q85.PNG.jpg"
+      },
+      {
+        "id": 88,
+        "question": "Lequel de ces pictogrammes indique qu’un produit phytopharmaceutique est susceptible de provoquer des brûlures de la peau et des lésions aux yeux en cas de contact ou de projection ?",
+        "choices": [
+          { "key": "a", "text": "a)" },
+          { "key": "b", "text": "b)" },
+          { "key": "c", "text": "c)" },
+          { "key": "d", "text": "d)" }
+        ],
+        "answer": "b",
+        "image": "assets/qcm/q86.PNG.jpg"
+      },
+    
+      {
+        "id": 89,
+        "question": "La dose létale 50 (DL 50) est :",
+        "choices": [
+          {
+            "key": "a",
+            "text": "La dose ingérée d’une substance active, exprimée en mg par kg de poids vif, qui tue 50 % d’une population animale (ex : rats)"
+          },
+          {
+            "key": "b",
+            "text": "La dose ingérée d’une substance active, exprimée en mg par kg de poids vif, affectant 50 % d’une population animale (ex : rats) sans nécessairement provoquer la mort"
+          },
+          {
+            "key": "c",
+            "text": "La durée après laquelle 50% d’une population animale (ex : rats) succombe pour une dose donnée de substance active ingérée"
+          },
+          {
+            "key": "d",
+            "text": "La durée après laquelle 50% d’une population animale (ex : rats) exprime un symptôme pour une dose donnée de substance active ingérée"
+          }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 90,
+        "question": "Un utilisateur de produits phytopharmaceutiques peut préparer une bouillie à partir d’eau prélevée dans les eaux de surface :",
+        "choices": [
+          { "key": "a", "text": "Vrai, il peut remplir son pulvérisateur directement à partir de l’eau de surface" },
+          {
+            "key": "b",
+            "text": "Vrai, mais il doit assurer une discontinuité entre la source et le pulvérisateur, en employant par exemple une cuve intermédiaire"
+          },
+          { "key": "c", "text": "Vrai, moyennant une dérogation" },
+          { "key": "d", "text": "Faux, cela est strictement interdit" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 91,
+        "question": "Un utilisateur de produits phytopharmaceutiques peut préparer une bouillie à partir d’eau prélevée dans les eaux souterraines :",
+        "choices": [
+          { "key": "a", "text": "Vrai, il peut directement remplir sa cuve à partir de l’eau d’un puit" },
+          {
+            "key": "b",
+            "text": "Vrai, mais il doit assurer une discontinuité entre la source et le pulvérisateur, en employant par exemple une cuve intermédiaire"
+          },
+          { "key": "c", "text": "Vrai, moyennant une dérogation" },
+          { "key": "d", "text": "Faux, cela est strictement interdit" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 92,
+        "question": "Où peut-on réaliser la préparation de la bouillie en absence d’aire de remplissage ?",
+        "choices": [
+          { "key": "a", "text": "Sur une zone enherbée" },
+          { "key": "b", "text": "Sur une zone non enherbée, dans la cour de la ferme" },
+          { "key": "c", "text": "Sur un sol nu et plat en dehors du champ" },
+          { "key": "d", "text": "Sur un sol nu et pentu en dehors du champ" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 93,
+        "question": "Selon les bonnes pratiques, l’eau de rinçage des bidons de produit phytopharmaceutique, après préparation de la bouillie :",
+        "choices": [
+          { "key": "a", "text": "Est incorporée à la bouillie préparée" },
+          { "key": "b", "text": "Est déversée sur la parcelle avant la pulvérisation" },
+          { "key": "c", "text": "Peut être jetée dans les égouts" },
+          { "key": "d", "text": "Est récupérée par AgriRecover" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 94,
+        "question": "Si la dose de produit phytopharmaceutique est de 2 kg/ha, quelle est la dose pour 1 are ?",
+        "choices": [
+          { "key": "a", "text": "2 000 g" },
+          { "key": "b", "text": "0,5 kg" },
+          { "key": "c", "text": "20 g" },
+          { "key": "d", "text": "200 g" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 95,
+        "question": "En prévision de l'étalonnage d'un pulvérisateur DPM (débit proportionnel au régime moteur), calculez le débit d'une buse de la rampe en sachant que le pulvérisateur avance à une vitesse de 6 Km/h et que la quantité de bouillie à pulvériser est de 200 l/ha. L'écartement entre les buses est de 50 cm :",
+        "choices": [
+          { "key": "a", "text": "Environ 1 l/min" },
+          { "key": "b", "text": "Environ 2 l/min" },
+          { "key": "c", "text": "Environ 3 l/min" },
+          { "key": "d", "text": "Environ 4 l/min" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 96,
+        "question": "En prévision de l'étalonnage d'un pulvérisateur DPA (débit proportionnel à l'avancement), calculez la quantité de bouillie fournie par une buse de la rampe en sachant que le pulvérisateur parcourt une distance de 100 m et que la quantité de bouillie à pulvériser est de 150 litres à l'hectare. La rampe de pulvérisation mesure 9 m et compte 18 buses espacées de 50 cm :",
+        "choices": [
+          { "key": "a", "text": "1 l" },
+          { "key": "b", "text": "750 ml" },
+          { "key": "c", "text": "13,5 l" },
+          { "key": "d", "text": "50 ml" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 97,
+        "question": "Quel doit être le débit d’une rampe de 24 m de largeur si l'utilisateur règle un volume à appliquer de 200 l/ha et décide d'avancer à une vitesse de 9 km/h ?",
+        "choices": [
+          { "key": "a", "text": "76 l/min" },
+          { "key": "b", "text": "72 l/min" },
+          { "key": "c", "text": "68 l/min" },
+          { "key": "d", "text": "56 l/min" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 98,
+        "question": "Après avoir utilisé un tableau de débit provenant du constructeur de la buse, l'utilisateur a réglé son pulvérisateur et a vérifié que le débit d'une buse était de 1,24 l/min. La rampe de pulvérisation mesure 48 m et compte 96 buses espacées de 50 cm. Quel est le volume/hectare si l'utilisateur décide de rouler à une vitesse de 8,5 km/h ?",
+        "choices": [
+          { "key": "a", "text": "150 l/ha" },
+          { "key": "b", "text": "175 l/ha" },
+          { "key": "c", "text": "200 l/ha" },
+          { "key": "d", "text": "225 l/ha" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 99,
+        "question": "Si le débit d’une buse est de 1,18 l/min à 3 bars, quelle est la pression d’utilisation pour un débit de 1,36 l/min ?",
+        "choices": [
+          { "key": "a", "text": "Environ 1 bar" },
+          { "key": "b", "text": "Environ 2,5 bars" },
+          { "key": "c", "text": "Environ 4 bars" },
+          { "key": "d", "text": "Environ 5,5 bars" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 100,
+        "question": "Je réalise la pulvérisation d’une pelouse de 500 m2 avec un pulvérisateur à dos. Le résultat de mon étalonnage est de 20 m2/l eau et le produit est agréé à 4l/ha. Quel volume de produit phytopharmaceutique devra être utilisé ?",
+        "choices": [
+          { "key": "a", "text": "200 ml" },
+          { "key": "b", "text": "2 l" },
+          { "key": "c", "text": "25 ml" },
+          { "key": "d", "text": "250 ml" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 101,
+        "question": "Je réalise la pulvérisation d’une pelouse de 500 m2 avec un pulvérisateur à dos. Le résultat de mon étalonnage est de 20m2/l eau et le produit est agréé à 4l/ha. Quel volume d’eau devra être utilisé ?",
+        "choices": [
+          { "key": "a", "text": "24,8 L d’eau" },
+          { "key": "b", "text": "42 L d’eau" },
+          { "key": "c", "text": "2,6 L d’eau" },
+          { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 102,
+        "question": "Un utilisateur de produits phytopharmaceutiques vient de passer son pulvérisateur au contrôle technique. Dans combien de temps devra-t-il y retourner ?",
+        "choices": [
+          { "key": "a", "text": "1 an" },
+          { "key": "b", "text": "3 ans" },
+          { "key": "c", "text": "5 ans" },
+          { "key": "d", "text": "7 ans" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 103,
+        "question": "Un utilisateur de produits phytopharmaceutiques envisage d’acheter un pulvérisateur d’occasion qui est passé il y a deux ans au contrôle technique. Quand doit avoir lieu le prochain contrôle technique ?",
+        "choices": [
+          { "key": "a", "text": "Juste avant la vente par le vendeur" },
+          { "key": "b", "text": "Juste après la vente par l’acheteur" },
+          { "key": "c", "text": "Un an après l’achat" },
+          { "key": "d", "text": "3 ans après l’achat" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 104,
+        "question": "Parmi les propositions suivantes, quel pulvérisateur est exempté de contrôle technique trisannuel ?",
+        "choices": [
+          { "key": "a", "text": "Pulvérisateur à rampe utilisé par une commune" },
+          { "key": "b", "text": "Pulvérisateur à jet porté utilisé en arboriculture" },
+          { "key": "c", "text": "Pulvérisateur pneumatique utilisé en arboriculture" },
+          { "key": "d", "text": "Pulvérisateur à dos utilisé en prairie" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 105,
+        "question": "Parmi les propositions suivantes, quelle est la quantité de bouillie/hectare qui vous semble la plus appropriée pour réaliser un traitement phytopharmaceutique à l'aide d’un pulvérisateur agricole ?",
+        "choices": [
+          { "key": "a", "text": "Entre 50 et 300 L/ha" },
+          { "key": "b", "text": "Entre 300 et 600 L/ha" },
+          { "key": "c", "text": "Entre 600 et 800 L/ha" },
+          { "key": "d", "text": "Plus de 800 L/ha" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 106,
+        "question": "L'étalonnage d'un pulvérisateur à dos sert :",
+        "choices": [
+          { "key": "a", "text": "À connaitre la taille de l’aire à pulvériser" },
+          { "key": "b", "text": "À connaître le volume de bouillie à pulvériser par unité de surface" },
+          { "key": "c", "text": "À connaître la quantité de produit qui doit être prélevée du bidon" },
+          { "key": "d", "text": "À comptabiliser le nombre de pas effectués par l'utilisateur d’un pulvérisateur à dos" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 107,
+        "question": "La pompe à pistons est une pompe volumétrique parce que :",
+        "choices": [
+          { "key": "a", "text": "Son volume dépend du volume de la cuve" },
+          { "key": "b", "text": "Son débit augmente lorsque la pression est élevée" },
+          { "key": "c", "text": "Son débit est proportionnel au régime de rotation de la prise de force" },
+          { "key": "d", "text": "Le volume du cylindre est proportionnel au nombre de corps" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 108,
+        "question": "La pression dans la « cloche à air » d'un pulvérisateur agricole :",
+        "choices": [
+          { "key": "a", "text": "Doit être comprise entre 1/3 et 1/2 de la pression de travail" },
+          { "key": "b", "text": "N’a pas d’importance" },
+          { "key": "c", "text": "Doit être proche de 0 bar" },
+          { "key": "d", "text": "Doit être égale à la pression de pulvérisation" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 109,
+        "question": "Un système correcteur de dévers permet :",
+        "choices": [
+          { "key": "a", "text": "D’éviter les mouvements de rampe dans un plan horizontal" },
+          { "key": "b", "text": "De régler la hauteur de travail de la rampe" },
+          { "key": "c", "text": "De se maintenir parallèle au sol si le terrain présente une pente" },
+          { "key": "d", "text": "De corriger la pression de travail en cas de terrain irrégulier" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 110,
+        "question": "Parmi les propositions suivantes, quelle formule permet de calculer le volume de bouillie pulvérisé par hectare ? La formule est valable pour un écartement entre les buses de 50 cm. Le volume est exprimé en L/ha, la vitesse en km/h, la largeur en mètre, la pression en bar. Le nombre 600 est un facteur d’ajustement d’unité.",
+        "choices": [
+          { "key": "a", "text": "Volume= (600 x nombre de buses) / (vitesse x largeur)" },
+          { "key": "b", "text": "Volume= (pression x 600 x nombre de buses) / (vitesse x largeur)" },
+          { "key": "c", "text": "Volume= (débit d’une buse x 600) / (largeur)" },
+          { "key": "d", "text": "Volume= (débit d’une buse x 600 x nombre de buses) / (vitesse x largeur)" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 111,
+        "question": "L’amorçage du pulvérisateur est réalisé par l’opérateur :",
+        "choices": [
+          { "key": "a", "text": "En dehors du champ à traiter sur une aire enherbée" },
+          { "key": "b", "text": "Sur la route si elle n’est pas reliée à un réseau d’égouttage" },
+          { "key": "c", "text": "Sur le champ, la zone d’amorçage devant être traitée par la suite" },
+          { "key": "d", "text": "Sur le champ sans traiter la zone d’amorçage une fois le pulvérisateur amorcé" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 112,
+        "question": "Comment contrôler l’étanchéité de la membrane d’une « cloche à air » ?",
+        "choices": [
+          { "key": "a", "text": "Démonter la cloche à air et vérifier" },
+          { "key": "b", "text": "Vérifier la stabilité de la pression au manomètre" },
+          {
+            "key": "c",
+            "text": "Faire tourner la prise de force, appuyer sur la pipette de la cloche à air et vérifier si du liquide s’en échappe"
+          },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 113,
+        "question": "Parmi les réponses suivantes, le seuil de nuisibilité économique dans la culture de colza correspond au :",
+        "choices": [
+          { "key": "a", "text": "Nombre moyen de charançons présents par plant" },
+          { "key": "b", "text": "Nombre moyen de charançons par plant qui occasionne une perte économique supérieure au coût de la lutte" },
+          { "key": "c", "text": "Nombre moyen de charançons par plant qui conduit à une perte totale de la récolte" },
+          { "key": "d", "text": "Nombre moyen de charançons par plant au-dessus duquel il n’est plus intéressant de traiter" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 114,
+        "question": "Vous réalisez un traitement phytosanitaire à l’aide d’un pulvérisateur DPA (débit proportionnel à l’avancement) sur votre parcelle. Choisissez une mesure que vous pourriez prendre lors du traitement pour éviter l’apparition de dégâts dus à la dérive de pulvérisation au niveau de la parcelle voisine :",
+        "choices": [
+          { "key": "a", "text": "Augmenter la pression" },
+          { "key": "b", "text": "Diminuer la vitesse d’avancement" },
+          { "key": "c", "text": "Augmenter la vitesse d’avancement" },
+          { "key": "d", "text": "Diminuer la dose de produits phytopharmaceutiques" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 115,
+        "question": "L’image suivante illustre des dégâts sur le champ de betterave dus à :",
+        "choices": [
+          { "key": "a", "text": "La dérive de pulvérisation d’un herbicide anti-dicotylédone en provenance du champ de blé" },
+          { "key": "b", "text": "Un excès d’azote" },
+          { "key": "c", "text": "La phytotoxicité lors du désherbage du champ de betterave" },
+          { "key": "d", "text": "La grêle" }
+        ],
+        "answer": "a",
+        "image": "assets/qcm/q2/q118.PNG.jpg"
+      },
+      {
+        "id": 116,
+        "question": "La vitesse d’un pulvérisateur DPA (débit proportionnel à l’avancement) peut influencer la dérive :",
+        "choices": [
+          { "key": "a", "text": "Vrai, en cas d’augmentation de la vitesse du pulvérisateur, la dérive diminue" },
+          { "key": "b", "text": "Vrai, en cas de diminution de la vitesse du pulvérisateur, la dérive diminue" },
+          { "key": "c", "text": "Vrai, en cas de diminution de la vitesse du pulvérisateur, la dérive augmente" },
+          { "key": "d", "text": "Faux, la vitesse du pulvérisateur n’influence pas la dérive" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 117,
+        "question": "Avec un pulvérisateur à jet projeté (buse antidérive en cultures basses), il est préférable de ne plus traiter dès que la vitesse du vent est :",
+        "choices": [
+          { "key": "a", "text": "< à 10 km/h" },
+          { "key": "b", "text": "> à 15 km/h" },
+          { "key": "c", "text": "> à 25 km/h" },
+          { "key": "d", "text": "> à 30 km/h" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 118,
+        "question": "Afin d’obtenir une pulvérisation efficace, dans la grande majorité des cas, quel pourcentage d’humidité minimum doit-il y avoir dans l’air ?",
+        "choices": [
+          { "key": "a", "text": "10%" },
+          { "key": "b", "text": "30%" },
+          { "key": "c", "text": "50%" },
+          { "key": "d", "text": "60%" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 119,
+        "question": "Un agriculteur pulvérise un herbicide dans une culture de pomme de terre. On constate que le désherbage est moins efficace sur un versant des buttes. Cela peut s’expliquer par :",
+        "choices": [
+          { "key": "a", "text": "L’application d’un herbicide en pré-émergence par temps venteux" },
+          { "key": "b", "text": "Un mauvais choix d’herbicide" },
+          { "key": "c", "text": "L’ensoleillement" },
+          { "key": "d", "text": "L’emploi d’une dose d’herbicide insuffisamment élevée" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 120,
+        "question": "Les produits phytopharmaceutiques de contact sont plus efficaces lorsque :",
+        "choices": [
+          { "key": "a", "text": "La bouillie est pulvérisée en grosses gouttes" },
+          { "key": "b", "text": "La bouillie est pulvérisée en fines gouttes" },
+          { "key": "c", "text": "La bouillie est pulvérisée en gouttes moyennes" },
+          { "key": "d", "text": "La taille des gouttes n'influence pas l'efficacité des produits phytopharmaceutiques de contact" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 121,
+        "question": "Si l’acte d’agréation ou l’étiquette d’un produit phytopharmaceutique ne mentionne pas de délai de ré-accession spécifique, quand peut-on accéder, sans vêtement de protection, à une parcelle après la pulvérisation ?",
+        "choices": [
+          { "key": "a", "text": "Immédiatement" },
+          { "key": "b", "text": "1 heure après le traitement" },
+          { "key": "c", "text": "3 heures après le traitement" },
+          { "key": "d", "text": "Après que la bouillie soit complètement sèche" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 122,
+        "question": "Idéalement, comment choisir la quantité de bouillie à pulvériser par unité de surface ?",
+        "choices": [
+          { "key": "a", "text": "En fonction de la vitesse d’avancement du pulvérisateur DPA (débit proportionnel à l’avancement)" },
+          { "key": "b", "text": "En fonction du compromis : rendement chantier et efficacité du traitement" },
+          { "key": "c", "text": "En fonction des conditions climatiques" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 123,
+        "question": "Le rinçage extérieur des pulvérisateurs peut se faire entre autres :",
+        "choices": [
+          { "key": "a", "text": "Sur une zone enherbée" },
+          { "key": "b", "text": "Sur un sol nu plat" },
+          { "key": "c", "text": "Dans la cour de la ferme sur une surface revêtue non cultivable (pavés, graviers, ...)" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 124,
+        "question": "Le rinçage extérieur des pulvérisateurs peut se faire entre autres :",
+        "choices": [
+          { "key": "a", "text": "Sur un sol nu" },
+          { "key": "b", "text": "Sur le champ qui vient d’être traité" },
+          { "key": "c", "text": "Dans la cour de la ferme sur une surface revêtue non cultivable (pavés, graviers, ...)" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 125,
+        "question": "Le rinçage extérieur des pulvérisateurs peut se faire entre autres :",
+        "choices": [
+          { "key": "a", "text": "Sur une zone plate enherbée" },
+          { "key": "b", "text": "Sur un sol nu plat" },
+          { "key": "c", "text": "Sur un sol nu pentu" },
+          { "key": "d", "text": "À la ferme, sur une surface revêtue non cultivable (pavés, graviers...)" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 126,
+        "question": "En agriculture, le biofiltre correspond à :",
+        "choices": [
+          { "key": "a", "text": "Un système de traitement des eaux de rinçage du pulvérisateur" },
+          { "key": "b", "text": "Un filtre biologique pour pulvérisateur à rampe" },
+          { "key": "c", "text": "Un système de récupération des PPNU" },
+          { "key": "d", "text": "Un EPI" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 127,
+        "question": "Lors du rinçage du pulvérisateur, l’application du fond de cuve résiduel, au champ, après désamorçage du pulvérisateur :",
+        "choices": [
+          { "key": "a", "text": "Est autorisée uniquement si la concentration en substance(s) active(s) du fond de cuve est divisée par 100 par rapport à la concentration initiale" },
+          { "key": "b", "text": "Est interdite au champ" },
+          { "key": "c", "text": "Est autorisée uniquement pour les insecticides" },
+          { "key": "d", "text": "Est autorisée uniquement pour les herbicides" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 128,
+        "question": "Lors du rinçage du pulvérisateur, l’application du fond de cuve résiduel, sur une aire plate et enherbée, après désamorçage :",
+        "choices": [
+          { "key": "a", "text": "Est autorisée uniquement si la concentration en substance(s) active(s) du fond de cuve est divisée par 100 par rapport à la concentration initiale" },
+          { "key": "b", "text": "Est autorisée uniquement pour les insecticides" },
+          { "key": "c", "text": "Est autorisée sauf pour les herbicides" },
+          { "key": "d", "text": "Est autorisée quel que soit le niveau de dilution" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 129,
+        "question": "L’évacuation du fond de cuve résiduel peut être réalisée sur une aire étanche équipée d'un système de traitement des effluents phytopharmaceutiques :",
+        "choices": [
+          { "key": "a", "text": "Uniquement si la concentration en substance(s) active(s) du fond de cuve est divisée par 100 par rapport à la concentration initiale" },
+          { "key": "b", "text": "Quel que soit le niveau de dilution" },
+          { "key": "c", "text": "Uniquement si les produits phytopharmaceutiques employés sont dépourvus du pictogramme « dangereux pour l’environnement »" },
+          { "key": "d", "text": "L’élimination du fond de cuve résiduel n’est pas autorisée de cette manière en RW" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 130,
+        "question": "L’application du fond de cuve résiduel peut se faire après dilution 100 fois :",
+        "choices": [
+          { "key": "a", "text": "Sur un sol nu" },
+          { "key": "b", "text": "Sur une aire étanche reliée à un système de traitement des effluents phytopharmaceutiques" },
+          { "key": "c", "text": "Dans une cour de ferme pavée" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 131,
+        "question": "L’application du fond de cuve résiduel peut se faire après dilution 100 fois :",
+        "choices": [
+          { "key": "a", "text": "Sur un sol nu" },
+          { "key": "b", "text": "Sur une aire enherbée" },
+          { "key": "c", "text": "Dans une cour de ferme pavée" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 132,
+        "question": "L’application du fond de cuve résiduel peut se faire après dilution 100 fois :",
+        "choices": [
+          { "key": "a", "text": "Sur un sol nu" },
+          { "key": "b", "text": "Sur le champ qui vient d’être traité" },
+          { "key": "c", "text": "Dans une cour de ferme pavée" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 133,
+        "question": "En Belgique, les produits phytopharmaceutiques doivent être conservés dans une armoire ou un local :",
+        "choices": [
+          { "key": "a", "text": "Efficacement ventilé" },
+          { "key": "b", "text": "Fermé à clef" },
+          { "key": "c", "text": "Sur la porte duquel est apposé l’identité et les coordonnées du gestionnaire du local ou de l’armoire" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 134,
+        "question": "Un utilisateur de produits phytopharmaceutiques peut construire un nouveau local phyto en zone de prévention de captage IIa (prévention rapprochée) :",
+        "choices": [
+          { "key": "a", "text": "Vrai" },
+          { "key": "b", "text": "Vrai, moyennant une demande de permis de classe 2" },
+          { "key": "c", "text": "Vrai, si le local phyto est destiné à accueillir moins de 25 kg de produits phytopharmaceutiques" },
+          { "key": "d", "text": "Faux, il est interdit de construire un nouveau local phyto en zone de prévention de captage IIa" }
+        ],
+        "answer": "d",
+        "image": "assets/qcm/q2/Q134.png"
+      },
+      {
+        "id": 135,
+        "question": "Un ouvrier dépourvu de phytolicence peut accéder au local phyto :",
+        "choices": [
+          { "key": "a", "text": "S’il est âgé d’au moins 16 ans" },
+          { "key": "b", "text": "S’il est âgé de plus de 18 ans" },
+          { "key": "c", "text": "À condition qu’il soit accompagné d’une personne possédant au moins une phytolicence P1" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 136,
+        "question": "A quelle distance minimale d’une habitation d’un tiers peut-on construire un local phyto ?",
+        "choices": [
+          { "key": "a", "text": "5 m" },
+          { "key": "b", "text": "10 m" },
+          { "key": "c", "text": "15 m" },
+          { "key": "d", "text": "20 m" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 137,
+        "question": "A quelle distance minimale d’un cours d’eau peut-on construire un local phyto ?",
+        "choices": [
+          { "key": "a", "text": "5 m" },
+          { "key": "b", "text": "10 m" },
+          { "key": "c", "text": "15 m" },
+          { "key": "d", "text": "20 m" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 138,
+        "question": "En Région wallonne, un agriculteur conserve 300 kg de produits phytopharmaceutiques dans son local phyto. Pour être en règle en matière de permis d’environnement, que doit-il introduire ?",
+        "choices": [
+          { "key": "a", "text": "Aucune déclaration" },
+          { "key": "b", "text": "Une déclaration de classe 3" },
+          { "key": "c", "text": "Une demande de permis d’environnement de classe 2" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 139,
+        "question": "En Région wallonne, un agriculteur conserve 10 kg de produits phytopharmaceutiques dans son local phyto. Pour être en règle en matière de permis d’environnement, que doit-il introduire ?",
+        "choices": [
+          { "key": "a", "text": "Aucune déclaration" },
+          { "key": "b", "text": "Une déclaration de classe 3" },
+          { "key": "c", "text": "Une demande de permis d’environnement de classe 2" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 140,
+        "question": "Que signifie l’abréviation PPNU ?",
+        "choices": [
+          { "key": "a", "text": "Produit Pesticide Non Utilisé" },
+          { "key": "b", "text": "Produit Phytopharmaceutique Non Utilisable" },
+          { "key": "c", "text": "Pesticide Protection Non Used" },
+          { "key": "d", "text": "Produit Phytopharmaceutique Naturel Utilisable" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 141,
+        "question": "Pour identifier, séparer et se débarrasser des produits phytopharmaceutiques périmés, la liste actualisée des produits phytopharmaceutiques agréés en Belgique est accessible sur :",
+        "choices": [
+          { "key": "a", "text": "www.afsca.be" },
+          { "key": "b", "text": "www.phytodatabase.be" },
+          { "key": "c", "text": "www.phytoweb.be" },
+          { "key": "d", "text": "www.e-phy.agriculture.gouv.fr" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 142,
+        "question": "Vous remarquez que l’étiquette d’un de vos bidons de produit phytopharmaceutique est manquante. Que faites-vous de ce bidon ?",
+        "choices": [
+          { "key": "a", "text": "Vous le rangez parmi les PPNU" },
+          { "key": "b", "text": "Vous inscrivez à l’indélébile le nom du produit phytopharmaceutique et le rangez parmi les autres produits phytopharmaceutiques utilisables" },
+          { "key": "c", "text": "Vous videz le reste du bidon dans l’évier et vous le rangez parmi les PPNU" },
+          { "key": "d", "text": "Vous le rangez parmi les autres produits phytopharmaceutiques utilisables" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 143,
+        "question": "La collecte des bidons vides de produits phytopharmaceutiques a lieu :",
+        "choices": [
+          { "key": "a", "text": "Chaque année" },
+          { "key": "b", "text": "Tous les 2 ans" },
+          { "key": "c", "text": "Tous les 6 mois" },
+          { "key": "d", "text": "Tous les 2 mois" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 144,
+        "question": "La collecte des PPNU a lieu :",
+        "choices": [
+          { "key": "a", "text": "Chaque année" },
+          { "key": "b", "text": "Tous les 2 ans" },
+          { "key": "c", "text": "Tous les 6 mois" },
+          { "key": "d", "text": "Tous les 2 mois" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 145,
+        "question": "Où doivent être stockés les produits phytopharmaceutiques dont la date de péremption est dépassée ?",
+        "choices": [
+          { "key": "a", "text": "Dans le local phyto avec les produits phytopharmaceutiques utilisés habituellement" },
+          { "key": "b", "text": "Dans le local phyto séparément des autres produits phytopharmaceutiques avec un écriteau « PPNU »" },
+          { "key": "c", "text": "Ils doivent être directement rapportés au parc à conteneur" },
+          { "key": "d", "text": "En dehors du local phyto s’il n’y a aucun risque de contamination pour l'environnement, les personnes et les animaux" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 146,
+        "question": "Que doit contenir le registre des déchets dangereux ?",
+        "choices": [
+          { "key": "a", "text": "La liste des produits phytopharmaceutiques stockés dans le local phyto et la liste des PPNU" },
+          { "key": "b", "text": "Les attestations transmises par AgriRecover lors de la remise des emballages de produits phytopharmaceutiques et la liste des PPNU" },
+          { "key": "c", "text": "Uniquement la liste des PPNU" },
+          { "key": "d", "text": "La liste des produits phytopharmaceutiques stockés dans le local phyto portant un des pictogrammes suivants :" }
+        ],
+        "answer": "b"
+          },
+      {
+        "id": 147,
+        "question": "Les bidons de produits phytopharmaceutiques vides sont placés dans des sacs AgriRecover destinés à la fraction rincée. Parmi les propositions suivantes, quels sacs seront repris par AgriRecover sans frais supplémentaire ? Les sacs contenant uniquement :",
+        "choices": [
+          { "key": "a", "text": "Des bidons rincés et directement scellés avec le capuchon d’origine" },
+          { "key": "b", "text": "Des bidons rincés, séchés et scellés avec le capuchon d’origine" },
+          { "key": "c", "text": "Des bidons rincés et séchés, sans capuchon" },
+          { "key": "d", "text": "Des bidons pouvant contenir des traces de produits phytopharmaceutiques mais obligatoirement scellés avec le capuchon d’origine" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 148,
+        "question": "Pour qu’AgriRecover emporte les bidons de produits phytopharmaceutiques en plastique, les bidons vides doivent :",
+        "choices": [
+          { "key": "a", "text": "Être scellés puis placés dans la fraction non rincée des sacs AgriRecover" },
+          { "key": "b", "text": "Être rincés trois fois manuellement ou rincés mécaniquement, séchés puis placés dans la fraction rincée des sacs AgriRecover" },
+          { "key": "c", "text": "Être rincés trois fois manuellement ou rincés mécaniquement puis placés dans les sacs bleus PMC" },
+          { "key": "d", "text": "Être rincés trois fois manuellement ou rincés mécaniquement puis placés dans des caisses en carton" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 149,
+        "question": "L’opercule également appelé languette de scellage est une fine languette placée sous le capuchon, qui obstrue le bidon avant sa première utilisation. Il doit être éliminé :",
+        "choices": [
+          { "key": "a", "text": "Dans un sac AgriRecover destiné à la fraction non rincée" },
+          { "key": "b", "text": "Dans un sac AgriRecover destiné à la fraction rincée" },
+          { "key": "c", "text": "Dans un sac destiné aux déchets résiduels avant d’être éliminé via le ramassage classique des déchets communaux" },
+          { "key": "d", "text": "Dans un sac en plastique bien fermé" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 150,
+        "question": "Que faire des bouchons de bidons de produits phytopharmaceutiques après utilisation des produits ? Les bouchons doivent être placés :",
+        "choices": [
+          { "key": "a", "text": "Dans un sac AgriRecover destiné à la fraction non rincée" },
+          { "key": "b", "text": "Dans un sac AgriRecover destiné à la fraction rincée" },
+          { "key": "c", "text": "Dans un sac destiné aux ordures ménagères avant d’être éliminé via la filière classique de ramassage des déchets" },
+          { "key": "d", "text": "Dans une caisse en carton ou dans un sac qui sera repris par AgriRecover lors de la campagne annuelle de collecte" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 151,
+        "question": "Où placer les bidons vides de produits de désinfection des semences ?",
+        "choices": [
+          { "key": "a", "text": "Dans un parc à conteneur" },
+          { "key": "b", "text": "Dans des sacs AgriRecover destinés à la fraction non rincée" },
+          { "key": "c", "text": "Dans des sacs PMC" },
+          { "key": "d", "text": "Dans des sacs destinés aux ordures ménagères avant d’être éliminés via la filière classique de ramassage des déchets" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 152,
+        "question": "Où placer les cartons et boîtes souillés par du produit phytopharmaceutique ?",
+        "choices": [
+          { "key": "a", "text": "Dans des sacs AgriRecover destinés à la fraction rincée" },
+          { "key": "b", "text": "Dans des sacs AgriRecover destinés à la fraction non rincée" },
+          { "key": "c", "text": "Dans des sacs destinés aux ordures ménagères avant d’être éliminés via la filière classique de ramassage des déchets" },
+          { "key": "d", "text": "Dans une caisse en carton ou un sac qui sera repris par AgriRecover lors de la campagne annuelle de collecte" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 153,
+        "question": "De quelle manière les déchets de produits phytopharmaceutiques (bidons vides, ...) sont-ils récoltés ?",
+        "choices": [
+          { "key": "a", "text": "Les déchets de PPP sont ramenés à un point de collecte d’AgriRecover par l’utilisateur professionnel" },
+          { "key": "b", "text": "Les déchets de PPP sont ramenés à un point de collecte d’AgriRecover par l’utilisateur professionnel ou par une personne travaillant dans l’entreprise de cet utilisateur professionnel" },
+          { "key": "c", "text": "Les déchets de PPP sont directement récoltés à la ferme par les employés d’AgriRecover" },
+          { "key": "d", "text": "Les déchets de PPP sont récoltés parallèlement à la collecte des déchets verts" },
+          { "key": "e", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 154,
+        "question": "Une matière absorbante chargée en PPP (sable, sciure de bois, ...) est :",
+        "choices": [
+          { "key": "a", "text": "Placée dans un sac et rangée avec les PPNU au sein du local phyto en attendant la prochaine collecte des PPNU par AgriRecover" },
+          { "key": "b", "text": "Placée dans un sac et rangée dans la fraction non rincée en attendant la prochaine collecte par AgriRecover" },
+          { "key": "c", "text": "Placée dans un sac et rangée dans la fraction rincée en attendant la prochaine collecte par AgriRecover" },
+          { "key": "d", "text": "Est éliminée immédiatement par AgriRecover via un enlèvement payant entre deux campagnes de collecte" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 155,
+        "question": "Un bidon de produit phytopharmaceutique ayant gelé :",
+        "choices": [
+          { "key": "a", "text": "Doit être rangé parmi les PPNU" },
+          { "key": "b", "text": "Peut encore être utilisé par la suite s’il n’y pas de contre-indication sur l’étiquette du produit" },
+          { "key": "c", "text": "Peut être utilisé par la suite mais sans garantie d’efficacité" },
+          { "key": "d", "text": "Peut être utilisé par la suite sans craindre une perte d’efficacité" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 156,
+        "question": "Parmi ces produits, quel est le plus dangereux sur base de la dose létale 50 (DL50) ?",
+        "choices": [
+          { "key": "a", "text": "Le produit A dont sa DL50 = 50 mg/Kg" },
+          { "key": "b", "text": "Le produit B dont sa DL50 = 500 mg/Kg" },
+          { "key": "c", "text": "Le produit C dont sa DL50 = 1000 mg/Kg" },
+          { "key": "d", "text": "Aucun de ces produits, la DL50 n'est pas utile pour estimer le danger du produit." }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 157,
+        "question": "Où peut-on retrouver la DL50 d’un produit phytopharmaceutique ?",
+        "choices": [
+          { "key": "a", "text": "Sur l’étiquette du produit" },
+          { "key": "b", "text": "Dans la notice technique du produit" },
+          { "key": "c", "text": "Dans la fiche de données de sécurité du produit" },
+          { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 158,
+        "question": "D’un point de vue légal, la responsabilité de la sécurité des salariés qui réalisent les travaux de pulvérisation revient :",
+        "choices": [
+          { "key": "a", "text": "Aux travailleurs eux-mêmes" },
+          { "key": "b", "text": "Au(x) titulaire(s) d’une phytolicence P2" },
+          { "key": "c", "text": "À l’employeur et sa ligne hiérarchique" },
+          { "key": "d", "text": "Au(x) titulaire(s) d’une phytolicence P3" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 159,
+        "question": "Où peut-on obtenir les fiches de données de sécurité d’un produit phytopharmaceutique ?",
+        "choices": [
+          { "key": "a", "text": "Sur Phytotrans.be" },
+          { "key": "b", "text": "Sur Phytoweb.be" },
+          { "key": "c", "text": "Sur Agrirecover.be" },
+          { "key": "d", "text": "Sur Crphyto.be" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 160,
+        "question": "Quelles informations sont reprises sur une fiche de données de sécurité d’un produit phytopharmaceutique ?",
+        "choices": [
+          { "key": "a", "text": "Les mesures à prendre en cas d’incendie" },
+          { "key": "b", "text": "Les informations relatives au transport" },
+          { "key": "c", "text": "Les mesures à prendre en cas d’intoxication" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 161,
+        "question": "Quelles informations sont reprises dans une fiche de données de sécurité d’un produit phytopharmaceutique ?",
+        "choices": [
+          { "key": "a", "text": "Les doses d’application agréées" },
+          { "key": "b", "text": "Les cultures sur lesquelles le produit phytopharmaceutique peut être appliqué" },
+          { "key": "c", "text": "Les mesures à prendre en cas d’intoxication" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 162,
+        "question": "Quelles informations sont reprises sur la fiche de données de sécurité d’un produit phytopharmaceutique ?",
+        "choices": [
+          { "key": "a", "text": "Les mesures à prendre en cas d’incendie" },
+          { "key": "b", "text": "Les doses d’application agréées" },
+          { "key": "c", "text": "Les cultures sur lesquelles le produit phytopharmaceutique peut être appliqué" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 163,
+        "question": "L’intoxication aiguë se distingue de l’intoxication chronique :",
+        "choices": [
+          { "key": "a", "text": "Par la gravité des symptômes engendrés" },
+          { "key": "b", "text": "Par la fréquence et la durée de l’exposition au produit chimique" },
+          { "key": "c", "text": "Par le degré de toxicité des produits ingérés" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 164,
+        "question": "Un utilisateur qui manipule un produit phytopharmaceutique sans protection ne ressent pas d'effet sur sa santé :",
+        "choices": [
+          { "key": "a", "text": "C’est impossible car tout produit comprend une toxicité intrinsèque" },
+          { "key": "b", "text": "C’est possible mais il n’est pas à l’abri de développer une maladie chronique ou des symptômes tardifs" },
+          { "key": "c", "text": "C’est uniquement possible si les produits utilisés ne sont pas classés toxiques" },
+          { "key": "d", "text": "C’est uniquement possible si la personne exposée est résistante aux effets toxiques des produits" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 165,
+        "question": "Un utilisateur doit manipuler un produit phytopharmaceutique conditionné sous forme de poudre :",
+        "choices": [
+          { "key": "a", "text": "Le produit étant agréé, le risque de pénétration par voie respiratoire est nul" },
+          { "key": "b", "text": "Le produit phytopharmaceutique étant conditionné sous forme de poudre, la pénétration par les voies respiratoires est nulle" },
+          { "key": "c", "text": "L’utilisateur doit être conscient du risque de pénétration du produit dans l’organisme par inhalation ou par contact avec la peau" },
+          { "key": "d", "text": "Seul le contact direct avec la peau ou par l’ingestion induit un risque de pénétration dans l’organisme" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 166,
+        "question": "Quelle est la fréquence minimum conseillée pour le remplacement des filtres à charbon actif d'un masque de protection respiratoire, en cas d'utilisations occasionnelles ?",
+        "choices": [
+          { "key": "a", "text": "Au moins une fois par mois" },
+          { "key": "b", "text": "Au moins une fois par an" },
+          { "key": "c", "text": "Dès que la date de péremption mentionnée sur la cartouche est dépassée" },
+          { "key": "d", "text": "Jamais" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 167,
+        "question": "Un agriculteur traite un champ à l'aide d'un pulvérisateur à rampe. Le conducteur est-il exposé à la brume de pulvérisation ?",
+        "choices": [
+          { "key": "a", "text": "Non, à condition que la cabine du tracteur soit hermétiquement fermée" },
+          { "key": "b", "text": "Oui, même si la cabine est équipée d’un filtre à charbon actif" },
+          { "key": "c", "text": "Oui par inhalation, si la cabine n’est pas équipée de système de filtration" },
+          { "key": "d", "text": "Oui par radiation, si la cabine n’est pas équipée de système de filtration" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 168,
+        "question": "Parmi les pulvérisateurs cités ci-dessous, quel est celui qui entraine le plus grand risque de contamination par inhalation lors de son utilisation ?",
+        "choices": [
+          { "key": "a", "text": "Le pulvérisateur à rampe" },
+          { "key": "b", "text": "L'atomiseur (pulvérisateur pneumatique)" },
+          { "key": "c", "text": "Le pulvérisateur à dos" },
+          { "key": "d", "text": "Le pulvérisateur à lance" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 169,
+        "question": "Il est déconseillé de traverser une zone qui vient d’être traitée avec un produit phytopharmaceutique. Pourquoi ?",
+        "choices": [
+          { "key": "a", "text": "Car il y a un risque de contamination des personnes par contact et inhalation si celles-ci ne portent pas d’équipement de protection" },
+          { "key": "b", "text": "Car il y a un risque de perdre l'efficacité du traitement" },
+          { "key": "c", "text": "Car la législation interdit aux utilisateurs de produits phytopharmaceutiques de marcher sur une surface traitée même si ceux-ci portent des équipements de protection adaptés" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 170,
+        "question": "Pour déboucher une buse, notamment en résine de synthèse, il est conseillé :",
+        "choices": [
+          { "key": "a", "text": "D’utiliser une brosse destinée à cet effet" },
+          { "key": "b", "text": "D’utiliser une épingle" },
+          { "key": "c", "text": "D’utiliser un couteau" },
+          { "key": "d", "text": "De souffler vigoureusement dans la buse avec la bouche" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 171,
+        "question": "Pour déboucher une buse, notamment en résine de synthèse, il est conseillé :",
+        "choices": [
+          { "key": "a", "text": "D’utiliser une « soufflette pneumatique »" },
+          { "key": "b", "text": "D’utiliser une épingle" },
+          { "key": "c", "text": "D’utiliser un clou" },
+          { "key": "d", "text": "De souffler vigoureusement dans la buse avec la bouche" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 172,
+        "question": "Comment déboucher une buse de pulvérisation obstruée ?",
+        "choices": [
+          { "key": "a", "text": "En augmentant la pression de travail" },
+          { "key": "b", "text": "En soufflant dans la buse directement avec la bouche" },
+          { "key": "c", "text": "En utilisant une aiguille" },
+          { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 173,
+        "question": "Comment déboucher une buse de pulvérisation obstruée ?",
+        "choices": [
+          { "key": "a", "text": "Grâce à une bombe à air comprimé" },
+          { "key": "b", "text": "Grâce à une aiguille" },
+          { "key": "c", "text": "En augmentant la pression de travail" },
+          { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 174,
+        "question": "Le système anti-roulis d’un pulvérisateur permet :",
+        "choices": [
+          { "key": "a", "text": "D’améliorer la pénétration du produit dans la végétation en réduisant la taille des gouttes" },
+          { "key": "b", "text": "D’augmenter la précision du volume d’eau utilisé" },
+          { "key": "c", "text": "De réduire le risque de retournement du pulvérisateur" },
+          { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 175,
+        "question": "Par suite d’ingestion d’un produit phytopharmaceutique, une personne perd connaissance. Quelle mesure d'urgence doit immédiatement être prise ?",
+        "choices": [
+          { "key": "a", "text": "Faire vomir la victime" },
+          { "key": "b", "text": "Faire boire du lait à la victime" },
+          { "key": "c", "text": "Faire boire de l'eau à la victime" },
+          { "key": "d", "text": "Mettre la victime en position latérale de sécurité et appeler les secours (112)" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 176,
+        "question": "En cas d’intoxication d'origine inconnue, quelles sont les mesures à prendre pour porter secours à la victime si celle-ci a perdu connaissance ?",
+        "choices": [
+          { "key": "a", "text": "Il est préférable de faire boire du lait à la victime" },
+          { "key": "b", "text": "Faire vomir la victime" },
+          { "key": "c", "text": "Attendre que la victime ait repris connaissance avant d'appeler les secours" },
+          { "key": "d", "text": "Appeler les secours (112) et surveiller la victime en attendant les secours" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 177,
+        "question": "En quelle matière doivent être les gants utilisés pour manipuler les produits phytopharmaceutiques ?",
+        "choices": [
+          { "key": "a", "text": "En latex" },
+          { "key": "b", "text": "En nitrile" },
+          { "key": "c", "text": "En tissu épais" },
+          { "key": "d", "text": "En cuir" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 178,
+        "question": "En quelle matière doivent être les gants utilisés pour manipuler les produits phytopharmaceutiques ?",
+        "choices": [
+          { "key": "a", "text": "En latex" },
+          { "key": "b", "text": "En tissu épais" },
+          { "key": "c", "text": "En néoprène" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 179,
+        "question": "En quelle matière doivent être les gants utilisés pour manipuler les produits phytopharmaceutiques ?",
+        "choices": [
+          { "key": "a", "text": "En latex" },
+          { "key": "b", "text": "En tissu épais" },
+          { "key": "c", "text": "En cuir" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 180,
+        "question": "Pour manipuler des produits phytopharmaceutiques, vous choisissez des gants :",
+        "choices": [
+          { "key": "a", "text": "De jardinage en tissus" },
+          { "key": "b", "text": "Présentant le pictogramme de protection suivant :" },
+          { "key": "c", "text": "En latex" },
+          { "key": "d", "text": "Toutes les propositions suivantes sont correctes" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 181,
+        "question": "Un utilisateur de produits phytopharmaceutiques est en train de réaliser un traitement avec un pulvérisateur à rampe. Si la cabine du tracteur, non équipée d'un filtre à charbon actif, reste complètement fermée pendant le traitement, l’agriculteur doit-il porter des équipements de protection ?",
+        "choices": [
+          { "key": "a", "text": "Non, car l’utilisateur risquerait de contaminer l'intérieur de la cabine" },
+          { "key": "b", "text": "Non, car la cabine reste complètement fermée" },
+          { "key": "c", "text": "Oui, l’utilisateur doit porter des gants" },
+          { "key": "d", "text": "Oui, l’utilisateur doit porter un masque à charbon actif" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 182,
+        "question": "L’étiquette du produit que vous utilisez mentionne la phrase H332 : nocif par inhalation. Quels sont les équipements de protection utile pour préparer la bouillie ? Uniquement :",
+        "choices": [
+          { "key": "a", "text": "Des vêtements couvrants" },
+          { "key": "b", "text": "Des vêtements couvrants et des gants" },
+          { "key": "c", "text": "Des vêtements couvrants, des gants et un masque respiratoire avec filtre à charbon actif" },
+          { "key": "d", "text": "Des vêtements couvrants, des gants, des lunettes de sécurité et un masque respiratoire avec filtre à charbon actif" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 183,
+        "question": "Les équipements de protection individuelle (EPI) à usage unique usagés et souillés par des produits phytopharmaceutiques :",
+        "choices": [
+          { "key": "a", "text": "Sont éliminés par AgriRecover dans les sacs dédiés aux emballages rincés" },
+          { "key": "b", "text": "Sont éliminés par AgriRecover dans les sacs dédiés aux emballages non rinçables" },
+          { "key": "c", "text": "Sont éliminés par AgriRecover dans les sacs spéciaux dédiés aux EPI" },
+          { "key": "d", "text": "Doivent être rapportés dans un parc à conteneur" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 184,
+        "question": "Où est-il conseillé de stocker les équipements de protection ?",
+        "choices": [
+          { "key": "a", "text": "Dans une armoire réservée à cet usage, à proximité du local phyto" },
+          { "key": "b", "text": "A l’entrée de l’habitation parmi les vêtements de ville" },
+          { "key": "c", "text": "Dans le local phyto" },
+          { "key": "d", "text": "Toutes les propositions sont correctes, le lieu de stockage des équipements de protection n’a pas d’importance" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 185,
+        "question": "Du produit phytopharmaceutique s’est introduit dans les gants de l’utilisateur. Que faire après s’être lavé abondamment les mains ?",
+        "choices": [
+          { "key": "a", "text": "Jeter les gants et les remplacer par de nouveaux" },
+          { "key": "b", "text": "Reprendre le travail sans gants" },
+          { "key": "c", "text": "Rincer abondamment l’intérieur des gants et les sécher" },
+          { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 186,
+        "question": "Pour entretenir des gants destinés à la manipulation des produits phytopharmaceutiques, il faut :",
+        "choices": [
+          { "key": "a", "text": "Remplacer les gants après chaque utilisation" },
+          { "key": "b", "text": "Essuyer les gants à l’aide d’un chiffon humide après chaque utilisation" },
+          { "key": "c", "text": "Rincer abondamment les gants après chaque utilisation" },
+          { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 187,
+        "question": "Les filtres à charbon actif placés sur l’air conditionné des cabines de tracteur doivent être :",
+        "choices": [
+          { "key": "a", "text": "Essuyés à l’aide d’un chiffon humide les filtres après chaque utilisation selon les prescriptions mentionnées sur la notice d’usage" },
+          { "key": "b", "text": "Remplacés les filtres lorsque le nombre d’heures de fonctionnement mentionné sur la notice d’usage est atteint" },
+          { "key": "c", "text": "Rincés abondamment selon les prescriptions mentionnées sur la notice d’usage" },
+          { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 188,
+        "question": "Quels filtres sont efficaces pour protéger l’utilisateur contre les vapeurs de produit phytopharmaceutique organiques ?",
+        "choices": [
+          { "key": "a", "text": "Des filtres anti-poussière (référence P ou bande blanche)" },
+          { "key": "b", "text": "Des filtres à charbon actif de référence A (bande brune)" },
+          { "key": "c", "text": "Des filtres à charbon actif de référence B (bande grise)" },
+          { "key": "d", "text": "Des filtres à charbon actif de référence K (bande verte)" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 189,
+        "question": "Quels filtres sont efficaces pour protéger l’utilisateur contre les vapeurs de produit phytopharmaceutique inorganiques ?",
+        "choices": [
+          { "key": "a", "text": "Des filtres anti-poussière de référence P (bande blanche)" },
+          { "key": "b", "text": "Des filtres à charbon actif de référence A (bande brune)" },
+          { "key": "c", "text": "Des filtres à charbon actif de référence B (bande grise)" },
+          { "key": "d", "text": "Des filtres à charbon actif de référence K (bande verte)" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 190,
+        "question": "Afin de préserver la santé des insectes pollinisateurs, il est conseillé, en l’absence de contre-indications :",
+        "choices": [
+          { "key": "a", "text": "D’appliquer les produits phytopharmaceutiques tôt le matin" },
+          { "key": "b", "text": "D’appliquer les produits phytopharmaceutiques en dehors des périodes de floraison" },
+          { "key": "c", "text": "D’appliquer les produits phytopharmaceutiques le soir" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 191,
+        "question": "Que signifie ce pictogramme ?",
+        "choices": [
+          { "key": "a", "text": "Eaux contaminée par des produits chimiques" },
+          { "key": "b", "text": "Emanations toxiques" },
+          { "key": "c", "text": "Dangereux pour l'environnement" },
+          { "key": "d", "text": "Danger de mort" }
+        ],
+        "answer": "d",
+        "image": "assets/qcm/q2/q197.png.jpg"  
+      },
+      {
+        "id": 192,
+        "question": "Est-il conseillé de pulvériser un produit phytopharmaceutique en cas de pluie ?",
+        "choices": [
+          { "key": "a", "text": "Non, car le produit pourrait être lessivé et emporté vers les eaux de surface ou les eaux souterraines" },
+          { "key": "b", "text": "Oui, car l’humidité favorise la pénétration du produit dans la plante" },
+          { "key": "c", "text": "Oui, car la pluie favorise la répartition homogène du produit sur la plante" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 193,
+        "question": "Un utilisateur de produits phytopharmaceutiques renverse malencontreusement le contenu de la cuve de son pulvérisateur à proximité d’un égout ou d’un ruisseau. Que doit faire l’utilisateur ?",
+        "choices": [
+          { "key": "a", "text": "Il ne doit rien faire si cela ne gêne pas la circulation" },
+          { "key": "b", "text": "Il doit contacter « SOS Environnement-Nature » (0800/20.026)" },
+          { "key": "c", "text": "Il doit prévenir le centre Antipoisons (070/245 245)" },
+          { "key": "d", "text": "Il doit prévenir l’AFSCA" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 194,
+        "question": "Quel est le principal risque encouru à la suite de la réalisation d'un traitement phytosanitaire sur une cour pavée ?",
+        "choices": [
+          { "key": "a", "text": "La pollution des eaux de surface par ruissellement du produit vers le réseau d'égouttage" },
+          { "key": "b", "text": "La pollution des eaux souterraines par infiltration du produit dans le sol" },
+          { "key": "c", "text": "L'impact du traitement sur la faune (animaux et insectes)" },
+          { "key": "d", "text": "L'impact global du traitement sur la biodiversité de la surface traitée" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 195,
+        "question": "La présence d’herbicide a déjà été attestée au sein des eaux souterraines.",
+        "choices": [
+          { "key": "a", "text": "Vrai, certains herbicides (ou leurs dérivés) peuvent s’infiltrer dans les sols et atteindre la nappe phréatique" },
+          { "key": "b", "text": "Faux, les herbicides ne se retrouvent jamais au niveau des eaux souterraines car ils sont stockés dans le sol et dégradés par des microorganismes" },
+          { "key": "c", "text": "Faux, les herbicides ne se retrouvent jamais au niveau des eaux souterraines car ils sont évacués vers les eaux de surface à la suite du ruissellement et à l’érosion" },
+          { "key": "d", "text": "Faux, la problématique des pollutions des eaux souterraines par des produits phytopharmaceutiques existe mais est limitée aux fongicides" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 196,
+        "question": "La pollution de l'environnement par les produits phytopharmaceutiques peut se faire :",
+        "choices": [
+          { "key": "a", "text": "Par volatilisation des produits dans l'air" },
+          { "key": "b", "text": "À la suite d’incidents, par exemple un déversement accidentel de produits phytopharmaceutiques dans les eaux de surface" },
+          { "key": "c", "text": "Via l’érosion des sols traités" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 197,
+        "question": "Un problème de résistance à un herbicide peut être contourné :",
+        "choices": [
+          { "key": "a", "text": "En diminuant la dose pour pouvoir augmenter la fréquence de traitement" },
+          { "key": "b", "text": "En raccourcissant la durée de la rotation" },
+          { "key": "c", "text": "En changeant l’herbicide par un produit fonctionnant sur base du même mode d’action" },
+          { "key": "d", "text": "En changeant l’herbicide par un produit fonctionnant sur base d’un autre mode d’action" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 198,
+        "question": "Un problème de résistance à un fongicide peut être contourné :",
+        "choices": [
+          { "key": "a", "text": "En augmentant la dose de produit" },
+          { "key": "b", "text": "En changeant le fongicide par un produit fonctionnant sur base du même mode d’action" },
+          { "key": "c", "text": "En changeant le fongicide par un produit fonctionnant sur base d’un autre mode d’action" },
+          { "key": "d", "text": "En multipliant le nombre de traitements avec le même produit" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 199,
+        "question": "Parmi ces familles de fongicides, laquelle est la plus sujette à l’apparition de résistance ?",
+        "choices": [
+          { "key": "a", "text": "Les strobilurines" },
+          { "key": "b", "text": "Les carbamates" },
+          { "key": "c", "text": "Les phosphorothiolates" },
+          { "key": "d", "text": "Les thiazoles carboxamides" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 200,
+        "question": "Parmi ces familles de fongicides, laquelle est la plus sujette à l’apparition de résistance ?",
+        "choices": [
+          { "key": "a", "text": "Les strobilurines" },
+          { "key": "b", "text": "Les phthalimides" },
+          { "key": "c", "text": "Les benzamides" },
+          { "key": "d", "text": "Les molécules inorganiques à action multisite" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 201,
+        "question": "Parmi ces familles de fongicides, laquelle est la plus sujette à l’apparition de résistance ?",
+        "choices": [
+          { "key": "a", "text": "Les SDHI (succinate dehydrogenase inhibitors)" },
+          { "key": "b", "text": "Les dithiocarbamates" },
+          { "key": "c", "text": "Les benzamides" },
+          { "key": "d", "text": "Les sulfamides" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 202,
+        "question": "Parmi ces familles de fongicides, laquelle est la plus sujette à l’apparition de résistance ?",
+        "choices": [
+          { "key": "a", "text": "Les SDHI (succinate dehydrogenase inhibitors)" },
+          { "key": "b", "text": "Les carbamates" },
+          { "key": "c", "text": "Les molécules inorganiques" },
+          { "key": "d", "text": "Les phthalimides" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 203,
+        "question": "Parmi ces familles de fongicides, laquelle est la moins sujette à l’apparition de résistance ?",
+        "choices": [
+          { "key": "a", "text": "Les phthalimides" },
+          { "key": "b", "text": "Les SDHI (succinate dehydrogenase inhibitors)" },
+          { "key": "c", "text": "Les strobilurines" },
+          { "key": "d", "text": "Les triazoles" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 204,
+        "question": "Parmi ces familles de fongicides, laquelle est la moins sujette à l’apparition de résistance ?",
+        "choices": [
+          { "key": "a", "text": "Les molécules inorganiques (soufre, cuivre)" },
+          { "key": "b", "text": "Les strobilurines" },
+          { "key": "c", "text": "Les benzimidazoles" },
+          { "key": "d", "text": "Les dicarboximides" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 205,
+        "question": "Parmi ces familles de fongicides, laquelle est la moins sujette à l’apparition de résistance ?",
+        "choices": [
+          { "key": "a", "text": "Les sulfamides" },
+          { "key": "b", "text": "Les SDHI (succinate dehydrogenase inhibitors)" },
+          { "key": "c", "text": "Les strobilurines" },
+          { "key": "d", "text": "Les benzimidazoles" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 206,
+        "question": "Parmi ces familles de fongicides, laquelle est la moins sujette à l’apparition de résistance ?",
+        "choices": [
+          { "key": "a", "text": "Les chloronitriles (chlorothalonil)" },
+          { "key": "b", "text": "Les SDHI (succinate dehydrogenase inhibitors)" },
+          { "key": "c", "text": "Les benzimidazoles" },
+          { "key": "d", "text": "Les triazoles" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 207,
+        "question": "Quelle mesure pourrait permettre de diminuer le risque d’apparition de résistance à un produit phytopharmaceutique ?",
+        "choices": [
+          { "key": "a", "text": "Mélanger et/ou alterner les substances actives" },
+          { "key": "b", "text": "Toujours utiliser des substances actives appartenant à une même famille" },
+          { "key": "c", "text": "Utiliser toujours la même substance active" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 208,
+        "question": "De quoi s’agit-il ?",
+        "choices": [
+          { "key": "a", "text": "La folle avoine" },
+          { "key": "b", "text": "Le taupin" },
+          { "key": "c", "text": "Le vulpin" },
+          { "key": "d", "text": "La matricaire camomille" }
+        ],
+        "answer": "a",
+        "image": "assets/qcm/q2/q214.PNG.jpg"  
+
+      },
+      {
+        "id": 209,
+        "question": "Les rhizomes sont :",
+        "choices": [
+          { "key": "a", "text": "Des tiges souterraines" },
+          { "key": "b", "text": "Des tiges rampantes aériennes" },
+          { "key": "c", "text": "Des tiges aériennes" },
+          { "key": "d", "text": "Des champignons" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 210,
+        "question": "Les stolons sont :",
+        "choices": [
+          { "key": "a", "text": "Des tiges souterraines" },
+          { "key": "b", "text": "Des tiges rampantes aériennes" },
+          { "key": "c", "text": "Des tiges verticales aériennes" },
+          { "key": "d", "text": "Des champignons" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 211,
+        "question": "A quel stade de développement est cette plante ?",
+        "choices": [
+          { "key": "a", "text": "Au stade 2 feuilles" },
+          { "key": "b", "text": "Au stade 4 feuilles" },
+          { "key": "c", "text": "Au stade épiaison" },
+          { "key": "d", "text": "Au stade tallage" }
+        ],
+        "answer": "a",
+        "image": "assets/qcm/q2/q217.png.jpg" 
+      },
+      {
+        "id": 212,
+        "question": "Laquelle de ces plantes « talle » ?",
+        "choices": [
+          { "key": "a", "text": "La pomme de terre" },
+          { "key": "b", "text": "La betterave" },
+          { "key": "c", "text": "Le colza" },
+          { "key": "d", "text": "L’escourgeon" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 213,
+        "question": "Quelle est cette larve d’insecte ?",
+        "choices": [
+          { "key": "a", "text": "Un nématode" },
+          { "key": "b", "text": "Un taupin" },
+          { "key": "c", "text": "Une mouche grise des céréales" },
+          { "key": "d", "text": "Une tipule" }
+        ],
+        "answer": "a",
+        "image": "assets/qcm/q2/q219.png.jpg"  
+
+      },
+      {
+        "id": 214,
+        "question": "De quelle maladie s’agit-il ?",
+        "choices": [
+          { "key": "a", "text": "La fusariose" },
+          { "key": "b", "text": "L’oïdium" },
+          { "key": "c", "text": "La rouille" },
+          { "key": "d", "text": "La cercosporiose" }
+        ],
+        "answer": "d",
+        "image": "assets/qcm/q2/q221.png.jpg"  
+
+      },
+      {
+        "id": 215,
+        "question": "Laquelle de ces propositions est correcte ?",
+        "choices": [
+          { "key": "a", "text": "L’ergot du seigle présente un risque pour la santé mais ne se retrouve pas en Belgique" },
+          { "key": "b", "text": "L’ergot du seigle présente un risque pour la santé et se retrouve en Belgique" },
+          { "key": "c", "text": "L’ergot du seigle ne présente aucun risque pour la santé et se retrouve en Belgique" },
+          { "key": "d", "text": "L’ergot du seigle ne présente aucun risque pour la santé et ne se retrouve pas en Belgique" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 216,
+        "question": "Une maladie cryptogamique est une maladie causée par :",
+        "choices": [
+          { "key": "a", "text": "Une bactérie" },
+          { "key": "b", "text": "Un champignon" },
+          { "key": "c", "text": "Un insecte" },
+          { "key": "d", "text": "Un rongeur" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 217,
+        "question": "De manière générale, les pourritures causées par des maladies cryptogamiques de conservation sont caractérisées par des symptômes d’aspect :",
+        "choices": [
+          { "key": "a", "text": "Sec" },
+          { "key": "b", "text": "Humide" },
+          { "key": "c", "text": "Poreux" },
+          { "key": "d", "text": "Humide et poreux" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 218,
+        "question": "De manière générale, les pourritures de conservation causées par des bactéries sont caractérisées par des symptômes d’aspect :",
+        "choices": [
+          { "key": "a", "text": "Sec" },
+          { "key": "b", "text": "Humide et généralement malodorant" },
+          { "key": "c", "text": "Poreux" },
+          { "key": "d", "text": "Sec et poreux" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 219,
+        "question": "Certaines espèces de pucerons sont des vectrices de :",
+        "choices": [
+          { "key": "a", "text": "Viroses" },
+          { "key": "b", "text": "Carences en oligoéléments" },
+          { "key": "c", "text": "Fatigue du sol" },
+          { "key": "d", "text": "Nématodes" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 220,
+        "question": "Les nématodes phytoparasites du sol sont :",
+        "choices": [
+          { "key": "a", "text": "Des vers microscopiques" },
+          { "key": "b", "text": "Des insectes du sol" },
+          { "key": "c", "text": "Des bactéries" },
+          { "key": "d", "text": "Des champignons" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 221,
+        "question": "Une attaque de Botrytis cinerea sur fraise provoque :",
+        "choices": [
+          { "key": "a", "text": "L’apparition d’un duvet grisâtre sur les fruits" },
+          { "key": "b", "text": "Des taches foliaires circulaires" },
+          { "key": "c", "text": "Une malformation des fruits" },
+          { "key": "d", "text": "Une trachéomycose" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 222,
+        "question": "La rhizomanie de la betterave provoque :",
+        "choices": [
+          { "key": "a", "text": "Une nécrose du collet" },
+          { "key": "b", "text": "Des taches circulaires sur les feuilles" },
+          { "key": "c", "text": "Une déformation de la racine principale en chevelu racinaire" },
+          { "key": "d", "text": "Une fonte de semis" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 223,
+        "question": "La tavelure du pommier provoque :",
+        "choices": [
+          { "key": "a", "text": "Un pourrissement du fruit" },
+          { "key": "b", "text": "Des chancres sur les rameaux" },
+          { "key": "c", "text": "Des lésions circulaires brunâtres sur les fruits et les feuilles" },
+          { "key": "d", "text": "Un dépérissement racinaire" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 224,
+        "question": "L’agent responsable du charbon du maïs est :",
+        "choices": [
+          { "key": "a", "text": "Dreschlera turcica" },
+          { "key": "b", "text": "Ustilago maydis" },
+          { "key": "c", "text": "Uromyces betae" },
+          { "key": "d", "text": "Streptomices scabies" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 225,
+        "question": "Quelle est cette adventice ?",
+        "choices": [
+          { "key": "a", "text": "Le mouron des oiseaux" },
+          { "key": "b", "text": "Le gaillet gratteron" },
+          { "key": "c", "text": "La folle avoine" },
+          { "key": "d", "text": "La pensée sauvage" }
+        ],
+        "answer": "c",
+        "image": "assets/qcm/q2/q231.png.jpg"
+      },
+      {
+        "id": 226,
+        "question": "Les adventices annuelles se multiplient le plus souvent :",
+        "choices": [
+          { "key": "a", "text": "Par graines (reproduction sexuée)" },
+          { "key": "b", "text": "Par multiplication végétative (reproduction asexuée)" },
+          { "key": "c", "text": "Indifféremment par reproduction sexuée et asexuée" },
+          { "key": "d", "text": "Par micropropagation" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 227,
+        "question": "Les herbicides foliaires de contact :",
+        "choices": [
+          { "key": "a", "text": "Pénètrent dans les tissus par les feuilles et circulent via la sève xylémienne" },
+          { "key": "b", "text": "Pénètrent dans les tissus par les feuilles et circulent via la sève phloémienne" },
+          { "key": "c", "text": "Détruisent uniquement les parties des plantes en contact avec le produit" },
+          { "key": "d", "text": "Pénètrent par les racines et circulent via la sève brute" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 228,
+        "question": "À la suite de la pulvérisation d’un produit phytopharmaceutique sur un champ, des dégâts de phytotoxicité sont observés :",
+        "choices": [
+          { "key": "a", "text": "De façon homogène dans le champ" },
+          { "key": "b", "text": "Par taches réparties aléatoirement dans le champ" },
+          { "key": "c", "text": "Uniquement sur certaines plantes" },
+          { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 229,
+        "question": "Pour lutter contre le virus de la jaunisse nanisante de l’orge, il est conseillé d’employer :",
+        "choices": [
+          { "key": "a", "text": "Un vaccin" },
+          { "key": "b", "text": "Un insecticide" },
+          { "key": "c", "text": "Un fongicide" },
+          { "key": "d", "text": "Un herbicide" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 230,
+        "question": "Un traitement herbicide de pré-émergence de contact est appliqué :",
+        "choices": [
+          { "key": "a", "text": "Avant le semis de la plante cultivée" },
+          { "key": "b", "text": "Sur les mauvaises herbes levées, entre le semis et la levée" },
+          { "key": "c", "text": "Avant la levée des adventices" },
+          { "key": "d", "text": "Avant la levée des mauvaises herbes sur une culture levée" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 231,
+        "question": "Pour lutter efficacement contre la rhizomanie de la betterave, il est recommandé :",
+        "choices": [
+          { "key": "a", "text": "D’utiliser des variétés résistantes" },
+          { "key": "b", "text": "D’appliquer des traitements insecticides" },
+          { "key": "c", "text": "D’appliquer un fongicide" },
+          { "key": "d", "text": "De raccourcir la durée de la rotation" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 232,
+        "question": "Pour lutter efficacement contre le mildiou de la pomme de terre, il est conseillé d’agir :",
+        "choices": [
+          { "key": "a", "text": "De manière préventive suite à un avis d’un service d’avertissement" },
+          { "key": "b", "text": "De manière curative" },
+          { "key": "c", "text": "Avec un insecticide" },
+          { "key": "d", "text": "Avec un nématicide" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 233,
+        "question": "Afin d’éviter la propagation d’une maladie bactérienne, il est recommandé :",
+        "choices": [
+          { "key": "a", "text": "D’employer un fongicide" },
+          { "key": "b", "text": "D’employer un nématicide" },
+          { "key": "c", "text": "D’employer un régulateur de croissance" },
+          { "key": "d", "text": "De créer un environnement défavorable à la bactérie" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 234,
+        "question": "Pour éviter des dégâts dus à la rhizomanie en betterave, il est conseillé :",
+        "choices": [
+          { "key": "a", "text": "D’utiliser des variétés résistantes" },
+          { "key": "b", "text": "De traiter avec un nématicide" },
+          { "key": "c", "text": "De traiter avec un fongicide" },
+          { "key": "d", "text": "De traiter avec un insecticide" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 235,
+        "question": "Pour lutter efficacement contre les viroses en production de plants de pomme de terre, il est conseillé :",
+        "choices": [
+          { "key": "a", "text": "D’utiliser des plants sains certifiés" },
+          { "key": "b", "text": "D’appliquer des insecticides contre les vecteurs persistants" },
+          { "key": "c", "text": "De procéder au défanage avant maturité" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 236,
+        "question": "Pour lutter efficacement contre le virus de la jaunisse nanisante de l’orge :",
+        "choices": [
+          { "key": "a", "text": "Utiliser des plantes inoculées" },
+          { "key": "b", "text": "Ne pas traiter avec un insecticide" },
+          { "key": "c", "text": "Pulvériser un insecticide si les seuils sont dépassés" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 237,
+        "question": "Pour lutter efficacement contre le virus de la jaunisse nanisante de l’orge, il est conseillé :",
+        "choices": [
+          { "key": "a", "text": "D’utiliser des variétés tolérantes" },
+          { "key": "b", "text": "De lutter contre les repousses de céréales" },
+          { "key": "c", "text": "D’employer des semences traitées (céréales d’hiver)" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 238,
+        "question": "Pour lutter efficacement contre le virus de la jaunisse nanisante de l’orge, il est recommandé :",
+        "choices": [
+          { "key": "a", "text": "D’employer des semences traitées avec un insecticide" },
+          { "key": "b", "text": "D’utiliser une vaccination" },
+          { "key": "c", "text": "De réaliser un traitement fongicide" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 239,
+        "question": "Pour lutter efficacement contre le virus de la jaunisse nanisante de l’orge, il est recommandé de :",
+        "choices": [
+          { "key": "a", "text": "Lutter contre les repousses de céréales" },
+          { "key": "b", "text": "Employer des semences traitées avec un fongicide" },
+          { "key": "c", "text": "Pulvériser un fongicide" },
+          { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 240,
+        "question": "Quelle maladie est la plus dommageable économiquement en culture de pomme de terre ?",
+        "choices": [
+          { "key": "a", "text": "La gale commune" },
+          { "key": "b", "text": "Le mildiou de la pomme de terre" },
+          { "key": "c", "text": "La gale argentée" },
+          { "key": "d", "text": "La dartrose" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 241,
+        "question": "La qualité boulangère de la farine de froment peut être affectée par :",
+        "choices": [
+          { "key": "a", "text": "La fusariose des épis" },
+          { "key": "b", "text": "La fonte de semis (Pythium spp.)" },
+          { "key": "c", "text": "Le piétin verse" },
+          { "key": "d", "text": "Le rhizoctone" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 242,
+        "question": "Quel type de buse permet de réduire sensiblement la dérive de pulvérisation ?",
+        "choices": [
+          { "key": "a", "text": "La buse à fente classique" },
+          { "key": "b", "text": "La buse à aspiration d’air" },
+          { "key": "c", "text": "La buse à turbulence" },
+          { "key": "d", "text": "La buse à filets" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 243,
+        "question": "Les buses à aspiration d’air sont des buses :",
+        "choices": [
+          { "key": "a", "text": "À filets" },
+          { "key": "b", "text": "À pastille" },
+          { "key": "c", "text": "À fente" },
+          { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 244,
+        "question": "Sur chaque buse, il est inscrit :",
+        "choices": [
+          { "key": "a", "text": "La taille des gouttes produites" },
+          { "key": "b", "text": "La longueur de la buse" },
+          { "key": "c", "text": "L’angle de pulvérisation" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 245,
+        "question": "Sur chaque buse, il est inscrit :",
+        "choices": [
+          { "key": "a", "text": "Le type de buse" },
+          { "key": "b", "text": "Le poids de la buse" },
+          { "key": "c", "text": "Le débit en L/min" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 246,
+        "question": "La couleur de la buse est un indicateur :",
+        "choices": [
+          { "key": "a", "text": "Du type de buse" },
+          { "key": "b", "text": "Du poids de la buse" },
+          { "key": "c", "text": "Du débit en L/min (à 3 bars)" },
+          { "key": "d", "text": "De l’angle de pulvérisation" }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 247,
+        "question": "Avec un pulvérisateur DPA, l’augmentation de la vitesse d’avancement induit des gouttes :",
+        "choices": [
+          { "key": "a", "text": "Plus petites" },
+          { "key": "b", "text": "Plus grosses" },
+          { "key": "c", "text": "Identiques" },
+          { "key": "d", "text": "Cela dépend du produit" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 248,
+        "question": "Pour un type de buse donné, l’augmentation de pression induit :",
+        "choices": [
+          { "key": "a", "text": "Une diminution de la taille des gouttes" },
+          { "key": "b", "text": "Une augmentation de la dérive" },
+          { "key": "c", "text": "Une augmentation du débit" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 249,
+        "question": "Pour un type de buse donné, la diminution de pression induit :",
+        "choices": [
+          { "key": "a", "text": "Une diminution de la dérive" },
+          { "key": "b", "text": "Une augmentation de la taille des gouttes" },
+          { "key": "c", "text": "Une diminution du débit" },
+          { "key": "d", "text": "Toutes ces propositions sont correctes" }
+        ],
+        "answer": "a"
+      }
+  ]

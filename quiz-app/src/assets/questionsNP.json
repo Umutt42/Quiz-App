@@ -1,0 +1,962 @@
+[
+    {
+      "id": 1,
+      "question": "En Région wallonne, quelle est la distance minimale non traitée par un produit phytopharmaceutique à respecter par rapport à un cours d’eau ?",
+      "choices": [
+        { "key": "a", "text": "Au moins 1 mètre" },
+        { "key": "b", "text": "Au moins 6 mètres" },
+        { "key": "c", "text": "Aucune distance minimale n’est à respecter dans ce cas à moins qu’une zone tampon ne soit spécifiée sur l’étiquette" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "question": "Des mauvaises herbes se trouvent sur un trottoir le long d’une route reliée à un égout. Pour se débarrasser des mauvaises herbes :",
+      "choices": [
+        { "key": "a", "text": "J’utilise un herbicide sélectif" },
+        { "key": "b", "text": "J’utilise un herbicide à faible toxicité" },
+        { "key": "c", "text": "Je ne peux pas utiliser d’herbicide" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "question": "Je souhaite traiter un trottoir avec un produit phytopharmaceutique. Quelle est la distance minimum à respecter par rapport au filet d’eau ?",
+      "choices": [
+        { "key": "a", "text": "1 mètre" },
+        { "key": "b", "text": "6 mètres" },
+        { "key": "c", "text": "Le trottoir ne peut pas être traité" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 4,
+      "question": "Pour limiter la contamination des eaux de surface par des produits phytopharmaceutiques en Région wallonne :",
+      "choices": [
+        { "key": "a", "text": "On laisse une zone tampon d’au moins 6 mètres par rapport au plan d’eau" },
+        { "key": "b", "text": "On pulvérise par temps chaud et sec" },
+        { "key": "c", "text": "On pulvérise par grand vent" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "question": "En Région wallonne, quelle est la largeur de la zone tampon à respecter le long d’un cours d’eau ?",
+      "choices": [
+        { "key": "a", "text": "Au moins 1 mètre" },
+        { "key": "b", "text": "Au moins 6 mètres" },
+        { "key": "c", "text": "Au moins 20 mètres" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "question": "Quel type de phytolicence faut-il pour vendre des produits phytopharmaceutiques à usage professionnel ?",
+      "choices": [
+        { "key": "a", "text": "P1" },
+        { "key": "b", "text": "P3" },
+        { "key": "c", "text": "NP" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 7,
+      "question": "Quel type de phytolicence faut-il pour vendre des produits phytopharmaceutiques à usage non professionnel ?",
+      "choices": [
+        { "key": "a", "text": "P1" },
+        { "key": "b", "text": "NP" },
+        { "key": "c", "text": "P2" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 8,
+      "question": "Qui peut utiliser des produits phytopharmaceutiques à usage non professionnel ?",
+      "choices": [
+        { "key": "a", "text": "Uniquement les détenteurs d’une phytolicence P1" },
+        { "key": "b", "text": "Uniquement les détenteurs d’une phytolicence NP" },
+        { "key": "c", "text": "Les particuliers et les personnes détenant une phytolicence" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 9,
+      "question": "Un entrepreneur de parcs et jardins n’utilise que des produits phytopharmaceutiques à usage non professionnel. Quel type de phytolicence doit-il posséder ?",
+      "choices": [
+        { "key": "a", "text": "Une phytolicence P2" },
+        { "key": "b", "text": "Une phytolicence P1" },
+        { "key": "c", "text": "Il ne doit pas forcément posséder de phytolicence" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 10,
+      "question": "Parmi les propositions suivantes, laquelle définit le terme « pesticide » de manière la plus complète ?",
+      "choices": [
+        { "key": "a", "text": "Les produits phytopharmaceutiques et les biocides" },
+        { "key": "b", "text": "Les bio-pesticides" },
+        { "key": "c", "text": "Les biocides" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 11,
+      "question": "Qu’est-ce qu’un fongicide ?",
+      "choices": [
+        { "key": "a", "text": "Un produit phytopharmaceutique destiné à éliminer les champignons nuisibles" },
+        { "key": "b", "text": "Un produit médicamenteux destiné à éliminer les bactéries nuisibles à la santé humaine" },
+        { "key": "c", "text": "Un produit phytopharmaceutique destiné à éliminer les bactéries nuisibles" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 12,
+      "question": "La substance active d’un produit phytopharmaceutique est :",
+      "choices": [
+        { "key": "a", "text": "La substance ou le micro-organisme exerçant une action sur les organismes nuisibles ou les végétaux" },
+        { "key": "b", "text": "La substance présente majoritairement dans un produit phytopharmaceutique" },
+        { "key": "c", "text": "La substance ayant le poids moléculaire le plus élevé" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 13,
+      "question": "L’adjuvant d’un produit phytopharmaceutique est :",
+      "choices": [
+        { "key": "a", "text": "Une substance ayant une action sur les organismes nuisibles" },
+        { "key": "b", "text": "Une substance destinée à favoriser l’action d’une substance active" },
+        { "key": "c", "text": "Le liquide dans lequel la substance active est dissoute" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 14,
+      "question": "Le mode d’action de la substance active d’un fongicide vise :",
+      "choices": [
+        { "key": "a", "text": "Le champignon phytopathogène" },
+        { "key": "b", "text": "La plante" },
+        { "key": "c", "text": "Aucune de ces propositions n’est correcte" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 15,
+      "question": "L’application d’un produit phytopharmaceutique « jusqu’à la limite du point de ruissellement » sera effectuée :",
+      "choices": [
+        { "key": "a", "text": "Sans entraîner le ruissellement du produit" },
+        { "key": "b", "text": "Avec ruissellement sur le sol" },
+        { "key": "c", "text": "En versant toute la bouillie sur la plante" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 16,
+      "question": "Qu’est-ce qu’un produit phytopharmaceutique systémique ?",
+      "choices": [
+        { "key": "a", "text": "Un produit circulant dans l’ensemble de la plante via le système vasculaire" },
+        { "key": "b", "text": "Un produit agissant localement au point de contact" },
+        { "key": "c", "text": "Un produit circulant dans le sol" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 17,
+      "question": "Qu’est-ce qu’un produit phytopharmaceutique de contact ?",
+      "choices": [
+        { "key": "a", "text": "Un produit circulant dans toute la plante" },
+        { "key": "b", "text": "Un produit agissant localement au point de contact" },
+        { "key": "c", "text": "Un produit circulant dans le sol" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 18,
+      "question": "La rémanence d’un produit phytopharmaceutique caractérise :",
+      "choices": [
+        { "key": "a", "text": "Sa persistance dans le milieu" },
+        { "key": "b", "text": "Son spectre d’action" },
+        { "key": "c", "text": "Sa solubilité" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 19,
+      "question": "La sélectivité d’un produit phytopharmaceutique caractérise :",
+      "choices": [
+        { "key": "a", "text": "Sa solubilité" },
+        { "key": "b", "text": "Sa persistance dans le milieu" },
+        { "key": "c", "text": "Son spectre d’action" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 20,
+      "question": "Quel numéro d’autorisation correspond à un usage amateur ?",
+      "choices": [
+        { "key": "a", "text": "9524G/B" },
+        { "key": "b", "text": "9524P/B" },
+        { "key": "c", "text": "9524E/B" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 21,
+      "question": "Quel numéro d’autorisation correspond à un usage professionnel ?",
+      "choices": [
+        { "key": "a", "text": "9484G/B" },
+        { "key": "b", "text": "9484P/B" },
+        { "key": "c", "text": "9484E/B" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 22,
+      "question": "Ce produit est autorisé :",
+      "choices": [
+        { "key": "a", "text": "Pour un usage professionnel uniquement" },
+        { "key": "b", "text": "Pour un usage amateur" },
+        { "key": "c", "text": "Uniquement dans les jardins" }
+      ],
+      "answer": "b",
+      "image": "assets/qcm/q22.png"
+    },
+    {
+      "id": 23,
+      "question": "Que signifie la lettre « G » dans les numéros d’autorisation à usage amateur ?",
+      "choices": [
+        { "key": "a", "text": "Global" },
+        { "key": "b", "text": "Gestion" },
+        { "key": "c", "text": "Garden" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 24,
+      "question": "Laquelle des propositions suivantes est correcte ?",
+      "choices": [
+        { "key": "a", "text": "Les produits professionnels sont toujours autorisés pour les amateurs" },
+        { "key": "b", "text": "Les utilisateurs professionnels disposent de produits supplémentaires" },
+        { "key": "c", "text": "Les amateurs disposent de plus de produits" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 25,
+      "question": "La législation belge impose que l’application d’un produit phytopharmaceutique respecte l’autorisation pour :",
+      "choices": [
+        { "key": "a", "text": "La culture uniquement" },
+        { "key": "b", "text": "Le parasite uniquement" },
+        { "key": "c", "text": "La culture et le parasite ciblé" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 26,
+      "question": "Le mode d’action d’un produit phytopharmaceutique dépend :",
+      "choices": [
+        { "key": "a", "text": "De la substance active" },
+        { "key": "b", "text": "Du type de formulation" },
+        { "key": "c", "text": "Aucune de ces propositions" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 27,
+      "question": "Un herbicide de contact :",
+      "choices": [
+        { "key": "a", "text": "Se propage dans toute la plante" },
+        { "key": "b", "text": "Détruit uniquement les tissus touchés" },
+        { "key": "c", "text": "Est assimilé par les racines" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 28,
+      "question": "Afin de lutter contre les limaces, quel type de produit peut être employé ?",
+      "choices": [
+        { "key": "a", "text": "Un rodenticide" },
+        { "key": "b", "text": "Un fongicide" },
+        { "key": "c", "text": "Un molluscicide" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 29,
+      "question": "Les fongicides préventifs à base de cuivre ou de soufre ont généralement :",
+      "choices": [
+        { "key": "a", "text": "Une action de contact" },
+        { "key": "b", "text": "Une action multisite" },
+        { "key": "c", "text": "Ces deux propositions sont correctes" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 30,
+      "question": "Un produit dont la substance active est le tébuconazole est :",
+      "choices": [
+        { "key": "a", "text": "Un molluscicide" },
+        { "key": "b", "text": "Un fongicide" },
+        { "key": "c", "text": "Un insecticide" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 31,
+      "question": "Un produit dont la substance active est la trifloxystrobine est :",
+      "choices": [
+        { "key": "a", "text": "Un herbicide" },
+        { "key": "b", "text": "Un fongicide" },
+        { "key": "c", "text": "Un insecticide" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 32,
+      "question": "Un produit dont la substance active est l’acide pélargonique est :",
+      "choices": [
+        { "key": "a", "text": "Un molluscicide" },
+        { "key": "b", "text": "Un herbicide" },
+        { "key": "c", "text": "Un régulateur de croissance" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 33,
+      "question": "Un produit dont la substance active est la pyréthrine est :",
+      "choices": [
+        { "key": "a", "text": "Un molluscicide" },
+        { "key": "b", "text": "Un insecticide" },
+        { "key": "c", "text": "Un régulateur de croissance" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 34,
+      "question": "Sur quel site internet peut-on trouver des informations concernant les autorisations des produits phytopharmaceutiques ?",
+      "choices": [
+        { "key": "a", "text": "Phytoweb.be / Fytoweb.be" },
+        { "key": "b", "text": "Phytophar.be" },
+        { "key": "c", "text": "Malindanslejardin.be" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 35,
+      "question": "Contre quelle(s) maladie(s) du rosier ce produit peut-il être utilisé ?",
+      "choices": [
+        { "key": "a", "text": "Uniquement l’oïdium du rosier" },
+        { "key": "b", "text": "L’oïdium, les rouilles et la maladie des taches noires du rosier" },
+        { "key": "c", "text": "Toutes les maladies foliaires d’origine fongique du rosier" }
+      ],
+      "answer": "b",
+      "image": "assets/qcm/q35.png"
+    },
+    {
+      "id": 36,
+      "question": "Les rhizomes sont :",
+      "choices": [
+        { "key": "a", "text": "Des tiges souterraines" },
+        { "key": "b", "text": "Des tiges aériennes" },
+        { "key": "c", "text": "Des champignons" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 37,
+      "question": "Un cotylédon est :",
+      "choices": [
+        { "key": "a", "text": "Une feuille primordiale constitutive de l’embryon" },
+        { "key": "b", "text": "Une partie du système vasculaire de la plante" },
+        { "key": "c", "text": "Une partie du système racinaire de la plante" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 38,
+      "question": "Les monocotylédones :",
+      "choices": [
+        { "key": "a", "text": "Ne présentent qu’un seul cotylédon sur l’embryon" },
+        { "key": "b", "text": "Se reproduisent uniquement de manière végétative" },
+        { "key": "c", "text": "Aucune de ces propositions n’est correcte" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 39,
+      "question": "Les dicotylédones :",
+      "choices": [
+        { "key": "a", "text": "Présentent deux cotylédons caractéristiques sur l’embryon" },
+        { "key": "b", "text": "Se reproduisent uniquement de manière végétative" },
+        { "key": "c", "text": "Aucune de ces propositions n’est correcte" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 40,
+      "question": "Les graminées :",
+      "choices": [
+        { "key": "a", "text": "Appartiennent au groupe des monocotylédones" },
+        { "key": "b", "text": "Appartiennent au groupe des dicotylédones" },
+        { "key": "c", "text": "Ces deux propositions sont correctes" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 41,
+      "question": "Le xylème :",
+      "choices": [
+        { "key": "a", "text": "Est une pièce indispensable du système floral" },
+        { "key": "b", "text": "Permet la circulation de la sève brute dans une plante" },
+        { "key": "c", "text": "Est une espèce végétale arbustive" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 42,
+      "question": "La maladie du mildiou de la pomme de terre est causée par :",
+      "choices": [
+        { "key": "a", "text": "Une bactérie phytopathogène" },
+        { "key": "b", "text": "Un champignon phytopathogène" },
+        { "key": "c", "text": "Une carence en fer" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 43,
+      "question": "La maladie des taches noires du rosier est causée par :",
+      "choices": [
+        { "key": "a", "text": "Un champignon phytopathogène" },
+        { "key": "b", "text": "Une bactérie phytopathogène" },
+        { "key": "c", "text": "Une carence en azote" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 44,
+      "question": "La maladie du dépérissement du buis est causée par :",
+      "choices": [
+        { "key": "a", "text": "Un champignon phytopathogène" },
+        { "key": "b", "text": "Des nématodes" },
+        { "key": "c", "text": "Une bactérie phytopathogène" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 45,
+      "question": "Les maladies appelées « rouilles » sont caractérisées par :",
+      "choices": [
+        { "key": "a", "text": "Des pourritures des boutons floraux" },
+        { "key": "b", "text": "Des lésions chancreuses au niveau des racines" },
+        { "key": "c", "text": "Des taches foliaires poudreuses à un certain stade" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 46,
+      "question": "Une plante souffre d’une maladie fongique foliaire :",
+      "choices": [
+        { "key": "a", "text": "Il est conseillé de retirer les branches atteintes" },
+        { "key": "b", "text": "Retirer les branches n’aura aucun impact" },
+        { "key": "c", "text": "Il est conseillé d’arroser abondamment le feuillage" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 47,
+      "question": "Pour augmenter la résistance d’une plante aux maladies :",
+      "choices": [
+        { "key": "a", "text": "Il est conseillé de ne jamais la tailler" },
+        { "key": "b", "text": "Il est conseillé de la fertiliser de manière adéquate" },
+        { "key": "c", "text": "Il est conseillé de traiter le substrat chimiquement" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 48,
+      "question": "Quand doit-on envisager un traitement phytosanitaire sur une plante ?",
+      "choices": [
+        { "key": "a", "text": "Les traitements préventifs sont toujours conseillés" },
+        { "key": "b", "text": "Dès les premiers symptômes" },
+        { "key": "c", "text": "Cela dépend de l’espèce, du ravageur et de la gravité" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 49,
+      "question": "Les organismes auxiliaires sont :",
+      "choices": [
+        { "key": "a", "text": "Des organismes vivants qui s’attaquent aux ennemis des plantes" },
+        { "key": "b", "text": "Des organismes vivants nuisibles aux plantes" },
+        { "key": "c", "text": "Des organismes vivants qui s’attaquent uniquement aux bactéries" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 50,
+      "question": "Qu’est-ce que la lutte intégrée ?",
+      "choices": [
+        { "key": "a", "text": "L'application rationnelle d'une combinaison de mesures biologiques, chimiques, physiques... dans laquelle l'emploi de produits phytopharmaceutiques est limité au strict nécessaire" },
+        { "key": "b", "text": "Un ensemble de mesures, uniquement préventives, destinées à protéger les végétaux contre les maladies et les ravageurs" },
+        { "key": "c", "text": "Un ensemble de mesures, uniquement chimiques, destinées à protéger les végétaux contre les maladies et les ravageurs" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 51,
+      "question": "Je souhaite désherber chimiquement une surface pavée reliée au réseau de collecte des eaux pluviales :",
+      "choices": [
+        { "key": "a", "text": "Cela n'entraine aucun risque pour l’environnement" },
+        { "key": "b", "text": "Le risque pour l’environnement est trop élevé, je n’ai d’autre choix que d’opter pour une méthode alternative de désherbage puisque le désherbage chimique est interdit sur ce type de surface" },
+        { "key": "c", "text": "Le risque pour l’environnement est très élevé mais je désherbe tout de même de manière chimique car il n’existe pas d’alternative" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 52,
+      "question": "Avant de placer une nouvelle plante au jardin :",
+      "choices": [
+        { "key": "a", "text": "Je vérifie que celle-ci est adaptée au type de sol, à la luminosité... de son nouvel emplacement" },
+        { "key": "b", "text": "Je traite préventivement son futur emplacement avec un fongicide de manière à éviter toute infection" },
+        { "key": "c", "text": "J'inonde d'eau son futur emplacement afin d’éviter toute situation de stress hydrique lors de la plantation" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 53,
+      "question": "Je souhaite désherber une surface lisse et bétonnée en respectant le plus possible l’environnement :",
+      "choices": [
+        { "key": "a", "text": "J’opte pour un désherbage mécanique à l’aide d’une brosse à poils durs" },
+        { "key": "b", "text": "J’opte pour un désherbage chimique à l’aide d’un herbicide à large spectre" },
+        { "key": "c", "text": "J’opte pour un désherbage chimique à l’aide d’un herbicide spécifique aux espèces nuisibles rencontrées" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 54,
+      "question": "Afin de lutter contre les pucerons, quelle méthode alternative aux produits phytopharmaceutiques peut être utilisée ?",
+      "choices": [
+        { "key": "a", "text": "Appliquer de l'eau savonneuse sur le feuillage des plantes" },
+        { "key": "b", "text": "Utiliser un piège mécanique afin de piéger les pucerons" },
+        { "key": "c", "text": "Utiliser des nématodes, prédateurs naturels des pucerons" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 55,
+      "question": "Afin de lutter contre les campagnols, quelle méthode alternative aux produits phytopharmaceutiques peut être utilisée ?",
+      "choices": [
+        { "key": "a", "text": "Utiliser de l'eau savonneuse sur le feuillage des plantes" },
+        { "key": "b", "text": "Utiliser un piège mécanique afin de piéger les campagnols" },
+        { "key": "c", "text": "Utiliser des variétés résistantes" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 56,
+      "question": "Afin de lutter contre une maladie bactérienne :",
+      "choices": [
+        { "key": "a", "text": "Il est conseillé de recourir à la lutte chimique" },
+        { "key": "b", "text": "Il est conseillé de recourir à un lâcher d'insectes auxiliaires" },
+        { "key": "c", "text": "Il est conseillé de supprimer les parties de plantes atteintes par la maladie" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 57,
+      "question": "Afin de lutter contre les mauvaises herbes, quelle méthode alternative aux produits phytopharmaceutiques peut être utilisée ?",
+      "choices": [
+        { "key": "a", "text": "Réaliser un paillage" },
+        { "key": "b", "text": "Appliquer de l'eau savonneuse sur le feuillage des plantes adventices" },
+        { "key": "c", "text": "Procéder à un lâcher d'insectes auxiliaires" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 58,
+      "question": "Un traitement fongicide est réalisé à double dose par rapport à la dose recommandée.",
+      "choices": [
+        { "key": "a", "text": "Cela est interdit" },
+        { "key": "b", "text": "Cela est autorisé lorsque la pression parasitaire est très forte" },
+        { "key": "c", "text": "Cela est autorisé à condition de ne pas traiter à proximité d’un cours d’eau" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 59,
+      "question": "L’étalonnage d’un pulvérisateur à dos sert :",
+      "choices": [
+        { "key": "a", "text": "À connaître la taille de l’aire à pulvériser" },
+        { "key": "b", "text": "À connaître le volume de bouillie à utiliser par unité de surface" },
+        { "key": "c", "text": "À comptabiliser le nombre de pas effectués par l’utilisateur d’un pulvérisateur à dos" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 60,
+      "question": "Une surface du jardin vient d’être traitée avec un produit phytopharmaceutique :",
+      "choices": [
+        { "key": "a", "text": "Il est conseillé d’attendre 2 à 3h avant de fréquenter à nouveau cette zone" },
+        { "key": "b", "text": "Il est conseillé de se référer à l’étiquette du produit afin de savoir quand la zone peut à nouveau être fréquentée" },
+        { "key": "c", "text": "Il n'est pas nécessaire d'attendre avant de fréquenter à nouveau cette zone" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 61,
+      "question": "Les emballages vides de produits phytopharmaceutiques :",
+      "choices": [
+        { "key": "a", "text": "Sont placés dans un sac PMC et ramassés par les services (inter)communaux" },
+        { "key": "b", "text": "Sont rapportés dans un parc à conteneurs" },
+        { "key": "c", "text": "Sont jetés avec les ordures ménagères" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 62,
+      "question": "Après un traitement phytosanitaire, le matériel de pulvérisation est rincé. Les eaux de rinçage sont :",
+      "choices": [
+        { "key": "a", "text": "Épandues sur une surface enherbée ou riche en matière organique" },
+        { "key": "b", "text": "Éliminées dans les égouts" },
+        { "key": "c", "text": "Ces deux propositions sont correctes" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 63,
+      "question": "L’emballage d’un produit phytopharmaceutique est abîmé et illisible.",
+      "choices": [
+        { "key": "a", "text": "Le produit peut tout de même être utilisé" },
+        { "key": "b", "text": "Le produit doit être éliminé dans un parc à conteneurs" },
+        { "key": "c", "text": "Le produit doit être éliminé via le ramassage des déchets ménagers" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 64,
+      "question": "Lors de l’utilisation de produits phytopharmaceutiques :",
+      "choices": [
+        { "key": "a", "text": "Il n’est pas nécessaire de porter des gants" },
+        { "key": "b", "text": "Il est préférable de porter des gants en nitrile ou néoprène" },
+        { "key": "c", "text": "Il est préférable de porter des gants jetables en latex" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 65,
+      "question": "Lors du remplissage du pulvérisateur :",
+      "choices": [
+        { "key": "a", "text": "Il est conseillé de se laver les mains au savon après la préparation de la bouillie" },
+        { "key": "b", "text": "Il est conseillé de se rincer les mains uniquement à l’eau claire" },
+        { "key": "c", "text": "Aucune mesure spécifique ne doit être prise" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 66,
+      "question": "Le rinçage extérieur des pulvérisateurs peut se faire entre autres :",
+      "choices": [
+        { "key": "a", "text": "Sur une zone enherbée" },
+        { "key": "b", "text": "Sur un sol nu pentu" },
+        { "key": "c", "text": "Sur une surface pavée" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 67,
+      "question": "Un produit phytopharmaceutique est transféré dans un autre emballage que son emballage d’origine :",
+      "choices": [
+        { "key": "a", "text": "Cela est interdit par la loi" },
+        { "key": "b", "text": "Cela est autorisé par la loi" },
+        { "key": "c", "text": "Cela est autorisé par la loi à condition de conserver l’étiquette d’origine du produit" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 68,
+      "question": "Un produit phytopharmaceutique est exposé au gel :",
+      "choices": [
+        { "key": "a", "text": "Cela n’altère en aucun cas l’efficacité du produit" },
+        { "key": "b", "text": "Cela risque d’altérer les propriétés physico-chimiques du produit ; le produit peut perdre en efficacité" },
+        { "key": "c", "text": "Le produit doit alors être secoué vivement avant son utilisation" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 69,
+      "question": "Il est conseillé qu’un particulier conserve ses produits phytopharmaceutiques :",
+      "choices": [
+        { "key": "a", "text": "Dans une armoire sécurisée hors de portée des enfants" },
+        { "key": "b", "text": "Dans un sac plastique" },
+        { "key": "c", "text": "Ces deux propositions sont correctes" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 70,
+      "question": "L’étiquette d'un produit phytopharmaceutique est devenue illisible :",
+      "choices": [
+        { "key": "a", "text": "Le produit doit être évacué dans un parc à conteneurs" },
+        { "key": "b", "text": "Le produit peut être conservé à condition de connaître sa nature" },
+        { "key": "c", "text": "Le produit peut toujours être conservé" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 71,
+      "question": "Que signifie ce pictogramme ?",
+      "choices": [
+        { "key": "a", "text": "Eaux contaminées par les produits chimiques" },
+        { "key": "b", "text": "Dangereux pour l’environnement" },
+        { "key": "c", "text": "Danger de mort" }
+      ],
+      "answer": "b",
+      "image": "assets/qcm/q71.png"
+    },
+    {
+      "id": 72,
+      "question": "Que signifie ce pictogramme ?",
+      "choices": [
+        { "key": "a", "text": "Toxique" },
+        { "key": "b", "text": "Corrosif" },
+        { "key": "c", "text": "Aucune de ces propositions n’est correcte" }
+      ],
+      "answer": "a",
+      "image": "assets/qcm/q72.png"
+    },
+    {
+      "id": 73,
+      "question": "Que signifie ce pictogramme ?",
+      "choices": [
+        { "key": "a", "text": "Dangereux pour la santé (nocif ou irritant)" },
+        { "key": "b", "text": "Inflammable" },
+        { "key": "c", "text": "Dangereux pour l’environnement" }
+      ],
+      "answer": "a",
+      "image": "assets/qcm/q73.png"
+    },
+    {
+      "id": 74,
+      "question": "Que signifie ce pictogramme ?",
+      "choices": [
+        { "key": "a", "text": "Dangereux pour la santé (nocif ou irritant)" },
+        { "key": "b", "text": "Comburant" },
+        { "key": "c", "text": "Dangereux pour la santé" }
+      ],
+      "answer": "b",
+      "image": "assets/qcm/q74.png"
+    },
+    {
+      "id": 75,
+      "question": "Les consignes à respecter lors de la préparation d’une bouillie :",
+      "choices": [
+        { "key": "a", "text": "Sont indiquées sur les étiquettes des produits" },
+        { "key": "b", "text": "Dépendent du type de formulation du produit" },
+        { "key": "c", "text": "Ces deux propositions sont correctes" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 76,
+      "question": "Les pictogrammes présents sur l’étiquette des produits phytopharmaceutiques :",
+      "choices": [
+        { "key": "a", "text": "Indiquent la nature du danger" },
+        { "key": "b", "text": "Indiquent le ravageur ciblé" },
+        { "key": "c", "text": "Indiquent les zones d’utilisation" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 77,
+      "question": "Le type de formulation d’un produit phytopharmaceutique :",
+      "choices": [
+        { "key": "a", "text": "Est toujours indiqué sur l’étiquette" },
+        { "key": "b", "text": "Est parfois indiqué sur l’étiquette" },
+        { "key": "c", "text": "N’est jamais indiqué sur l’étiquette" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 78,
+      "question": "L’étiquette d’origine d’un produit phytopharmaceutique :",
+      "choices": [
+        { "key": "a", "text": "Peut toujours être détachée" },
+        { "key": "b", "text": "Peut être détachée si conservée" },
+        { "key": "c", "text": "Ne peut jamais être détachée du contenant" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 79,
+      "question": "Un produit phytopharmaceutique qui n’est plus agréé depuis 5 ans :",
+      "choices": [
+        { "key": "a", "text": "Peut encore être utilisé" },
+        { "key": "b", "text": "Doit être éliminé dans un parc à conteneurs" },
+        { "key": "c", "text": "Peut être utilisé à dose réduite" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 80,
+      "question": "Un produit phytopharmaceutique dont l’emballage est déchiré ou abîmé :",
+      "choices": [
+        { "key": "a", "text": "Peut encore être utilisé pendant 6 mois" },
+        { "key": "b", "text": "Doit être éliminé dans un parc à conteneurs" },
+        { "key": "c", "text": "Peut être utilisé à dose réduite" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 81,
+      "question": "Un particulier utilise des produits phytopharmaceutiques sans protection et ne ressent aucun effet immédiat :",
+      "choices": [
+        { "key": "a", "text": "Cela est impossible" },
+        { "key": "b", "text": "Cela est possible mais des effets chroniques peuvent apparaître plus tard" },
+        { "key": "c", "text": "Cela dépend de la résistance de la personne" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 82,
+      "question": "L’intoxication aiguë se distingue de l’intoxication chronique :",
+      "choices": [
+        { "key": "a", "text": "Par la fréquence et la durée d’exposition" },
+        { "key": "b", "text": "Par le degré de toxicité uniquement" },
+        { "key": "c", "text": "Aucune de ces propositions" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 83,
+      "question": "Après ingestion d’un produit phytopharmaceutique avec perte de connaissance :",
+      "choices": [
+        { "key": "a", "text": "Faire boire du lait" },
+        { "key": "b", "text": "Appeler les secours (112)" },
+        { "key": "c", "text": "Faire boire de l’eau" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 84,
+      "question": "Après une intoxication connue avec maux de tête :",
+      "choices": [
+        { "key": "a", "text": "Boire de l’eau" },
+        { "key": "b", "text": "Prendre une aspirine" },
+        { "key": "c", "text": "Appeler le centre Antipoisons ou consulter un médecin" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 85,
+      "question": "L’élimination des eaux de rinçage du pulvérisateur peut se faire :",
+      "choices": [
+        { "key": "a", "text": "Sur une aire enherbée" },
+        { "key": "b", "text": "Dans une cour pavée ou bétonnée" },
+        { "key": "c", "text": "À proximité immédiate d’un cours d’eau" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 86,
+      "question": "Pulvériser un produit phytopharmaceutique en cas de pluie :",
+      "choices": [
+        { "key": "a", "text": "N’est pas conseillé à cause du risque de lessivage" },
+        { "key": "b", "text": "Est conseillé" },
+        { "key": "c", "text": "N’a aucune incidence" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 87,
+      "question": "Le surdosage d’un produit phytopharmaceutique :",
+      "choices": [
+        { "key": "a", "text": "Peut être néfaste pour les organismes non-cibles" },
+        { "key": "b", "text": "Augmente le risque de pollution de l’eau" },
+        { "key": "c", "text": "Ces deux propositions sont correctes" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 88,
+      "question": "L’emploi d’un produit phytopharmaceutique à une température supérieure à 25°C :",
+      "choices": [
+        { "key": "a", "text": "N’est pas conseillé" },
+        { "key": "b", "text": "Est conseillé" },
+        { "key": "c", "text": "N’a aucune influence" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 89,
+      "question": "Lorsque le vent met en mouvement les petites branches :",
+      "choices": [
+        { "key": "a", "text": "L’application n’est pas conseillée (risque de dérive)" },
+        { "key": "b", "text": "L’application est conseillée" },
+        { "key": "c", "text": "Aucune incidence" }
+      ],
+      "answer": "a"
+    },
+    {
+      "id": 90,
+      "question": "L’hygrométrie de l’air lors de la pulvérisation :",
+      "choices": [
+        { "key": "a", "text": "Doit être très basse" },
+        { "key": "b", "text": "Doit idéalement être supérieure à 60%" },
+        { "key": "c", "text": "N’a aucune importance" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 91,
+      "question": "Un client souhaite désherber son allée de garage :",
+      "choices": [
+        { "key": "a", "text": "Je conseille le glyphosate" },
+        { "key": "b", "text": "Je conseille un herbicide adapté" },
+        { "key": "c", "text": "Je propose des méthodes alternatives" }
+      ],
+      "answer": "c"
+    },
+    {
+      "id": 92,
+      "question": "Conseil face au dépérissement d’une haie de thuyas :",
+      "choices": [
+        { "key": "a", "text": "Conseiller un fongicide au cuivre" },
+        { "key": "b", "text": "Éliminer les parties atteintes et établir un diagnostic" },
+        { "key": "c", "text": "Utiliser une bouillie prête à l’emploi" }
+      ],
+      "answer": "b"
+    },
+    {
+      "id": 93,
+      "question": "De quel agent pathogène s’agit-il ?",
+      "choices": [
+        { "key": "a", "text": "Botrytis cinerea" },
+        { "key": "b", "text": "Pestalotiopsis funerea" },
+        { "key": "c", "text": "Armillaria mellea" }
+      ],
+      "answer": "a",
+      "image": "assets/qcm/q93.png"
+    },
+    {
+      "id": 94,
+      "question": "De quel agent pathogène s’agit-il ?",
+      "choices": [
+        { "key": "a", "text": "Botrytis cinerea" },
+        { "key": "b", "text": "Pestalotiopsis funerea" },
+        { "key": "c", "text": "Armillaria mellea" }
+      ],
+      "answer": "c",
+      "image": "assets/qcm/q94.png"
+    },
+    {
+      "id": 95,
+      "question": "De quels ravageurs s’agit-il ?",
+      "choices": [
+        { "key": "a", "text": "Des cochenilles" },
+        { "key": "b", "text": "Des pucerons" },
+        { "key": "c", "text": "Des acariens" }
+      ],
+      "answer": "a",
+      "image": "assets/qcm/q95.png"
+    }
+  ]
+  
