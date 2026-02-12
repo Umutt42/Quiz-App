@@ -1,90 +1,118 @@
 <div class="container">
-    <h1>Quiz</h1>
-  
-    <div *ngIf="loading">Chargement...</div>
-    <div *ngIf="error">{{ error }}</div>
-  
-    <ng-container *ngIf="!loading && !error">
-      <div *ngIf="current as q; else finished">
-        <div class="topbar">
-          <div>Question {{ index + 1 }} / {{ questions.length }}</div>
-          <div class="topbar-right">
-            <span>Score: {{ score }}</span>
-            <a class="back-home" [routerLink]="'/'">Accueil</a>
-          </div>
-        </div>
-  
-        <h2 class="question">{{ q.question }}</h2>
+  <h1>Quiz</h1>
 
-        <img
-          *ngIf="q.image"
-          class="question-image"
-          [src]="q.image"
-          [alt]="'Illustration de la question ' + (index + 1)"
-        />
-  
-        <div class="choices">
-          <button
-            *ngFor="let c of q.choices"
-            (click)="select(c.key)"
-            [class.selected]="selected === c.key"
-            [class.correct]="showCorrection && c.key === q.answer"
-            [class.wrong]="showCorrection && selected === c.key && c.key !== q.answer"
-          >
-            <span class="key">{{ c.key.toUpperCase() }}</span>
-            <span>{{ c.text }}</span>
-          </button>
-        </div>
-  
-        <div class="feedback" *ngIf="showCorrection">
-          <p *ngIf="isCorrect" class="ok">✅ Correct</p>
-          <p *ngIf="isCorrect === false" class="no">❌ Faux (bonne réponse : {{ q.answer.toUpperCase() }})</p>
-          <p *ngIf="q.explanation">{{ q.explanation }}</p>
-  
-          <button class="next" (click)="next()">
-            Suivant
-          </button>
+  <div *ngIf="loading">Chargement...</div>
+  <div *ngIf="error">{{ error }}</div>
+
+  <ng-container *ngIf="!loading && !error">
+    <div *ngIf="current as q; else finished">
+      
+      <div class="topbar">
+        <div>Question {{ index + 1 }} / {{ questions.length }}</div>
+        <div class="topbar-right">
+          <span>Score: {{ score }}</span>
+          <a class="back-home" [routerLink]="'/'">Accueil</a>
         </div>
       </div>
-  
-      <ng-template #finished>
-        <h2>Terminé 🎉</h2>
-        <p>Ton score : {{ score }} / {{ questions.length }}</p>
 
-        <p *ngIf="passed" class="result-message success">
-          Bravo, tu as réussi le quiz ! 🥳
+      <h2 class="question">{{ q.question }}</h2>
+
+      <!-- IMAGE CLIQUABLE -->
+      <img
+        *ngIf="q.image"
+        class="question-image clickable"
+        [src]="q.image"
+        [alt]="'Illustration de la question ' + (index + 1)"
+        (click)="openImage()"
+      />
+
+      <div class="choices">
+        <button
+          *ngFor="let c of q.choices"
+          (click)="select(c.key)"
+          [class.selected]="selected === c.key"
+          [class.correct]="showCorrection && c.key === q.answer"
+          [class.wrong]="showCorrection && selected === c.key && c.key !== q.answer"
+        >
+          <span class="key">{{ c.key.toUpperCase() }}</span>
+          <span>{{ c.text }}</span>
+        </button>
+      </div>
+
+      <div class="feedback" *ngIf="showCorrection">
+        <p *ngIf="isCorrect" class="ok">✅ Correct</p>
+        <p *ngIf="isCorrect === false" class="no">
+          ❌ Faux (bonne réponse : {{ q.answer.toUpperCase() }})
         </p>
-        <p *ngIf="!passed" class="result-message info">
-          Ce n’est pas encore validé, mais tu peux progresser rapidement en refaisant le quiz.
-        </p>
 
-        <section *ngIf="wrongAnswers.length > 0" class="results">
-          <h3>Tes erreurs</h3>
-          <div class="result-item" *ngFor="let r of wrongAnswers">
-            <p class="question-text">{{ r.question.question }}</p>
-            <p class="answer-line">
-              <span class="label">Ta réponse :</span>
-              <span *ngIf="r.selected; else noAnswer">
-                {{ formatAnswer(r.question, r.selected) }}
-              </span>
-            </p>
-            <ng-template #noAnswer>
-              <span>aucune réponse</span>
-            </ng-template>
-            <p class="answer-line">
-              <span class="label">Bonne réponse :</span>
-              {{ formatAnswer(r.question, r.question.answer) }}
-            </p>
-          </div>
-        </section>
+        <p *ngIf="q.explanation">{{ q.explanation }}</p>
 
-        <div class="end-actions">
-          <button (click)="restart()">
-            Refaire le quiz pour t'améliorer
-          </button>
-          <a class="back-home" [routerLink]="'/'">Retour à l'accueil</a>
+        <button class="next" (click)="next()">
+          Suivant
+        </button>
+      </div>
+    </div>
+
+    <!-- FIN DU QUIZ -->
+    <ng-template #finished>
+      <h2>Terminé 🎉</h2>
+      <p>Ton score : {{ score }} / {{ questions.length }}</p>
+
+      <p *ngIf="passed" class="result-message success">
+        Bravo, tu as réussi le quiz ! 🥳
+      </p>
+      <p *ngIf="!passed" class="result-message info">
+        Ce n’est pas encore validé, mais tu peux progresser rapidement en refaisant le quiz.
+      </p>
+
+      <section *ngIf="wrongAnswers.length > 0" class="results">
+        <h3>Tes erreurs</h3>
+
+        <div class="result-item" *ngFor="let r of wrongAnswers">
+          <p class="question-text">{{ r.question.question }}</p>
+
+          <p class="answer-line">
+            <span class="label">Ta réponse :</span>
+            <span *ngIf="r.selected; else noAnswer">
+              {{ formatAnswer(r.question, r.selected) }}
+            </span>
+          </p>
+
+          <ng-template #noAnswer>
+            <span>aucune réponse</span>
+          </ng-template>
+
+          <p class="answer-line">
+            <span class="label">Bonne réponse :</span>
+            {{ formatAnswer(r.question, r.question.answer) }}
+          </p>
         </div>
-      </ng-template>
-    </ng-container>
+      </section>
+
+      <div class="end-actions">
+        <button (click)="restart()">
+          Refaire le quiz pour t'améliorer
+        </button>
+        <a class="back-home" [routerLink]="'/'">Retour à l'accueil</a>
+      </div>
+    </ng-template>
+  </ng-container>
+</div>
+
+
+<!-- MODAL IMAGE -->
+<div
+  *ngIf="isImageOpen && current?.image"
+  class="image-overlay"
+  (click)="closeImage()"
+>
+  <div class="image-wrapper" (click)="$event.stopPropagation()">
+    <button class="close-btn" (click)="closeImage()">✕</button>
+
+    <img
+      [src]="current?.image"
+      class="image-large"
+      alt="Image agrandie"
+    />
   </div>
-  
+</div>

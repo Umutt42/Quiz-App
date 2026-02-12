@@ -1,5 +1,9 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  HostListener,
+} from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { QuizService } from '../../services/quiz.service';
 import { ChoiceKey, Question } from '../../models/quiz.models';
@@ -9,45 +13,11 @@ import { ChoiceKey, Question } from '../../models/quiz.models';
  * pour une question spécifique.
  */
 interface AnswerReview {
-
-  /**
-   * Question concernée.
-   */
   question: Question;
-
-  /**
-   * Réponse sélectionnée par l’utilisateur.
-   * Null si aucune réponse n’a été sélectionnée.
-   */
   selected: ChoiceKey | null;
-
-  /**
-   * Indique si la réponse est correcte.
-   */
   isCorrect: boolean;
 }
 
-/**
- * Composant Quiz
- *
- * Description :
- * Gère l'affichage et la logique d’un quiz phytolicence.
- *
- * Fonctionnalités principales :
- * - Chargement dynamique des questions selon la banque sélectionnée.
- * - Mode "random" : 30 questions aléatoires.
- * - Mode "all" : toutes les questions.
- * - Calcul du score en temps réel.
- * - Affichage de la correction après chaque réponse.
- * - Génération d’un récapitulatif des erreurs.
- *
- * Paramètres d’URL :
- * - bank : identifie la banque de questions (np, pp, p2, p3).
- * - mode : 'random' (défaut) ou 'all'.
- *
- * Seuil de réussite :
- * - 21/30 en mode aléatoire.
- */
 @Component({
   selector: 'app-quiz',
   standalone: true,
@@ -93,42 +63,58 @@ export class Quiz implements OnInit {
   /** Historique des réponses */
   reviews: AnswerReview[] = [];
 
+  /** ---------------- IMAGE MODAL ---------------- */
+
+  /** Indique si l'image est affichée en grand */
+  isImageOpen = false;
+
+  /**
+   * Ouvre l’image en grand
+   */
+  openImage(): void {
+    this.isImageOpen = true;
+    document.body.style.overflow = 'hidden'; // bloque scroll arrière-plan
+  }
+
+  /**
+   * Ferme l’image
+   */
+  closeImage(): void {
+    this.isImageOpen = false;
+    document.body.style.overflow = 'auto';
+  }
+
+  /**
+   * Ferme la modal si on appuie sur ESC
+   */
+  @HostListener('document:keydown.escape')
+  handleEscape(): void {
+    if (this.isImageOpen) {
+      this.closeImage();
+    }
+  }
+
+  /** -------------------------------------------- */
+
   constructor(
     private readonly quizService: QuizService,
     private readonly route: ActivatedRoute,
   ) {}
 
-  /**
-   * Retourne la question actuellement affichée.
-   */
   get current(): Question | null {
     return this.questions[this.index] ?? null;
   }
 
-  /**
-   * Retourne la liste des réponses incorrectes.
-   */
   get wrongAnswers(): AnswerReview[] {
     return this.reviews.filter((r) => !r.isCorrect);
   }
 
-  /**
-   * Indique si l’utilisateur a réussi le quiz.
-   * Valide uniquement en mode aléatoire (30 questions).
-   */
   get passed(): boolean {
     if (this.mode !== 'random' || !this.questions.length) return false;
-    const threshold = 21; // 21/30
+    const threshold = 21;
     return this.score >= threshold;
   }
 
-  /**
-   * Formate une réponse pour affichage dans le récapitulatif.
-   *
-   * @param question Question concernée
-   * @param key Clé de réponse sélectionnée
-   * @returns Chaîne formatée (ex: "A – Texte")
-   */
   formatAnswer(question: Question, key: ChoiceKey | null): string {
     if (!key) return '';
 
@@ -138,10 +124,6 @@ export class Quiz implements OnInit {
     return `${key.toUpperCase()} – ${choice.text}`;
   }
 
-  /**
-   * Initialisation du composant.
-   * Récupère les paramètres d’URL et charge les questions.
-   */
   ngOnInit(): void {
     this.route.queryParamMap.subscribe((params) => {
       this.mode = params.get('mode') === 'all' ? 'all' : 'random';
@@ -160,11 +142,6 @@ export class Quiz implements OnInit {
     });
   }
 
-  /**
-   * Enregistre la réponse sélectionnée par l’utilisateur.
-   *
-   * @param key Clé de la réponse choisie
-   */
   select(key: ChoiceKey): void {
     if (!this.current || this.showCorrection) return;
 
@@ -182,9 +159,6 @@ export class Quiz implements OnInit {
     this.showCorrection = true;
   }
 
-  /**
-   * Passe à la question suivante.
-   */
   next(): void {
     if (!this.current) return;
 
@@ -194,9 +168,6 @@ export class Quiz implements OnInit {
     this.isCorrect = null;
   }
 
-  /**
-   * Redémarre le quiz.
-   */
   restart(): void {
     if (this.allQuestions.length) {
       this.resetQuiz();
@@ -208,9 +179,6 @@ export class Quiz implements OnInit {
     this.load();
   }
 
-  /**
-   * Charge les questions depuis le QuizService.
-   */
   private load(): void {
     this.loading = true;
     this.error = null;
@@ -222,6 +190,7 @@ export class Quiz implements OnInit {
     this.showCorrection = false;
     this.isCorrect = null;
     this.reviews = [];
+    this.isImageOpen = false;
 
     this.quizService.loadQuestions(this.bank).subscribe({
       next: (qs) => {
@@ -236,11 +205,6 @@ export class Quiz implements OnInit {
     });
   }
 
-  /**
-   * Initialise ou réinitialise une session de quiz.
-   * - Mode "all" : toutes les questions.
-   * - Mode "random" : 30 questions mélangées.
-   */
   private resetQuiz(): void {
     if (!this.allQuestions.length) return;
 
@@ -249,7 +213,6 @@ export class Quiz implements OnInit {
     } else {
       const pool = [...this.allQuestions];
 
-      // Mélange de Fisher-Yates
       for (let i = pool.length - 1; i > 0; i -= 1) {
         const j = Math.floor(Math.random() * (i + 1));
         [pool[i], pool[j]] = [pool[j], pool[i]];
