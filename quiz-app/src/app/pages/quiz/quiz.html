@@ -6,7 +6,8 @@
 
   <ng-container *ngIf="!loading && !error">
     <div *ngIf="current as q; else finished">
-      
+
+      <!-- TOP BAR -->
       <div class="topbar">
         <div>Question {{ index + 1 }} / {{ questions.length }}</div>
         <div class="topbar-right">
@@ -15,6 +16,7 @@
         </div>
       </div>
 
+      <!-- QUESTION -->
       <h2 class="question">{{ q.question }}</h2>
 
       <!-- IMAGE CLIQUABLE -->
@@ -26,6 +28,7 @@
         (click)="openImage()"
       />
 
+      <!-- CHOIX -->
       <div class="choices">
         <button
           *ngFor="let c of q.choices"
@@ -39,6 +42,26 @@
         </button>
       </div>
 
+      <!-- NAVIGATION (TOUJOURS VISIBLE) -->
+      <div class="nav-buttons">
+        <button
+          class="prev"
+          (click)="previous()"
+          [disabled]="index === 0"
+        >
+          Précédent
+        </button>
+
+        <button
+          class="next"
+          (click)="next()"
+          [disabled]="!canGoNext"
+        >
+          {{ index === questions.length - 1 ? 'Terminer' : 'Suivant' }}
+        </button>
+      </div>
+
+      <!-- FEEDBACK -->
       <div class="feedback" *ngIf="showCorrection">
         <p *ngIf="isCorrect" class="ok">✅ Correct</p>
         <p *ngIf="isCorrect === false" class="no">
@@ -46,11 +69,8 @@
         </p>
 
         <p *ngIf="q.explanation">{{ q.explanation }}</p>
-
-        <button class="next" (click)="next()">
-          Suivant
-        </button>
       </div>
+
     </div>
 
     <!-- FIN DU QUIZ -->
@@ -93,12 +113,14 @@
         <button (click)="restart()">
           Refaire le quiz pour t'améliorer
         </button>
-        <a class="back-home" [routerLink]="'/'">Retour à l'accueil</a>
+        <a class="back-home" [routerLink]="'/'">
+          Retour à l'accueil
+        </a>
       </div>
     </ng-template>
+
   </ng-container>
 </div>
-
 
 <!-- MODAL IMAGE -->
 <div

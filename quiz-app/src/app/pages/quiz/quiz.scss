@@ -3,13 +3,13 @@
 ========================= */
 
 .container {
-  max-width: 880px;
+  max-width: 920px;
   margin: 32px auto;
-  padding: 24px 20px;
+  padding: 26px 22px;
   background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
-  border-top: 4px solid #4d9c18;
+  border-radius: 14px;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.08);
+  border-top: 5px solid #4d9c18;
 }
 
 /* =========================
@@ -20,8 +20,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  opacity: 0.85;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eef2f7;
+  opacity: 0.92;
 }
 
 .topbar-right {
@@ -34,6 +36,7 @@
   font-size: 0.9rem;
   color: #2563eb;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .back-home:hover {
@@ -41,12 +44,21 @@
 }
 
 /* =========================
-   QUESTION
+   TITRES / QUESTION
 ========================= */
 
+h1 {
+  margin: 0 0 10px;
+  font-size: 2.2rem;
+  letter-spacing: -0.02em;
+}
+
 .question {
-  margin: 16px 0;
-  font-weight: 600;
+  margin: 14px 0 10px;
+  font-size: 1.25rem;
+  line-height: 1.35;
+  font-weight: 700;
+  color: #0f172a;
 }
 
 /* =========================
@@ -55,18 +67,19 @@
 
 .question-image {
   display: block;
-  max-width: 260px;
+  max-width: 320px;
   width: 100%;
   height: auto;
-  margin: 16px auto;
-  border-radius: 10px;
+  margin: 14px auto 16px;
+  border-radius: 12px;
   cursor: pointer;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.10);
 }
 
 .question-image:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  transform: scale(1.03);
+  box-shadow: 0 14px 24px rgba(0, 0, 0, 0.14);
 }
 
 /* =========================
@@ -76,25 +89,25 @@
 .image-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(2, 6, 23, 0.82);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  animation: fadeIn 0.2s ease-in-out;
+  animation: fadeIn 0.18s ease-in-out;
 }
 
 .image-wrapper {
   position: relative;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 92%;
+  max-height: 92%;
 }
 
 .image-large {
   max-width: 100%;
   max-height: 90vh;
   border-radius: 14px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 26px 60px rgba(0, 0, 0, 0.45);
 }
 
 .close-btn {
@@ -103,17 +116,17 @@
   right: -14px;
   background: white;
   border: none;
-  border-radius: 50%;
-  width: 38px;
-  height: 38px;
+  border-radius: 999px;
+  width: 40px;
+  height: 40px;
   font-size: 18px;
   cursor: pointer;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
-  transition: transform 0.2s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
+  transition: transform 0.18s ease;
 }
 
 .close-btn:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
 @keyframes fadeIn {
@@ -122,48 +135,125 @@
 }
 
 /* =========================
-   CHOICES
+   CHOICES (IMPORTANT: scoped)
 ========================= */
 
 .choices {
   display: grid;
   gap: 12px;
+  margin-top: 10px;
 }
 
-button {
-  padding: 14px 12px;
-  border-radius: 12px;
-  border: 1px solid #b7c90d;
+.choices button {
+  padding: 14px 14px;
+  border-radius: 14px;
+  border: 1px solid #cfe2a1;
   cursor: pointer;
   text-align: left;
-  background: #f5f8e0;
-  transition: all 0.2s ease;
+  background: #f7fae8;
+  transition: transform 0.08s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 6px 14px rgba(2, 6, 23, 0.06);
+  color: #0f172a;
 }
 
-button:hover:not(.correct):not(.wrong) {
-  background: #e8f0c5;
+.choices button:hover:not(.correct):not(.wrong) {
+  background: #eef6cf;
+  border-color: #b7c90d;
 }
 
-button.selected {
+.choices button:active {
+  transform: translateY(1px);
+}
+
+.choices button:focus-visible {
+  outline: 3px solid rgba(77, 156, 24, 0.35);
+  outline-offset: 2px;
+}
+
+/* option sélectionnée avant correction */
+.choices button.selected {
   border-color: #4d9c18;
+  box-shadow: 0 10px 18px rgba(77, 156, 24, 0.15);
 }
 
-button.correct {
-  border-color: #4d9c18;
-  background: #b7c90d;
-  color: #1a1a1a;
-  font-weight: 600;
+/* correction */
+.choices button.correct {
+  border-color: #2f7a0b;
+  background: #dff4c9;
+  font-weight: 700;
 }
 
-button.wrong {
+.choices button.wrong {
   border-color: #e3254e;
-  background: #ffe4ea;
+  background: #ffe7ee;
 }
 
 .key {
-  display: inline-block;
-  width: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 28px;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-weight: 800;
+  color: #0f172a;
+  background: rgba(15, 23, 42, 0.06);
+}
+
+/* =========================
+   NAV BUTTONS (always visible)
+========================= */
+
+.nav-buttons {
+  margin-top: 14px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.prev,
+.next {
+  width: fit-content;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.05s ease, background 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
   font-weight: 700;
+}
+
+.prev {
+  background: #eef2f7;
+  color: #0f172a;
+  border: 1px solid #cbd5e1;
+}
+
+.prev:hover {
+  background: #e2e8f0;
+}
+
+.next {
+  background: #4d9c18;
+  color: #fff;
+  border: none;
+  box-shadow: 0 10px 18px rgba(77, 156, 24, 0.22);
+}
+
+.next:hover {
+  background: #3f8214;
+}
+
+.prev:active,
+.next:active {
+  transform: translateY(1px);
+}
+
+.prev:disabled,
+.next:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  box-shadow: none;
 }
 
 /* =========================
@@ -171,78 +261,69 @@ button.wrong {
 ========================= */
 
 .feedback {
-  margin-top: 18px;
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid #eef2f7;
+  background: #fbfdff;
   display: grid;
-  gap: 10px;
+  gap: 8px;
 }
 
 .ok {
-  color: #4d9c18;
-  font-weight: 700;
+  color: #2f7a0b;
+  font-weight: 800;
 }
 
 .no {
   color: #e3254e;
-  font-weight: 700;
-}
-
-.next {
-  width: fit-content;
-  padding: 10px 16px;
-  border-radius: 8px;
-  background: #4d9c18;
-  color: white;
-  border: none;
-  cursor: pointer;
-  transition: background 0.2s ease;
-}
-
-.next:hover {
-  background: #3f8214;
+  font-weight: 800;
 }
 
 /* =========================
-   RESULTS
+   RESULTS (fin)
 ========================= */
 
 .results {
-  margin-top: 24px;
+  margin-top: 22px;
   display: grid;
-  gap: 16px;
+  gap: 14px;
   text-align: left;
 }
 
 .result-item {
   padding: 14px 16px;
-  border-radius: 12px;
-  background: #f5f8e0;
+  border-radius: 14px;
+  background: #f7fae8;
+  border: 1px solid #e8f0c5;
 }
 
 .result-item .question-text {
-  font-weight: 600;
+  font-weight: 800;
   margin-bottom: 6px;
+  color: #0f172a;
 }
 
 .answer-line {
-  margin: 2px 0;
+  margin: 3px 0;
 }
 
 .answer-line .label {
-  font-weight: 600;
+  font-weight: 700;
   margin-right: 4px;
 }
 
 .result-message {
-  margin-top: 12px;
-}
-
-.result-message.success {
-  color: #4d9c18;
+  margin-top: 10px;
   font-weight: 600;
 }
 
+.result-message.success {
+  color: #2f7a0b;
+}
+
 .result-message.info {
-  color: #e3254e;
+  color: #b91c1c;
 }
 
 /* =========================
@@ -250,7 +331,7 @@ button.wrong {
 ========================= */
 
 .end-actions {
-  margin-top: 20px;
+  margin-top: 18px;
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
@@ -259,16 +340,22 @@ button.wrong {
 
 .end-actions button {
   padding: 10px 16px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: none;
   background: #4d9c18;
   color: white;
   cursor: pointer;
-  transition: background 0.2s ease;
+  transition: background 0.2s ease, transform 0.05s ease;
+  font-weight: 700;
+  box-shadow: 0 10px 18px rgba(77, 156, 24, 0.22);
 }
 
 .end-actions button:hover {
   background: #3f8214;
+}
+
+.end-actions button:active {
+  transform: translateY(1px);
 }
 
 /* =========================
@@ -279,6 +366,14 @@ button.wrong {
   .container {
     margin: 16px;
     padding: 16px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .question {
+    font-size: 1.1rem;
   }
 
   .question-image {

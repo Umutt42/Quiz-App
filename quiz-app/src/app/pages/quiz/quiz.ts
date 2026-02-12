@@ -1,9 +1,5 @@
 import { CommonModule } from '@angular/common';
-import {
-  Component,
-  OnInit,
-  HostListener,
-} from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { QuizService } from '../../services/quiz.service';
 import { ChoiceKey, Question } from '../../models/quiz.models';
@@ -26,7 +22,6 @@ interface AnswerReview {
   styleUrl: './quiz.scss',
 })
 export class Quiz implements OnInit {
-
   /** Indique si le quiz est en cours de chargement */
   loading = true;
 
@@ -51,16 +46,25 @@ export class Quiz implements OnInit {
   /** Score actuel */
   score = 0;
 
-  /** Réponse sélectionnée */
+  /** Réponse sélectionnée (UI) */
   selected: ChoiceKey | null = null;
 
-  /** Indique si la correction est affichée */
+  /** Indique si la correction est affichée (UI) */
   showCorrection = false;
 
-  /** Indique si la réponse est correcte */
+  /** Indique si la réponse est correcte (UI) */
   isCorrect: boolean | null = null;
 
-  /** Historique des réponses */
+  /**
+   * Réponses utilisateur par index de question.
+   * Permet de conserver/restaurer la réponse quand on fait précédent/suivant.
+   */
+  answers: (ChoiceKey | null)[] = [];
+
+  /**
+   * Historique des réponses (pour l'écran final "Tes erreurs").
+   * On le garde car ton template l'utilise, mais on le reconstruit depuis `answers`.
+   */
   reviews: AnswerReview[] = [];
 
   /** ---------------- IMAGE MODAL ---------------- */
@@ -105,6 +109,20 @@ export class Quiz implements OnInit {
     return this.questions[this.index] ?? null;
   }
 
+  /**
+   * Utilisé pour activer/désactiver le bouton "Suivant" si tu choisis de bloquer
+   * tant que la question n'est pas répondue.
+   *
+   * 👉 Dans le HTML: [disabled]="!canGoNext"
+   */
+  get canGoNext(): boolean {
+    return !!this.answers[this.index];
+  }
+
+  /**
+   * "Tes erreurs" (écran final)
+   * On retourne uniquement les réponses fausses.
+   */
   get wrongAnswers(): AnswerReview[] {
     return this.reviews.filter((r) => !r.isCorrect);
   }
@@ -133,39 +151,61 @@ export class Quiz implements OnInit {
         bankParam === 'np'
           ? 'np'
           : bankParam === 'p2'
-          ? 'p2'
-          : bankParam === 'p3'
-          ? 'p3'
-          : 'pp';
+            ? 'p2'
+            : bankParam === 'p3'
+              ? 'p3'
+              : 'pp';
 
       this.load();
     });
   }
 
+  /**
+   * Enregistre la réponse et affiche la correction.
+   * ✅ La réponse est conservée quand on navigue.
+   * ✅ Le score est recalculé (pas d'incrément) => pas de bug quand on revient.
+   */
   select(key: ChoiceKey): void {
-    if (!this.current || this.showCorrection) return;
+    if (!this.current) return;
 
-    this.selected = key;
-    this.isCorrect = key === this.current.answer;
+    this.answers[this.index] = key;
 
-    if (this.isCorrect) this.score += 1;
+    // Restaurer l'état UI sur cette question
+    this.restoreState();
 
-    this.reviews.push({
-      question: this.current,
-      selected: key,
-      isCorrect: this.isCorrect ?? false,
-    });
-
-    this.showCorrection = true;
+    // Recalculer score + reconstruire les reviews
+    this.recomputeScoreAndReviews();
   }
 
+  /**
+   * Va à la question suivante.
+   * Option: bloque si pas répondu (via canGoNext).
+   */
   next(): void {
     if (!this.current) return;
 
+    // ✅ Optionnel : empêche d'aller plus loin sans répondre
+    if (!this.canGoNext) return;
+
+    // Dernière question => passe en "finished"
+    if (this.index >= this.questions.length - 1) {
+      this.index += 1;
+      return;
+    }
+
     this.index += 1;
-    this.selected = null;
-    this.showCorrection = false;
-    this.isCorrect = null;
+    this.restoreState();
+  }
+
+  /**
+   * Va à la question précédente.
+   * ✅ Restaure la réponse (si déjà donnée).
+   */
+  previous(): void {
+    if (this.index <= 0) return;
+
+    this.index -= 1;
+    this.restoreState();
   }
 
   restart(): void {
@@ -189,6 +229,7 @@ export class Quiz implements OnInit {
     this.selected = null;
     this.showCorrection = false;
     this.isCorrect = null;
+    this.answers = [];
     this.reviews = [];
     this.isImageOpen = false;
 
@@ -223,10 +264,70 @@ export class Quiz implements OnInit {
     }
 
     this.index = 0;
-    this.score = 0;
+
+    // ✅ initialise un tableau de réponses de la même taille que questions
+    this.answers = new Array(this.questions.length).fill(null);
+
+    // ✅ état UI
     this.selected = null;
     this.showCorrection = false;
     this.isCorrect = null;
+
+    // ✅ score + reviews
+    this.score = 0;
     this.reviews = [];
+  }
+
+  /**
+   * Restaure l'état UI (selected/correction/isCorrect) depuis answers[index].
+   * Appelé après next/previous et après select.
+   */
+  private restoreState(): void {
+    const q = this.current;
+    if (!q) {
+      this.selected = null;
+      this.showCorrection = false;
+      this.isCorrect = null;
+      return;
+    }
+
+    const a = this.answers[this.index] ?? null;
+    this.selected = a;
+
+    if (a) {
+      this.showCorrection = true;
+      this.isCorrect = a === q.answer;
+    } else {
+      this.showCorrection = false;
+      this.isCorrect = null;
+    }
+  }
+
+  /**
+   * Recalcule le score et reconstruit la liste `reviews` depuis `answers`.
+   * ✅ évite le bug "score qui double" et "réponses qui disparaissent"
+   */
+  private recomputeScoreAndReviews(): void {
+    let s = 0;
+    const rev: AnswerReview[] = [];
+
+    for (let i = 0; i < this.questions.length; i += 1) {
+      const q = this.questions[i];
+      const a = this.answers[i] ?? null;
+
+      if (!q || !a) continue;
+
+      const ok = a === q.answer;
+      if (ok) s += 1;
+
+      rev.push({
+        question: q,
+        selected: a,
+        isCorrect: ok,
+      });
+    }
+
+    this.score = s;
+    this.reviews = rev;
   }
 }
