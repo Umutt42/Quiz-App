@@ -900,7 +900,7 @@
           { "key": "d", "text": "Danger de mort" }
         ],
         "answer": "a",
-        "image": "assets/qcm/q2/q82.PNG.jpg"         },
+        "image": "assets/qcm/q2/Q82.PNG.jpg"         },
       {
         "id": 83,
         "question": "Lequel de ces pictogrammes indique qu’un produit phytopharmaceutique est susceptible de causer des effets graves sur la santé lors d’une exposition sans le port d’un équipement de protection ?",
@@ -911,7 +911,7 @@
           { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
         ],
         "answer": "c",
-        "image": "assets/qcm/q2/q83.PNG.jpg"        },
+        "image": "assets/qcm/q2/Q83.PNG.jpg"        },
       {
         "id": 84,
         "question": "Lequel de ces pictogrammes n’indique pas de risque pour la santé de l’utilisateur ?",
@@ -922,7 +922,7 @@
           { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
         ],
         "answer": "d",
-        "image": "assets/qcm/q2/q84.PNG.jpg"        },
+        "image": "assets/qcm/q2/Q84.PNG.jpg"        },
       {
         "id": 85,
         "question": "Lequel de ces pictogrammes indique l’existence d’un risque pour l’environnement ?",
@@ -933,7 +933,7 @@
           { "key": "d", "text": "d" }
         ],
         "answer": "a",
-        "image": "assets/qcm/q2/q85.PNG.jpg"        },
+        "image": "assets/qcm/q2/Q85.PNG.jpg"        },
       {
         "id": 86,
         "question": "Lequel de ces pictogrammes indique qu’un produit phytopharmaceutique est susceptible de provoquer des brûlures de la peau et des lésions aux yeux en cas de contact ou de projection ?",
@@ -944,7 +944,7 @@
           { "key": "d", "text": "d" }
         ],
         "answer": "b",
-        "image": "assets/qcm/q2/q86.PNG.jpg"        },
+        "image": "assets/qcm/q2/Q86.PNG.jpg"        },
       {
         "id": 87,
         "question": "Un utilisateur de produits phytopharmaceutiques peut préparer une bouillie à partir d’eau prélevée dans les eaux de surface.",
