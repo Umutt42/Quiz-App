@@ -22,33 +22,51 @@
 
 .home-intro {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
+/* TITRE PRINCIPAL */
 .home-intro h1 {
-  margin: 0 0 20px;
-  font-family: 'Khand', Helvetica, Roboto, Arial, sans-serif; /* ✅ comme le site */
-  font-size: 40px; /* ✅ comme le site */
+  margin: 0;
+  font-family: 'Khand', Helvetica, Roboto, Arial, sans-serif;
+  font-size: 40px;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #E3D400; /* ✅ comme le site */
-  line-height: 1.15;
+  color: #E3D400;
+  line-height: 1.05;
 }
 
-.home-intro h1 strong {
+/* IMAGE PHYTOLICENCE */
+.phytolicence-title-img {
   display: block;
-  margin-top: 8px;
-  font-weight: 700;
+  width: 340px;
+  max-width: 100%;
+  height: auto;
+  margin: -8px auto 0;
 }
 
-.home-intro p {
-  margin: 6px 0;
-  font-size: 18px; /* ✅ aligne sur le body */
+/* ===============================
+   TEXTE INTRO (ALIGNEMENT PRO)
+================================= */
+
+/* Bloc texte d’introduction plus lisible */
+.home-intro .intro-warning,
+.home-intro .intro-text {
+  text-align: left;          /* ✅ meilleure lisibilité */
+  max-width: 820px;          /* ✅ largeur contrôlée */
+  margin: 14px auto 6px;     /* ✅ centré visuellement */
+  font-size: 18px;
+  line-height: 1.6;
   color: #2b2b2b;
 }
 
-/* ✅ Lien "Arrêté ministériel" : même couleur partout, même si déjà visité */
+/* petit style subtil pour "Attention" */
+.home-intro .intro-warning strong {
+  color: #0f172a;
+}
+
+/* liens intro */
 .ref-link,
 .ref-link:visited {
   color: #009289;
@@ -57,7 +75,6 @@
 }
 
 .ref-link:hover {
-  text-decoration: underline;
   filter: brightness(0.9);
 }
 
@@ -106,12 +123,12 @@
 }
 
 /* ===============================
-   BODY (TYPO ALIGNÉE)
+   BODY
 ================================= */
 
 .licence-body {
   padding: 10px 26px 20px;
-  font-size: 1rem; /* ✅ hérite du body (18px) */
+  font-size: 1rem;
   line-height: 1.6;
   color: #222;
 }
@@ -125,7 +142,7 @@
   color: #000;
 }
 
-/* listes P2 */
+/* listes */
 .licence-body ul {
   margin: 12px 0 0 18px;
   padding: 0;
@@ -135,7 +152,7 @@
   margin: 6px 0;
 }
 
-/* sous-titres jaunes type P3 */
+/* sous-titres jaunes (P3) */
 .licence-body .sub-title {
   margin: 20px 0 12px;
   font-size: 14px;
@@ -145,7 +162,7 @@
   color: #c6b400;
 }
 
-/* liens généraux (turquoise) */
+/* liens */
 .licence-body a {
   color: #12a19a;
   text-decoration: none;
@@ -155,7 +172,6 @@
   text-decoration: underline;
 }
 
-/* ✅ Priorité : ref-link reste identique en visited (évite le violet) */
 .licence-body a.ref-link,
 .licence-body a.ref-link:visited {
   color: #009289;
@@ -174,14 +190,9 @@
   background: #fafafa;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 24px;
   flex-wrap: wrap;
-}
-
-.footer-label {
-  font-weight: 700;
-  font-size: 15px;
-  color: #111;
 }
 
 .footer-link,
@@ -196,17 +207,12 @@
   text-decoration: underline;
 }
 
-/* Couleur spéciale pour QUESTIONS ORALES */
-.sub-title.oral-title span {
-  color: #c6b400;
-  font-weight: 700;
-}
-
 /* ===============================
    RESPONSIVE
 ================================= */
 
 @media (max-width: 900px) {
+
   .cards {
     max-width: 100%;
   }
@@ -214,5 +220,16 @@
   .home-intro h1 {
     font-size: 30px;
     letter-spacing: 2px;
+    line-height: 1.08;
+  }
+
+  .phytolicence-title-img {
+    width: 230px;
+    margin-top: -6px;
+  }
+
+  .home-intro .intro-warning,
+  .home-intro .intro-text {
+    font-size: 16px;
   }
 }

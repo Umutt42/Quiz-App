@@ -85,9 +85,9 @@
       "choices": [
         { "key": "a", "text": "Une phytolicence P2" },
         { "key": "b", "text": "Une phytolicence P1" },
-        { "key": "c", "text": "Il ne doit pas forcément posséder de phytolicence" }
+        { "key": "c", "text": "Il ne doit pas forcément posséder de phytolicence car il n'utilise pas de produits phytopharmaceutiques à usage professionnel" }
       ],
-      "answer": "b"
+      "answer": "c"
     },
     {
       "id": 10,
@@ -143,9 +143,9 @@
       "id": 15,
       "question": "L’application d’un produit phytopharmaceutique « jusqu’à la limite du point de ruissellement » sera effectuée :",
       "choices": [
-        { "key": "a", "text": "Sans entraîner le ruissellement du produit" },
-        { "key": "b", "text": "Avec ruissellement sur le sol" },
-        { "key": "c", "text": "En versant toute la bouillie sur la plante" }
+        { "key": "a", "text": "Lorsque l'ensemble de la plante sera recouvert de la bouillie de pulvérisation sans pour autant entrainer le ruissellement du produit par la formation de gouttelettes" },
+        { "key": "b", "text": "Lorsque l'ensemble de la plante sera recouvert de la bouillie de pulvérisation et que celle-ci ruisselle sur le sol" },
+        { "key": "c", "text": "En déversant l'intégralité de la bouillie préparée sur la plante" }
       ],
       "answer": "a"
     },
@@ -153,9 +153,9 @@
       "id": 16,
       "question": "Qu’est-ce qu’un produit phytopharmaceutique systémique ?",
       "choices": [
-        { "key": "a", "text": "Un produit circulant dans l’ensemble de la plante via le système vasculaire" },
-        { "key": "b", "text": "Un produit agissant localement au point de contact" },
-        { "key": "c", "text": "Un produit circulant dans le sol" }
+        { "key": "a", "text": "Un produit phytopharmaceutique circulant dans l’ensemble de la plante via le système vasculaire" },
+        { "key": "b", "text": "Un produit phytopharmaceutique agissant localement au point de contact de la bouillie avec la plante" },
+        { "key": "c", "text": "Un produit phytopharmaceutique circulant dans le sol" }
       ],
       "answer": "a"
     },
@@ -163,8 +163,8 @@
       "id": 17,
       "question": "Qu’est-ce qu’un produit phytopharmaceutique de contact ?",
       "choices": [
-        { "key": "a", "text": "Un produit circulant dans toute la plante" },
-        { "key": "b", "text": "Un produit agissant localement au point de contact" },
+        { "key": "a", "text": "Un produit phytopharmaceutique circulant dans l'ensemble de la plante via le système vasculaire de celle-ci" },
+        { "key": "b", "text": "Un produit agissant localement au point de contact de la bouillie avec la plante" },
         { "key": "c", "text": "Un produit circulant dans le sol" }
       ],
       "answer": "b"
@@ -174,7 +174,7 @@
       "question": "La rémanence d’un produit phytopharmaceutique caractérise :",
       "choices": [
         { "key": "a", "text": "Sa persistance dans le milieu" },
-        { "key": "b", "text": "Son spectre d’action" },
+        { "key": "b", "text": "Son spectre d’action (le nombre d'organismes ciblés par le produit)" },
         { "key": "c", "text": "Sa solubilité" }
       ],
       "answer": "a"
@@ -185,7 +185,7 @@
       "choices": [
         { "key": "a", "text": "Sa solubilité" },
         { "key": "b", "text": "Sa persistance dans le milieu" },
-        { "key": "c", "text": "Son spectre d’action" }
+        { "key": "c", "text": "Son spectre d’action (les différentes espèces ciblées par le produit" }
       ],
       "answer": "c"
     },
@@ -234,9 +234,9 @@
       "id": 24,
       "question": "Laquelle des propositions suivantes est correcte ?",
       "choices": [
-        { "key": "a", "text": "Les produits professionnels sont toujours autorisés pour les amateurs" },
-        { "key": "b", "text": "Les utilisateurs professionnels disposent de produits supplémentaires" },
-        { "key": "c", "text": "Les amateurs disposent de plus de produits" }
+        { "key": "a", "text": "Les produits phytopharmaceutiques destinés à un usage professionnels sont toujours autorisés pour un usage amateurs" },
+        { "key": "b", "text": "Les utilisateurs professionnels disposent de produits phytopharmaceutiques supplémentaires par rapport aux utilisateurs amateurs" },
+        { "key": "c", "text": "Les utilisateurs amateurs disposent de produits phytopharmaceutiques supplémentaires par rapport aux utilisateurs professionnels" }
       ],
       "answer": "b"
     },
@@ -254,8 +254,8 @@
       "id": 26,
       "question": "Le mode d’action d’un produit phytopharmaceutique dépend :",
       "choices": [
-        { "key": "a", "text": "De la substance active" },
-        { "key": "b", "text": "Du type de formulation" },
+        { "key": "a", "text": "De la substance active du produit phytopharmaceutique" },
+        { "key": "b", "text": "Du type de formulation du produit phytopharmaceutique" },
         { "key": "c", "text": "Aucune de ces propositions" }
       ],
       "answer": "a"
@@ -264,8 +264,8 @@
       "id": 27,
       "question": "Un herbicide de contact :",
       "choices": [
-        { "key": "a", "text": "Se propage dans toute la plante" },
-        { "key": "b", "text": "Détruit uniquement les tissus touchés" },
+        { "key": "a", "text": "Se propage à travers toute la plante" },
+        { "key": "b", "text": "Détruit uniquement les tissus foliaires touchés lors du traitement" },
         { "key": "c", "text": "Est assimilé par les racines" }
       ],
       "answer": "b"
@@ -447,7 +447,7 @@
       "choices": [
         { "key": "a", "text": "Des pourritures des boutons floraux" },
         { "key": "b", "text": "Des lésions chancreuses au niveau des racines" },
-        { "key": "c", "text": "Des taches foliaires poudreuses à un certain stade" }
+        { "key": "c", "text": "Des taches foliaires poudreuses à un certain stade du développement du pathogène" }
       ],
       "answer": "c"
     },
@@ -456,8 +456,8 @@
       "question": "Une plante souffre d’une maladie fongique foliaire :",
       "choices": [
         { "key": "a", "text": "Il est conseillé de retirer les branches atteintes" },
-        { "key": "b", "text": "Retirer les branches n’aura aucun impact" },
-        { "key": "c", "text": "Il est conseillé d’arroser abondamment le feuillage" }
+        { "key": "b", "text": "Retirer les branches n’aura aucun impact sur l'évolution de la maladie de la plante" },
+        { "key": "c", "text": "Afin de limiter l'infection, il est conseillé d'arroser abondamment le feuillage de la plante" }
       ],
       "answer": "a"
     },
@@ -467,7 +467,7 @@
       "choices": [
         { "key": "a", "text": "Il est conseillé de ne jamais la tailler" },
         { "key": "b", "text": "Il est conseillé de la fertiliser de manière adéquate" },
-        { "key": "c", "text": "Il est conseillé de traiter le substrat chimiquement" }
+        { "key": "c", "text": "Il est conseillé de traiter son substrat chimiquement avec un produit phytopharmaceutique" }
       ],
       "answer": "b"
     },
@@ -476,8 +476,8 @@
       "question": "Quand doit-on envisager un traitement phytosanitaire sur une plante ?",
       "choices": [
         { "key": "a", "text": "Les traitements préventifs sont toujours conseillés" },
-        { "key": "b", "text": "Dès les premiers symptômes" },
-        { "key": "c", "text": "Cela dépend de l’espèce, du ravageur et de la gravité" }
+        { "key": "b", "text": "il est conseillé de traiter dès l'apparition des premiers symptômes sur la plante" },
+        { "key": "c", "text": "L'utilité d'un traitement phytosanitaire dépend de l'espèce végetale, du ravageur en présence et de la gravitié des symptômes" }
       ],
       "answer": "c"
     },
@@ -749,7 +749,7 @@
       "id": 75,
       "question": "Les consignes à respecter lors de la préparation d’une bouillie :",
       "choices": [
-        { "key": "a", "text": "Sont indiquées sur les étiquettes des produits" },
+        { "key": "a", "text": "Sont généraement indiquées sur les étiquettes des produits phytopharmaceutiques" },
         { "key": "b", "text": "Dépendent du type de formulation du produit" },
         { "key": "c", "text": "Ces deux propositions sont correctes" }
       ],
@@ -760,7 +760,7 @@
       "question": "Les pictogrammes présents sur l’étiquette des produits phytopharmaceutiques :",
       "choices": [
         { "key": "a", "text": "Indiquent la nature du danger" },
-        { "key": "b", "text": "Indiquent le ravageur ciblé" },
+        { "key": "b", "text": "Indiquent le ravageur ciblé par le produit phytopharmaceutique" },
         { "key": "c", "text": "Indiquent les zones d’utilisation" }
       ],
       "answer": "a"
@@ -769,9 +769,9 @@
       "id": 77,
       "question": "Le type de formulation d’un produit phytopharmaceutique :",
       "choices": [
-        { "key": "a", "text": "Est toujours indiqué sur l’étiquette" },
-        { "key": "b", "text": "Est parfois indiqué sur l’étiquette" },
-        { "key": "c", "text": "N’est jamais indiqué sur l’étiquette" }
+        { "key": "a", "text": "Est toujours indiqué sur l’étiquette du produit phytopharmaceutique" },
+        { "key": "b", "text": "Est parfois indiqué sur l’étiquette du produit phytopharmaceutique" },
+        { "key": "c", "text": "N’est jamais indiqué sur l’étiquette du produit phytopharmaceutique" }
       ],
       "answer": "a"
     },
@@ -779,9 +779,9 @@
       "id": 78,
       "question": "L’étiquette d’origine d’un produit phytopharmaceutique :",
       "choices": [
-        { "key": "a", "text": "Peut toujours être détachée" },
-        { "key": "b", "text": "Peut être détachée si conservée" },
-        { "key": "c", "text": "Ne peut jamais être détachée du contenant" }
+        { "key": "a", "text": "Peut toujours être détachée du contenant du produit phytopharmaceutique" },
+        { "key": "b", "text": "Peut être détachée du contenant du produit phytopharmaceutique si elle est conservée" },
+        { "key": "c", "text": "Ne peut jamais être détachée du contenant du produit phytopharmaceutique" }
       ],
       "answer": "c"
     },
@@ -789,7 +789,7 @@
       "id": 79,
       "question": "Un produit phytopharmaceutique qui n’est plus agréé depuis 5 ans :",
       "choices": [
-        { "key": "a", "text": "Peut encore être utilisé" },
+        { "key": "a", "text": "Peut encore être utilisé mais il ne sera plus disponible sur le marché" },
         { "key": "b", "text": "Doit être éliminé dans un parc à conteneurs" },
         { "key": "c", "text": "Peut être utilisé à dose réduite" }
       ],
@@ -807,11 +807,11 @@
     },
     {
       "id": 81,
-      "question": "Un particulier utilise des produits phytopharmaceutiques sans protection et ne ressent aucun effet immédiat :",
+      "question": "Un particulier utilise des produits phytopharmaceutiques sans protection et ne ressent pas d'effet sur sa santé :",
       "choices": [
-        { "key": "a", "text": "Cela est impossible" },
-        { "key": "b", "text": "Cela est possible mais des effets chroniques peuvent apparaître plus tard" },
-        { "key": "c", "text": "Cela dépend de la résistance de la personne" }
+        { "key": "a", "text": "Cela est impossible car tout produit comprend une toxicité intrinsèque" },
+        { "key": "b", "text": "Cela est possible mais il n'est pas à l'abri de développer une maladie chronique ou des symptômes qui apparaitront plus tard" },
+        { "key": "c", "text": "Cela est uniquement possible si la personne exposée est résistante aux effets toxiques des produits" }
       ],
       "answer": "b"
     },
@@ -819,15 +819,15 @@
       "id": 82,
       "question": "L’intoxication aiguë se distingue de l’intoxication chronique :",
       "choices": [
-        { "key": "a", "text": "Par la fréquence et la durée d’exposition" },
-        { "key": "b", "text": "Par le degré de toxicité uniquement" },
-        { "key": "c", "text": "Aucune de ces propositions" }
+        { "key": "a", "text": "Par la fréquence et la durée d’exposition au produit chimique" },
+        { "key": "b", "text": "Par le degré de toxicité des produits ingérés" },
+        { "key": "c", "text": "Aucune de ces propositions n'est correcte" }
       ],
       "answer": "a"
     },
     {
       "id": 83,
-      "question": "Après ingestion d’un produit phytopharmaceutique avec perte de connaissance :",
+      "question": "Après ingestion d’un produit phytopharmaceutique avec perte de connaissance. Quelle mesure d'urgence doit immédiatement être prise ?",
       "choices": [
         { "key": "a", "text": "Faire boire du lait" },
         { "key": "b", "text": "Appeler les secours (112)" },
@@ -837,11 +837,11 @@
     },
     {
       "id": 84,
-      "question": "Après une intoxication connue avec maux de tête :",
+      "question": "à la suite d'une intoxication dont on connait l'origine (le produit phytopharmaceutique), une personne souffre de maux de tête. Quelle mesure doit être prise ?",
       "choices": [
         { "key": "a", "text": "Boire de l’eau" },
         { "key": "b", "text": "Prendre une aspirine" },
-        { "key": "c", "text": "Appeler le centre Antipoisons ou consulter un médecin" }
+        { "key": "c", "text": "Appeler le centre Antipoisons (070/245245) ou consulter un médecin" }
       ],
       "answer": "c"
     },
@@ -857,11 +857,11 @@
     },
     {
       "id": 86,
-      "question": "Pulvériser un produit phytopharmaceutique en cas de pluie :",
+      "question": "Est-il conseillé de pulvériser un produit phytopharmaceutique en cas de pluie ? :",
       "choices": [
-        { "key": "a", "text": "N’est pas conseillé à cause du risque de lessivage" },
-        { "key": "b", "text": "Est conseillé" },
-        { "key": "c", "text": "N’a aucune incidence" }
+        { "key": "a", "text": "Non, car le produit pourrait être lessivé et emporté vers les eaux de surface ou les eaux souterraines" },
+        { "key": "b", "text": "Oui, car l apluie diminue le risque de lessivage vers les eaux de surface et souterraines" },
+        { "key": "c", "text": "Aucune de ces propositions n’est correcte" }
       ],
       "answer": "a"
     },
@@ -869,8 +869,8 @@
       "id": 87,
       "question": "Le surdosage d’un produit phytopharmaceutique :",
       "choices": [
-        { "key": "a", "text": "Peut être néfaste pour les organismes non-cibles" },
-        { "key": "b", "text": "Augmente le risque de pollution de l’eau" },
+        { "key": "a", "text": "Peut être néfaste pour des organismes non-cibles (non pathogénes et non visés par l'application du produit phytopharmaceutique" },
+        { "key": "b", "text": "Augmente le risque de pollution des eaux de surface et des eaux souterraines" },
         { "key": "c", "text": "Ces deux propositions sont correctes" }
       ],
       "answer": "c"
@@ -881,47 +881,47 @@
       "choices": [
         { "key": "a", "text": "N’est pas conseillé" },
         { "key": "b", "text": "Est conseillé" },
-        { "key": "c", "text": "N’a aucune influence" }
+        { "key": "c", "text": "N’i l'un, n'i l'autre : la température n'exerce aucune influence sur la pulvérisation" }
       ],
       "answer": "a"
     },
     {
       "id": 89,
-      "question": "Lorsque le vent met en mouvement les petites branches :",
+      "question": "Lorsque la vitesse du vent atteint une vitesse suffisante pour mettre en mouvement les petites branches, l'emploi d'un produit phytopharmaceutique :",
       "choices": [
-        { "key": "a", "text": "L’application n’est pas conseillée (risque de dérive)" },
-        { "key": "b", "text": "L’application est conseillée" },
-        { "key": "c", "text": "Aucune incidence" }
+        { "key": "a", "text": "N'est pas conseillé : le rique de dérive augmente lorsque la vitesse du vent augmente" },
+        { "key": "b", "text": "Est conseillé : un vent soufflant à une vitesse modérée permettra une meilleure dispersion du produit" },
+        { "key": "c", "text": "N’a aucune incidence sur la qualité de pulvérisation" }
       ],
       "answer": "a"
     },
     {
       "id": 90,
-      "question": "L’hygrométrie de l’air lors de la pulvérisation :",
+      "question": "L’hygrométrie de l’air lors de l'emploi d'un produit phytopharmaceutique :",
       "choices": [
         { "key": "a", "text": "Doit être très basse" },
         { "key": "b", "text": "Doit idéalement être supérieure à 60%" },
-        { "key": "c", "text": "N’a aucune importance" }
+        { "key": "c", "text": "Aucune de ces propositions n’est correcte" }
       ],
       "answer": "b"
     },
     {
       "id": 91,
-      "question": "Un client souhaite désherber son allée de garage :",
+      "question": "Un client voudrait désherber son allée de garage :",
       "choices": [
-        { "key": "a", "text": "Je conseille le glyphosate" },
-        { "key": "b", "text": "Je conseille un herbicide adapté" },
-        { "key": "c", "text": "Je propose des méthodes alternatives" }
+        { "key": "a", "text": "Je conseille le glyphosate : efficace sur les monocotylédones et les dicotylédones" },
+        { "key": "b", "text": "Je me renseigne sur les plantes qu'il veut traiter afin de lui renseigner un herbicide" },
+        { "key": "c", "text": "Je me renseigne sur les plantes qu'il veut traiter afin de lui proposer des méthodes alternatives de désherbage (brossage, recours à l'eau chaude...)" }
       ],
       "answer": "c"
     },
     {
       "id": 92,
-      "question": "Conseil face au dépérissement d’une haie de thuyas :",
+      "question": " Un client demande un conseil par rapport au dépérissement de sa haie de thuyas :",
       "choices": [
-        { "key": "a", "text": "Conseiller un fongicide au cuivre" },
-        { "key": "b", "text": "Éliminer les parties atteintes et établir un diagnostic" },
-        { "key": "c", "text": "Utiliser une bouillie prête à l’emploi" }
+        { "key": "a", "text": "Je lui conseille un fongicide à base de cuivre : efficace contre de nombreux champignons phytopathogènes" },
+        { "key": "b", "text": "Je lui conseille d'éliminer les parties atteintes et d'envisager un diagnostic plus précis" },
+        { "key": "c", "text": "Je lui conseille d'utiliser une bouillie prête à  l'emploi afin de diminuer les risques pour sa santé" }
       ],
       "answer": "b"
     },

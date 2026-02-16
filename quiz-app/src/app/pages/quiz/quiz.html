@@ -76,20 +76,76 @@
     <!-- FIN DU QUIZ -->
     <ng-template #finished>
       <h2>Terminé 🎉</h2>
+
+      <!-- ✅ SUCCÈS : bouton visible en haut -->
+      <div class="success-actions" *ngIf="passed">
+        <button class="train-again" (click)="startNewRandomQuiz()">
+          Je m'entraîne encore avec un nouveau quiz aléatoire
+        </button>
+      </div>
+
       <p>
         Ton score : {{ score }} / {{ questions.length }}
         — Seuil (70%) : {{ threshold }}
       </p>
-      
-      <p *ngIf="passed" class="result-message success">
-        Bravo, tu as réussi le quiz ! 🥳
-      </p>
-      <p *ngIf="!passed" class="result-message info">
-        Ce n’est pas encore validé, mais tu peux progresser rapidement en refaisant le quiz.
+
+      <!-- ✅ SUCCÈS P3 : texte spécifique -->
+      <p *ngIf="passed && bank === 'p3'" class="result-message success">
+        Bravo ! 🎉 Votre entraînement a porté ses fruits !
+        Vous avez au moins atteint les 70 % demandés.
+        Nous vous invitons maintenant à vous inscrire à l'évaluation écrite
+        <a
+          href="https://corder.be/fr/agenda-des-evaluations"
+          target="_blank"
+          rel="noopener"
+        >
+          Agenda des évaluations phytolicence | CORDER ASBL
+        </a>
+        et à prendre connaissance des exemples de questions orales afin de vous entraîner
+        pour la seconde partie de l'évaluation.
       </p>
 
+      <!-- ✅ SUCCÈS autres banques -->
+      <p *ngIf="passed && bank !== 'p3'" class="result-message success">
+        Bravo ! 🎉 Votre entraînement a porté ses fruits : vous avez atteint au moins les 70 % requis.
+      </p>
+
+      <!-- ✅ ÉCHEC : texte + ressources -->
+      <div *ngIf="!passed" class="fail-block">
+        <p class="result-message info">
+          Vous n’avez pas atteint les 70 % requis. Nous vous invitons à approfondir la matière à l’aide des ressources suivantes avant de retenter votre chance :
+        </p>
+
+        <ul class="fail-links">
+          <li>
+            Législation relative à l’utilisation des PPP (au sens large), et applicable en Wallonie :
+            <a href="https://corder.be/fr/crphyto" target="_blank" rel="noopener">https://corder.be/fr/crphyto</a>
+          </li>
+          <li>
+            Maladies et moyens de lutte en pathologie végétale :
+            <a href="https://www.appi.be/fr" target="_blank" rel="noopener">https://www.appi.be/fr</a>
+          </li>
+          <li>
+            Calculs dilution de cuve, largeurs effectives de zone tampon, buses… :
+            <a href="https://www.protecteau.be/fr/la-dilution-du-fond-de-cuve" target="_blank" rel="noopener">https://www.protecteau.be/fr/la-dilution-du-fond-de-cuve</a>
+            ;
+            <a href="https://www.protecteau.be/fr" target="_blank" rel="noopener">https://www.protecteau.be/fr</a>
+          </li>
+          <li>
+            Gestion des résistances :
+            <a href="https://www.corder.be/fr/news/gestion-des-especes-resistantes-aux-produits-phytopharmaceutiques" target="_blank" rel="noopener">
+              https://www.corder.be/fr/news/gestion-des-especes-resistantes-aux-produits-phytopharmaceutiques
+            </a>
+          </li>
+          <li>
+            Pour tout ce qui est relatif à la sécurité :
+            <a href="https://secteursverts.be/" target="_blank" rel="noopener">Mission Wallonne des Secteurs Verts - Preventagri</a>
+          </li>
+        </ul>
+      </div>
+
       <section *ngIf="wrongAnswers.length > 0" class="results">
-        <h3>Tes erreurs</h3>
+        <h3>Vos erreurs</h3>
 
         <div class="result-item" *ngFor="let r of wrongAnswers">
           <p class="question-text">{{ r.question.question }}</p>

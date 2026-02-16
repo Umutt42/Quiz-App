@@ -32,7 +32,7 @@ export class Quiz implements OnInit {
   private mode: 'random' | 'all' = 'random';
 
   /** Banque de questions sélectionnée */
-  private bank: 'pp' | 'np' | 'p2' | 'p3' = 'pp';
+   bank: 'pp' | 'np' | 'p2' | 'p3' = 'pp';
 
   /** Ensemble complet des questions chargées */
   private allQuestions: Question[] = [];
@@ -343,4 +343,16 @@ export class Quiz implements OnInit {
     this.score = s;
     this.reviews = rev;
   }
+  startNewRandomQuiz(): void {
+    // force le mode random
+    this.mode = 'random';
+  
+    // recrée une session random depuis la banque déjà chargée
+    this.resetQuiz();
+  
+    // et revient au début du quiz
+    this.index = 0;
+    this.restoreState();
+  }
+  
 }

@@ -935,7 +935,7 @@
           { "key": "d", "text": "Danger de mort" }
         ],
         "answer": "a",
-        "image": "assets/qcm/q82.PNG.jpg"
+        "image": "assets/qcm/q2/Q82.PNG.jpg"
       },
       {
         "id": 85,
@@ -947,7 +947,7 @@
           { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
         ],
         "answer": "c",
-        "image": "assets/qcm/q83.PNG.jpg"
+        "image": "assets/qcm/q2/Q83.PNG.jpg"
       },
       {
         "id": 86,
@@ -959,7 +959,7 @@
           { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
         ],
         "answer": "d",
-        "image": "assets/qcm/q84.PNG.jpg"
+        "image": "assets/qcm/q2/Q84.PNG.jpg"
       },
       {
         "id": 87,
@@ -971,7 +971,7 @@
           { "key": "d", "text": "d)" }
         ],
         "answer": "a",
-        "image": "assets/qcm/q85.PNG.jpg"
+        "image": "assets/qcm/Q85.PNG.jpg"
       },
       {
         "id": 88,
@@ -983,7 +983,7 @@
           { "key": "d", "text": "d)" }
         ],
         "answer": "b",
-        "image": "assets/qcm/q86.PNG.jpg"
+        "image": "assets/qcm/q2/Q86.PNG.jpg"
       },
     
       {
@@ -2550,12 +2550,12 @@
       },
       {
         "id": 228,
-        "question": "À la suite de la pulvérisation d’un produit phytopharmaceutique sur un champ, des dégâts de phytotoxicité sont observés :",
+        "question": "À la suite de la pulvérisation d’un produit phytopharmaceutique sur un champ, des dégâts de phytotoxicité (brûlure, décoloration) sont observés :",
         "choices": [
           { "key": "a", "text": "De façon homogène dans le champ" },
           { "key": "b", "text": "Par taches réparties aléatoirement dans le champ" },
           { "key": "c", "text": "Uniquement sur certaines plantes" },
-          { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
+          { "key": "d", "text": "Aucune de ces propositions n’est correcte, la phytoxicité décrit le caractère toxique d'une plante ou d'un organe végétal" }
         ],
         "answer": "a"
       },
@@ -2586,8 +2586,8 @@
         "question": "Pour lutter efficacement contre la rhizomanie de la betterave, il est recommandé :",
         "choices": [
           { "key": "a", "text": "D’utiliser des variétés résistantes" },
-          { "key": "b", "text": "D’appliquer des traitements insecticides" },
-          { "key": "c", "text": "D’appliquer un fongicide" },
+          { "key": "b", "text": "D’appliquer des traitements insecticides pour lutter contre les vecteurs" },
+          { "key": "c", "text": "D’appliquer un fongicide pour lutter contre le pathogène responsable de la rhizomanie" },
           { "key": "d", "text": "De raccourcir la durée de la rotation" }
         ],
         "answer": "b"
@@ -2630,7 +2630,7 @@
         "question": "Pour lutter efficacement contre les viroses en production de plants de pomme de terre, il est conseillé :",
         "choices": [
           { "key": "a", "text": "D’utiliser des plants sains certifiés" },
-          { "key": "b", "text": "D’appliquer des insecticides contre les vecteurs persistants" },
+          { "key": "b", "text": "D’appliquer des traitements insecticides pour lutter contre les vecteurs de virus persistants (PLRV...)" },
           { "key": "c", "text": "De procéder au défanage avant maturité" },
           { "key": "d", "text": "Toutes ces propositions sont correctes" }
         ],
@@ -2640,9 +2640,9 @@
         "id": 236,
         "question": "Pour lutter efficacement contre le virus de la jaunisse nanisante de l’orge :",
         "choices": [
-          { "key": "a", "text": "Utiliser des plantes inoculées" },
-          { "key": "b", "text": "Ne pas traiter avec un insecticide" },
-          { "key": "c", "text": "Pulvériser un insecticide si les seuils sont dépassés" },
+          { "key": "a", "text": "Il est conseillé d'employer des plantes préalablement inoculées avec un virus atténué" },
+          { "key": "b", "text": "Il est inutile de traiter avec un insecticide car le virus est non-persistant" },
+          { "key": "c", "text": "Il est consillé de pulvériser avec un traitement insecticide pour lutter contre les pucerons vecteurs lorsque les seuils d'intervention sont dépassés" },
           { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
         ],
         "answer": "a"
@@ -2682,7 +2682,7 @@
       },
       {
         "id": 240,
-        "question": "Quelle maladie est la plus dommageable économiquement en culture de pomme de terre ?",
+        "question": "Quelle maladie est la plus dommageable économiquement en culture de pomme de terre, d'un point de vue économique ?",
         "choices": [
           { "key": "a", "text": "La gale commune" },
           { "key": "b", "text": "Le mildiou de la pomme de terre" },

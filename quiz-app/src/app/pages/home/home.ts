@@ -23,13 +23,22 @@ interface LicenceCard {
   title: string;
 
   /**
-   * Description explicative de la licence.
+   * Description principale (utilisée pour NP / P1 / P2).
    */
-  description: string;
+  description?: string;
+
+  /**
+   * Introduction spécifique P3 (partie avant sous-titres).
+   */
+  introHtml?: string;
+
+  /**
+   * Bloc HTML pour la partie orale P3.
+   */
+  oralHtml?: string;
 
   /**
    * Banque de questions associée à cette licence.
-   * Utilisée pour rediriger vers le bon quiz.
    */
   bank: Bank;
 }
@@ -42,13 +51,9 @@ interface LicenceCard {
  * Elle affiche les différentes catégories de phytolicences
  * sous forme de cartes interactives.
  *
- * Fonctionnement :
- * - Chaque carte est générée dynamiquement via *ngFor.
- * - Les liens utilisent RouterLink avec queryParams.
- * - Le paramètre "bank" permet de charger la bonne banque de questions.
- *
  * Responsabilité :
- * Sélectionner une catégorie de phytolicence et démarrer un quiz adapté.
+ * Sélectionner une catégorie de phytolicence
+ * et rediriger vers le quiz correspondant.
  */
 @Component({
   selector: 'app-home',
@@ -58,6 +63,7 @@ interface LicenceCard {
   styleUrl: './home.scss',
 })
 export class Home {
+
   /**
    * Liste des phytolicences affichées sur la page d’accueil.
    */
@@ -88,11 +94,12 @@ export class Home {
     },
     {
       title: 'Phytolicence P3',
-      description: `
+      introHtml: `
         L'obtention de la phytolicence P3
         <strong>"Distribution/Conseil de produits à usage professionnel"</strong>
-        se déroule en deux étapes : une évaluation écrite suivie d'une évaluation orale.
-
+        se déroule en deux étapes : <strong>une évaluation écrite suivie d'une évaluation orale.</strong>
+      `,
+      oralHtml: `
         <p>
           Les exemples de <strong>questions orales</strong> sont disponibles ci-dessous :
         </p>
