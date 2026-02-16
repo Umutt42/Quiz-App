@@ -76,8 +76,11 @@
     <!-- FIN DU QUIZ -->
     <ng-template #finished>
       <h2>Terminé 🎉</h2>
-      <p>Ton score : {{ score }} / {{ questions.length }}</p>
-
+      <p>
+        Ton score : {{ score }} / {{ questions.length }}
+        — Seuil (70%) : {{ threshold }}
+      </p>
+      
       <p *ngIf="passed" class="result-message success">
         Bravo, tu as réussi le quiz ! 🥳
       </p>

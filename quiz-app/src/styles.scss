@@ -1,13 +1,14 @@
 /* ===============================
-   GLOBAL RESET
+   GOOGLE FONTS (CORDÉ STYLE)
+   - Texte: Ubuntu
+   - Titres: Khand
 ================================= */
 
-@font-face {
-  font-family: 'Panton';
-  src: local('Panton'), local('Panton-Regular');
-  font-weight: 400;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Khand:wght@300;400;500;600;700&display=swap');
+
+/* ===============================
+   GLOBAL RESET
+================================= */
 
 * {
   box-sizing: border-box;
@@ -20,10 +21,14 @@ body {
   padding: 0;
 }
 
-/* ✅ FOND FULL BLANC */
+/* ===============================
+   BASE TYPOGRAPHY
+================================= */
+
 body {
-  font-family: 'Panton', 'Segoe UI', Arial, sans-serif;
-  background: #ffffff;  /* BLANC DIRECT */
+  font-family: 'Ubuntu', Helvetica, Roboto, Arial, sans-serif;
+  font-size: 18px; /* ✅ comme le site */
+  background: #ffffff;
   color: #1f1f1f;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -32,4 +37,32 @@ body {
 
 button {
   font-family: inherit;
+}
+
+/* ===============================
+   LINKS (GLOBAL)
+   - Empêche le violet "visited"
+================================= */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ✅ Lien de référence : même couleur partout */
+a.ref-link,
+a.ref-link:visited {
+  color: #009289 !important;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+a.ref-link:hover,
+a.ref-link:focus-visible {
+  filter: brightness(0.9);
+  text-decoration: underline;
+}
+
+a.ref-link:active {
+  color: #009289 !important;
 }

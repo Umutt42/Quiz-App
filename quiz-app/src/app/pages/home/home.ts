@@ -17,7 +17,6 @@ type Bank = 'np' | 'pp' | 'p2' | 'p3';
  * Modèle représentant une carte affichée sur la page d’accueil.
  */
 interface LicenceCard {
-
   /**
    * Titre affiché sur la carte.
    */
@@ -59,7 +58,6 @@ interface LicenceCard {
   styleUrl: './home.scss',
 })
 export class Home {
-
   /**
    * Liste des phytolicences affichées sur la page d’accueil.
    */
@@ -72,47 +70,49 @@ export class Home {
     },
     {
       title: 'Phytolicence P1',
-      description: `Pour tout professionnel désirant acquérir une phytolicence P1 <strong>"Assistant usage professionnel"</strong>.`,
+      description:
+        'Pour tout professionnel désirant acquérir une phytolicence P1 <strong>"Assistant usage professionnel"</strong>.',
       bank: 'pp',
     },
     {
       title: 'Phytolicence P2',
       description: `
-    Pour tout professionnel désirant acquérir une phytolicence P2 <strong>"Usage professionnel"</strong>.
-    Les candidats ont la possibilité de personnaliser leur évaluation en choisissant un secteur spécifique lors de l'inscription :
-    <ul>
-      <li>Secteur agricole ;</li>
-      <li>Secteur parcs et jardins / horticole.</li>
-    </ul>`,
-    bank: 'p2',
+        Pour tout professionnel désirant acquérir une phytolicence P2 <strong>"Usage professionnel"</strong>.
+        Les candidats ont la possibilité de personnaliser leur évaluation en choisissant un secteur spécifique lors de l'inscription :
+        <ul>
+          <li>Secteur agricole ;</li>
+          <li>Secteur parcs et jardins / horticole.</li>
+        </ul>
+      `,
+      bank: 'p2',
     },
     {
       title: 'Phytolicence P3',
       description: `
-        L'obtention de la phytolicence P3 
-        <strong>"Distribution/Conseil de produits à usage professionnel"</strong> 
+        L'obtention de la phytolicence P3
+        <strong>"Distribution/Conseil de produits à usage professionnel"</strong>
         se déroule en deux étapes : une évaluation écrite suivie d'une évaluation orale.
-    
+
         <p>
           Les exemples de <strong>questions orales</strong> sont disponibles ci-dessous :
         </p>
-    
+
         <p>
-          <a 
-            href="assets/pdf/questions-evalutation-p3-valide.pdf" 
-            target="_blank" 
+          <a
+            href="/assets/pdf/questions-evaluation-p3-valide.pdf"
+            target="_blank"
             rel="noopener"
             class="ref-link"
           >
             Télécharger les exemples de questions orales (PDF)
           </a>
         </p>
-    
+
         <p>
-          Les questions portent sur l'ensemble de la matière reprise dans l'annexe 1 de 
-          <a 
-            href="assets/pdf/phytol_formation_initiale_programme.pdf" 
-            target="_blank" 
+          Les questions portent sur l'ensemble de la matière reprise dans l'annexe 1 de
+          <a
+            href="/assets/pdf/phytol_formation_initiale_programme.pdf"
+            target="_blank"
             rel="noopener"
             class="ref-link"
           >
@@ -121,8 +121,6 @@ export class Home {
         </p>
       `,
       bank: 'p3',
-    }
-    
-    
+    },
   ];
 }

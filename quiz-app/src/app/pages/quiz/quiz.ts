@@ -127,10 +127,23 @@ export class Quiz implements OnInit {
     return this.reviews.filter((r) => !r.isCorrect);
   }
 
+  /**
+   * Seuil de réussite (70%) calculé sur le nombre de questions du quiz.
+   * - random : 30 -> ceil(30*0.7)=21
+   * - all    : total -> ceil(total*0.7)
+   */
+  get threshold(): number {
+    const total = this.questions.length;
+    if (!total) return 0;
+    return Math.ceil(total * 0.7);
+  }
+
+  /**
+   * Réussite active pour tous les modes (random + all), sur base de 70%.
+   */
   get passed(): boolean {
-    if (this.mode !== 'random' || !this.questions.length) return false;
-    const threshold = 21;
-    return this.score >= threshold;
+    if (!this.questions.length) return false;
+    return this.score >= this.threshold;
   }
 
   formatAnswer(question: Question, key: ChoiceKey | null): string {
