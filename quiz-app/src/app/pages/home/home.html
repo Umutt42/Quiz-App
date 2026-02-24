@@ -3,7 +3,7 @@
 
   <div class="home-intro">
     <h1>
-      EXEMPLES DE QUESTIONS POUR L'ÉVALUATION
+      EXEMPLES DE QUESTIONS – ENTRAINEZ VOUS POUR L’ÉVALUATION !
       <br />
       <img
         src="assets/images/phytolicence visuel.png"
@@ -12,37 +12,56 @@
       />
     </h1>
 
-    <p class="intro-warning">
-      <strong>Attention :</strong> ces quiz sont uniquement destinés à vous entraîner et ne
-      constituent pas l’évaluation Phytolicence officielle, même s’ils se rapprochent fort de
-      ce que vous y verrez. Pour vous inscrire à l’évaluation, nous vous invitons à consulter
-      la page :
-      <a
-        href="https://corder.be/fr/agenda-des-evaluations"
-        target="_blank"
-        rel="noopener"
-        class="ref-link"
-      >
-        Agenda des évaluations phytolicence | CORDER ASBL
-      </a>
-      .
-    </p>
+    <div class="intro-text">
+      <p>
+        Ces quiz ont été conçus pour vous permettre de <strong>vous entraîner</strong> avant de
+        présenter l’évaluation officielle Phytolicence. Les quiz aléatoires diffèrent à chaque
+        essai : n’hésitez pas à vous y essayer plusieurs fois !<br />
+        Ils permettent de se familiariser avec le format des questions et d’aborder un grand nombre
+        de matières, mais <strong>ne sont pas conformes en tous points avec une évaluation
+        officielle</strong> :
+      </p>
 
-    <p>
-      L'évaluation porte sur la matière de l'annexe 1 de
-      <a
-        href="assets/pdf/phytol_formation_initiale_programme.pdf"
-        target="_blank"
-        rel="noopener"
-        class="ref-link"
-      >
-        l'Arrêté ministériel du 10/06/2016
-      </a>.
-    </p>
+      <ul>
+        <li>Ils ne couvrent <strong>pas l’ensemble de la matière officielle</strong> ;</li>
+        <li>Ils ne permettent <strong>pas d’évaluer totalement votre niveau de préparation</strong> ;</li>
+        <li>Ils ne représentent <strong>pas la banque de questions utilisées lors de l’examen officiel</strong>.</li>
+      </ul>
 
-    <!--<p>
-      Consultez les exemples de questions et les réponses afin de vous préparer efficacement.
-    </p>-->
+      <p>Pour connaître les modalités de l’évaluation, consultez :</p>
+
+      <p>
+        <span class="ref-icon">☞</span>
+        <a
+          href="https://corder.be/fr/modalites-des-evaluations-phytolicences"
+          target="_blank"
+          rel="noopener"
+          class="ref-link"
+        >Modalités des évaluations phytolicences | CORDER ASBL</a>
+      </p>
+
+      <p>
+        L’évaluation officielle porte sur la matière décrite dans
+        <a
+          href="assets/pdf/phytol_formation_initiale_programme.pdf"
+          target="_blank"
+          rel="noopener"
+          class="ref-link"
+        >l’annexe 1 de l’Arrêté ministériel du 10/06/2016.</a>
+      </p>
+
+      <p>Pour vous inscrire à l’évaluation officielle, consultez :</p>
+
+      <p>
+        <span class="ref-icon">☞</span>
+        <a
+          href="https://corder.be/fr/agenda-des-evaluations"
+          target="_blank"
+          rel="noopener"
+          class="ref-link"
+        >Agenda des évaluations Phytolicence | CORDER ASBL</a>
+      </p>
+    </div>
   </div>
 
   <div class="layout">
@@ -65,7 +84,7 @@
               [routerLink]="'/quiz'"
               [queryParams]="{ bank: l.bank, mode: 'random' }"
             >
-            Quiz : je me teste avec 30 questions aléatoires
+            Quiz : 30 questions aléatoires
             </a>
 
             <a
@@ -73,7 +92,7 @@
               [routerLink]="'/quiz'"
               [queryParams]="{ bank: l.bank, mode: 'all' }"
             >
-            Quiz : je m’entraîne avec l’ensemble des exemples de questions
+            Quiz : ensemble des exemples de questions ({{ l.questionCount }} questions)
             </a>
           </div>
 
@@ -82,6 +101,7 @@
             <div [innerHTML]="l.oralHtml"></div>
           </div>
         </ng-container>
+        
 
         <ng-template #defaultLicence>
           <div class="licence-body" [innerHTML]="l.description"></div>
@@ -92,7 +112,7 @@
               [routerLink]="'/quiz'"
               [queryParams]="{ bank: l.bank, mode: 'random' }"
             >
-            Quiz : je me teste avec 30 questions aléatoires
+            Quiz : 30 questions aléatoires
             </a>
 
             <a
@@ -100,8 +120,8 @@
               [routerLink]="'/quiz'"
               [queryParams]="{ bank: l.bank, mode: 'all' }"
             >
-            Quiz : je m’entraîne avec l’ensemble des exemples de questions
-            </a>
+            Quiz : ensemble des exemples de questions ({{ l.questionCount }} questions)
+</a>
           </div>
         </ng-template>
       </article>

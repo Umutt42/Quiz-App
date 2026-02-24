@@ -17,16 +17,17 @@
       </div>
 
       <!-- QUESTION -->
-      <h2 class="question">{{ q.question }}</h2>
+      <h2 class="question" [innerHTML]="q.question"></h2>
 
       <!-- IMAGE CLIQUABLE -->
-      <img
-        *ngIf="q.image"
-        class="question-image clickable"
-        [src]="q.image"
-        [alt]="'Illustration de la question ' + (index + 1)"
-        (click)="openImage()"
-      />
+      <div *ngIf="q.image" class="image-click-wrap" (click)="openImage()">
+        <img
+          class="question-image"
+          [src]="q.image"
+          [alt]="'Illustration de la question ' + (index + 1)"
+        />
+        <span class="image-zoom-badge">🔍 Agrandir</span>
+      </div>
 
       <!-- CHOIX -->
       <div class="choices">
@@ -38,7 +39,7 @@
           [class.wrong]="showCorrection && selected === c.key && c.key !== q.answer"
         >
           <span class="key">{{ c.key.toUpperCase() }}</span>
-          <span>{{ c.text }}</span>
+          <span [innerHTML]="c.text"></span>
         </button>
       </div>
 
@@ -68,7 +69,7 @@
           ❌ Faux (bonne réponse : {{ q.answer.toUpperCase() }})
         </p>
 
-        <p *ngIf="q.explanation">{{ q.explanation }}</p>
+        <p *ngIf="q.explanation" [innerHTML]="q.explanation"></p>
       </div>
 
     </div>
@@ -85,8 +86,8 @@
       </div>
 
       <p>
-        Ton score : {{ score }} / {{ questions.length }}
-        — Seuil (70%) : {{ threshold }}
+        Votre score : {{ score }} / {{ questions.length }}
+        — Seuil (70%) : {{ threshold }} sur {{questions.length}}
       </p>
 
       <!-- ✅ SUCCÈS P3 : texte spécifique -->
@@ -109,6 +110,12 @@
       <p *ngIf="passed && bank !== 'p3'" class="result-message success">
         Bravo ! 🎉 Votre entraînement a porté ses fruits : vous avez atteint au moins les 70 % requis.
       </p>
+
+      <!-- ❌ ÉCHEC : bouton accueil visible en haut -->
+      <div *ngIf="!passed" class="fail-top-actions">
+        <a class="btn-home" [routerLink]="'/'">← Retour à l'accueil</a>
+        <button class="btn-retry" (click)="restart()">Réessayer le quiz</button>
+      </div>
 
       <!-- ✅ ÉCHEC : texte + ressources -->
       <div *ngIf="!passed" class="fail-block">
@@ -148,10 +155,10 @@
         <h3>Vos erreurs</h3>
 
         <div class="result-item" *ngFor="let r of wrongAnswers">
-          <p class="question-text">{{ r.question.question }}</p>
+          <p class="question-text" [innerHTML]="r.question.question"></p>
 
           <p class="answer-line">
-            <span class="label">Ta réponse :</span>
+            <span class="label">Votre réponse :</span>
             <span *ngIf="r.selected; else noAnswer">
               {{ formatAnswer(r.question, r.selected) }}
             </span>

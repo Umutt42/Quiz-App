@@ -38,11 +38,6 @@ interface LicenceCard {
   oralHtml?: string;
 
   /**
-   * Nombre total de questions dans la banque (pour affichage).
-   */
-  questionCount?: number;
-
-  /**
    * Banque de questions associée à cette licence.
    */
   bank: Bank;
@@ -60,31 +55,29 @@ interface LicenceCard {
  * Sélectionner une catégorie de phytolicence
  * et rediriger vers le quiz correspondant.
  */
-@Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [CommonModule, RouterLink],
-  templateUrl: './home.html',
-  styleUrl: './home.scss',
-})
-export class Home {
 
-  /**
+@Component({
+  selector: 'app-erreur',
+  imports: [CommonModule, RouterLink],
+  templateUrl: './erreur.html',
+  styleUrl: './erreur.scss',
+})
+export class Erreur {
+
+   /**
    * Liste des phytolicences affichées sur la page d’accueil.
    */
-  licences: LicenceCard[] = [
+   licences: LicenceCard[] = [
     {
       title: 'Phytolicence NP',
       description:
-        `Pour tout personne souhaitant obtenir la phytolicence NP <strong>"Distribution/Conseil de produits à usage non professionnel".</strong> <br><strong>Outils d'entraînement disponibles:</strong>`,
-      questionCount: 95,
+        'Pour tout professionnel désirant acquérir une phytolicence NP <strong>"Distribution/Conseil de produits à usage non professionnel".</strong>',
       bank: 'np',
     },
     {
       title: 'Phytolicence P1',
       description:
-        `Pour tout professionnel désirant acquérir une phytolicence P1 <strong>"Assistant usage professionnel"</strong>.<br><strong>Outils d'entraînement disponibles:</strong>`,
-      questionCount: 111,
+        'Pour tout professionnel désirant acquérir une phytolicence P1 <strong>"Assistant usage professionnel"</strong>.',
       bank: 'pp',
     },
     {
@@ -96,9 +89,7 @@ export class Home {
           <li>Secteur agricole ;</li>
           <li>Secteur parcs et jardins / horticole.</li>
         </ul>
-        <br> <strong>Outils d'entraînement disponibles:</strong>
       `,
-      questionCount: 251,
       bank: 'p2',
     },
     {
@@ -123,9 +114,21 @@ export class Home {
             Télécharger les exemples de questions orales (PDF)
           </a>
         </p>
+
+        <p>
+          Les questions portent sur l'ensemble de la matière reprise dans l'annexe 1 de
+          <a
+            href="/assets/pdf/phytol_formation_initiale_programme.pdf"
+            target="_blank"
+            rel="noopener"
+            class="ref-link"
+          >
+            l'Arrêté ministériel du 10/06/2016
+          </a>.
+        </p>
       `,
-      questionCount: 249,
       bank: 'p3',
     },
   ];
+
 }

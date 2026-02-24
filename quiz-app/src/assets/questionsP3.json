@@ -188,7 +188,7 @@
     },
     {
       "id": 18,
-      "question": "Un entrepreneur agricole souhaite engager une personne afin d’effectuer des travaux de pulvérisation chez un tiers. La personne engagée pourra réaliser ces travaux si elle possède :",
+      "question": "Un entrepreneur agricole souhaite engager une personne afin d’effectuer des travaux de pulvérisation chez un tiers. La personne engagée pourra réaliser ces travaux si elle possède&nbsp;:",
       "choices": [
         { "key": "a", "text": "Une P1" },
         { "key": "b", "text": "Une P2 ou une P3" },
@@ -670,7 +670,7 @@
         "question": "Parmi les classes de fongicides suivantes, laquelle comprend des substances actives autorisées en agriculture biologique ?",
         "choices": [
           { "key": "a", "text": "Les dicarboximides" },
-          { "key": "b", "text": "Les minéraux (soufre, ...)" },
+          { "key": "b", "text": "Les minéraux (soufre...)" },
           { "key": "c", "text": "Les benzimidazoles" },
           { "key": "d", "text": "Les thiocarbamates" }
         ],
@@ -846,7 +846,7 @@
       },
       {
         "id": 77,
-        "question": "Les fongicides préventifs (cuivre, soufre, ...) :",
+        "question": "Les fongicides préventifs (cuivre, soufre...) :",
         "choices": [
           { "key": "a", "text": "Ont généralement une action de contact" },
           { "key": "b", "text": "Ont généralement une action multisite" },
@@ -879,7 +879,7 @@
       },
       {
         "id": 80,
-        "question": "En l’absence de contre-indications légales ou techniques (incompatibilité physico-chimique, phytotoxicité, ...), le mélange d’herbicides :",
+        "question": "En l’absence de contre-indications légales ou techniques (incompatibilité physico-chimique, phytotoxicité...), le mélange d’herbicides :",
         "choices": [
           { "key": "a", "text": "Favorise toujours l’apparition de résistances" },
           { "key": "b", "text": "Permet d’améliorer la sélectivité" },
@@ -929,7 +929,7 @@
         "id": 84,
         "question": "Que signifie ce pictogramme ?",
         "choices": [
-          { "key": "a", "text": "Très dangereux pour la santé (cancéigène, toxique pour la reproduction, ...)" },
+          { "key": "a", "text": "Très dangereux pour la santé (cancéigène, toxique pour la reproduction...)" },
           { "key": "b", "text": "Nocif ou irritant" },
           { "key": "c", "text": "Toxique pour l'homme" },
           { "key": "d", "text": "Danger de mort" }
@@ -1388,7 +1388,7 @@
         "choices": [
           { "key": "a", "text": "Sur une zone enherbée" },
           { "key": "b", "text": "Sur un sol nu plat" },
-          { "key": "c", "text": "Dans la cour de la ferme sur une surface revêtue non cultivable (pavés, graviers, ...)" },
+          { "key": "c", "text": "Dans la cour de la ferme sur une surface revêtue non cultivable (pavés, graviers...)" },
           { "key": "d", "text": "Toutes ces propositions sont correctes" }
         ],
         "answer": "a"
@@ -1399,7 +1399,7 @@
         "choices": [
           { "key": "a", "text": "Sur un sol nu" },
           { "key": "b", "text": "Sur le champ qui vient d’être traité" },
-          { "key": "c", "text": "Dans la cour de la ferme sur une surface revêtue non cultivable (pavés, graviers, ...)" },
+          { "key": "c", "text": "Dans la cour de la ferme sur une surface revêtue non cultivable (pavés, graviers...)" },
           { "key": "d", "text": "Toutes ces propositions sont correctes" }
         ],
         "answer": "b"
@@ -1528,7 +1528,7 @@
       },
       {
         "id": 136,
-        "question": "A quelle distance minimale d’une habitation d’un tiers peut-on construire un local phyto ?",
+        "question": "Á quelle distance minimale d’une habitation d’un tiers peut-on construire un local phyto ?",
         "choices": [
           { "key": "a", "text": "5 m" },
           { "key": "b", "text": "10 m" },
@@ -1546,7 +1546,7 @@
           { "key": "c", "text": "15 m" },
           { "key": "d", "text": "20 m" }
         ],
-        "answer": "a"
+        "answer": "b"
       },
       {
         "id": 138,
@@ -1579,7 +1579,7 @@
           { "key": "c", "text": "Pesticide Protection Non Used" },
           { "key": "d", "text": "Produit Phytopharmaceutique Naturel Utilisable" }
         ],
-        "answer": "a"
+        "answer": "b"
       },
       {
         "id": 141,
@@ -1590,7 +1590,7 @@
           { "key": "c", "text": "www.phytoweb.be" },
           { "key": "d", "text": "www.e-phy.agriculture.gouv.fr" }
         ],
-        "answer": "b"
+        "answer": "c"
       },
       {
         "id": 142,
@@ -1601,7 +1601,7 @@
           { "key": "c", "text": "Vous videz le reste du bidon dans l’évier et vous le rangez parmi les PPNU" },
           { "key": "d", "text": "Vous le rangez parmi les autres produits phytopharmaceutiques utilisables" }
         ],
-        "answer": "c"
+        "answer": "a"
       },
       {
         "id": 143,
@@ -1623,7 +1623,7 @@
           { "key": "c", "text": "Tous les 6 mois" },
           { "key": "d", "text": "Tous les 2 mois" }
         ],
-        "answer": "a"
+        "answer": "b"
       },
       {
         "id": 145,
@@ -1667,7 +1667,7 @@
           { "key": "c", "text": "Être rincés trois fois manuellement ou rincés mécaniquement puis placés dans les sacs bleus PMC" },
           { "key": "d", "text": "Être rincés trois fois manuellement ou rincés mécaniquement puis placés dans des caisses en carton" }
         ],
-        "answer": "c"
+        "answer": "b"
       },
       {
         "id": 149,
@@ -1678,7 +1678,7 @@
           { "key": "c", "text": "Dans un sac destiné aux déchets résiduels avant d’être éliminé via le ramassage classique des déchets communaux" },
           { "key": "d", "text": "Dans un sac en plastique bien fermé" }
         ],
-        "answer": "b"
+        "answer": "a"
       },
       {
         "id": 150,
@@ -1715,7 +1715,7 @@
       },
       {
         "id": 153,
-        "question": "De quelle manière les déchets de produits phytopharmaceutiques (bidons vides, ...) sont-ils récoltés ?",
+        "question": "De quelle manière les déchets de produits phytopharmaceutiques (bidons vides...) sont-ils récoltés ?",
         "choices": [
           { "key": "a", "text": "Les déchets de PPP sont ramenés à un point de collecte d’AgriRecover par l’utilisateur professionnel" },
           { "key": "b", "text": "Les déchets de PPP sont ramenés à un point de collecte d’AgriRecover par l’utilisateur professionnel ou par une personne travaillant dans l’entreprise de cet utilisateur professionnel" },
@@ -1727,7 +1727,7 @@
       },
       {
         "id": 154,
-        "question": "Une matière absorbante chargée en PPP (sable, sciure de bois, ...) est :",
+        "question": "Une matière absorbante chargée en PPP (sable, sciure de bois...) est :",
         "choices": [
           { "key": "a", "text": "Placée dans un sac et rangée avec les PPNU au sein du local phyto en attendant la prochaine collecte des PPNU par AgriRecover" },
           { "key": "b", "text": "Placée dans un sac et rangée dans la fraction non rincée en attendant la prochaine collecte par AgriRecover" },
@@ -1754,7 +1754,7 @@
           { "key": "a", "text": "Le produit A dont sa DL50 = 50 mg/Kg" },
           { "key": "b", "text": "Le produit B dont sa DL50 = 500 mg/Kg" },
           { "key": "c", "text": "Le produit C dont sa DL50 = 1000 mg/Kg" },
-          { "key": "d", "text": "Aucun de ces produits, la DL50 n'est pas utile pour estimer le danger du produit." }
+          { "key": "d", "text": "Aucun de ces produits, la DL50 n'est pas utile pour estimer le danger du produit" }
         ],
         "answer": "a"
       },
@@ -1789,7 +1789,7 @@
           { "key": "c", "text": "Sur Agrirecover.be" },
           { "key": "d", "text": "Sur Crphyto.be" }
         ],
-        "answer": "c"
+        "answer": "a"
       },
       {
         "id": 160,
@@ -1800,7 +1800,7 @@
           { "key": "c", "text": "Les mesures à prendre en cas d’intoxication" },
           { "key": "d", "text": "Toutes ces propositions sont correctes" }
         ],
-        "answer": "a"
+        "answer": "d"
       },
       {
         "id": 161,
@@ -1811,7 +1811,7 @@
           { "key": "c", "text": "Les mesures à prendre en cas d’intoxication" },
           { "key": "d", "text": "Toutes ces propositions sont correctes" }
         ],
-        "answer": "d"
+        "answer": "c"
       },
       {
         "id": 162,
@@ -1822,7 +1822,7 @@
           { "key": "c", "text": "Les cultures sur lesquelles le produit phytopharmaceutique peut être appliqué" },
           { "key": "d", "text": "Toutes ces propositions sont correctes" }
         ],
-        "answer": "c"
+        "answer": "a"
       },
       {
         "id": 163,
@@ -1888,7 +1888,7 @@
           { "key": "c", "text": "Le pulvérisateur à dos" },
           { "key": "d", "text": "Le pulvérisateur à lance" }
         ],
-        "answer": "c"
+        "answer": "b"
       },
       {
         "id": 169,
@@ -1899,7 +1899,7 @@
           { "key": "c", "text": "Car la législation interdit aux utilisateurs de produits phytopharmaceutiques de marcher sur une surface traitée même si ceux-ci portent des équipements de protection adaptés" },
           { "key": "d", "text": "Toutes ces propositions sont correctes" }
         ],
-        "answer": "b"
+        "answer": "a"
       },
       {
         "id": 170,
@@ -1932,7 +1932,7 @@
           { "key": "c", "text": "En utilisant une aiguille" },
           { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
         ],
-        "answer": "a"
+        "answer": "d"
       },
       {
         "id": 173,
@@ -1943,7 +1943,7 @@
           { "key": "c", "text": "En augmentant la pression de travail" },
           { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
         ],
-        "answer": "d"
+        "answer": "a"
       },
       {
         "id": 174,
@@ -1965,7 +1965,7 @@
           { "key": "c", "text": "Faire boire de l'eau à la victime" },
           { "key": "d", "text": "Mettre la victime en position latérale de sécurité et appeler les secours (112)" }
         ],
-        "answer": "c"
+        "answer": "d"
       },
       {
         "id": 176,
@@ -1987,7 +1987,7 @@
           { "key": "c", "text": "En tissu épais" },
           { "key": "d", "text": "En cuir" }
         ],
-        "answer": "d"
+        "answer": "b"
       },
       {
         "id": 178,
@@ -1998,7 +1998,7 @@
           { "key": "c", "text": "En néoprène" },
           { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
         ],
-        "answer": "b"
+        "answer": "c"
       },
       {
         "id": 179,
@@ -2009,7 +2009,7 @@
           { "key": "c", "text": "En cuir" },
           { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
         ],
-        "answer": "c"
+        "answer": "d"
       },
       {
         "id": 180,
@@ -2020,7 +2020,8 @@
           { "key": "c", "text": "En latex" },
           { "key": "d", "text": "Toutes les propositions suivantes sont correctes" }
         ],
-        "answer": "d"
+        "answer": "d",
+         "image": "assets/pictogrammes/gants_protection.png"
       },
       {
         "id": 181,
@@ -2053,18 +2054,18 @@
           { "key": "c", "text": "Sont éliminés par AgriRecover dans les sacs spéciaux dédiés aux EPI" },
           { "key": "d", "text": "Doivent être rapportés dans un parc à conteneur" }
         ],
-        "answer": "d"
+        "answer": "b"
       },
       {
         "id": 184,
         "question": "Où est-il conseillé de stocker les équipements de protection ?",
         "choices": [
           { "key": "a", "text": "Dans une armoire réservée à cet usage, à proximité du local phyto" },
-          { "key": "b", "text": "A l’entrée de l’habitation parmi les vêtements de ville" },
+          { "key": "b", "text": "Á l’entrée de l’habitation parmi les vêtements de ville" },
           { "key": "c", "text": "Dans le local phyto" },
           { "key": "d", "text": "Toutes les propositions sont correctes, le lieu de stockage des équipements de protection n’a pas d’importance" }
         ],
-        "answer": "b"
+        "answer": "a"
       },
       {
         "id": 185,
@@ -2092,8 +2093,8 @@
         "id": 187,
         "question": "Les filtres à charbon actif placés sur l’air conditionné des cabines de tracteur doivent être :",
         "choices": [
-          { "key": "a", "text": "Essuyés à l’aide d’un chiffon humide les filtres après chaque utilisation selon les prescriptions mentionnées sur la notice d’usage" },
-          { "key": "b", "text": "Remplacés les filtres lorsque le nombre d’heures de fonctionnement mentionné sur la notice d’usage est atteint" },
+          { "key": "a", "text": "Essuyés à l’aide d’un chiffon humide après chaque utilisation selon les prescriptions mentionnées sur la notice d’usage" },
+          { "key": "b", "text": "Remplacés lorsque le nombre d’heures de fonctionnement mentionné sur la notice d’usage est atteint" },
           { "key": "c", "text": "Rincés abondamment selon les prescriptions mentionnées sur la notice d’usage" },
           { "key": "d", "text": "Aucune de ces propositions n’est correcte" }
         ],
@@ -2130,7 +2131,7 @@
           { "key": "c", "text": "D’appliquer les produits phytopharmaceutiques le soir" },
           { "key": "d", "text": "Toutes ces propositions sont correctes" }
         ],
-        "answer": "c"
+        "answer": "d"
       },
       {
         "id": 191,
@@ -2141,7 +2142,7 @@
           { "key": "c", "text": "Dangereux pour l'environnement" },
           { "key": "d", "text": "Danger de mort" }
         ],
-        "answer": "d",
+        "answer": "c",
         "image": "assets/qcm/q2/q197.png.jpg"  
       },
       {
@@ -2153,7 +2154,7 @@
           { "key": "c", "text": "Oui, car la pluie favorise la répartition homogène du produit sur la plante" },
           { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
         ],
-        "answer": "c"
+        "answer": "a"
       },
       {
         "id": 193,
@@ -2164,7 +2165,7 @@
           { "key": "c", "text": "Il doit prévenir le centre Antipoisons (070/245 245)" },
           { "key": "d", "text": "Il doit prévenir l’AFSCA" }
         ],
-        "answer": "a"
+        "answer": "b"
       },
       {
         "id": 194,
@@ -2197,7 +2198,7 @@
           { "key": "c", "text": "Via l’érosion des sols traités" },
           { "key": "d", "text": "Toutes ces propositions sont correctes" }
         ],
-        "answer": "a"
+        "answer": "d"
       },
       {
         "id": 197,
@@ -2601,7 +2602,7 @@
           { "key": "c", "text": "Avec un insecticide" },
           { "key": "d", "text": "Avec un nématicide" }
         ],
-        "answer": "b"
+        "answer": "a"
       },
       {
         "id": 233,
@@ -2689,7 +2690,7 @@
           { "key": "c", "text": "La gale argentée" },
           { "key": "d", "text": "La dartrose" }
         ],
-        "answer": "a"
+        "answer": "b"
       },
       {
         "id": 241,

@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "question": "En Région wallonne, à quelle distance d’un cours d’eau doit s’arrêter la zone de pulvérisation ?",
+      "question": "En Région wallonne, à quelle distance d’un cours d’eau doit s’arrêter la zone de pulvérisation&nbsp;?",
       "answer": "b",
       "choices": [
         { "key": "a", "text": "Au moins 1 mètre" },
@@ -261,7 +261,7 @@
     },
     {
       "id": 27,
-      "question": "Sur quel site internet peut-on trouver des informations concernant les autorisations des produits phytopharmaceutiques ?",
+      "question": "Sur quel site Internet peut-on trouver des informations concernant les autorisations des produits phytopharmaceutiques ?",
       "answer": "a",
       "choices": [
         { "key": "a", "text": "Phytoweb.be ou Fytoweb.be" },

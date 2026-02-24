@@ -265,7 +265,7 @@
     },
     {
       "id": 25,
-      "question": "Un entrepreneur agricole souhaite engager une personne afin d’effectuer des travaux de pulvérisation chez un tiers. La personne engagée pourra réaliser ces travaux si elle possède :",
+      "question": "Un entrepreneur agricole souhaite engager une personne afin d’effectuer des travaux de pulvérisation chez un tiers. La personne engagée pourra réaliser ces travaux si elle possède&nbsp;:",
       "choices": [
         { "key": "a", "text": "Une P1" },
         { "key": "b", "text": "Une P2 ou une P3" },
@@ -333,7 +333,7 @@
       "id": 31,
       "question": "En agriculture, qu’est-ce que la prophylaxie ?",
       "choices": [
-        { "key": "a", "text": "L’ensemble des mesures (physiques, variétales, biologiques, ...) permettant de réduire le risque d’apparition d’ennemis des cultures" },
+        { "key": "a", "text": "L’ensemble des mesures (physiques, variétales, biologiques...) permettant de réduire le risque d’apparition d’ennemis des cultures" },
         { "key": "b", "text": "L’ensemble des produits phytopharmaceutiques autorisés pour la lutte préventive" },
         { "key": "c", "text": "L’ensemble des mesures physiques permettant de lutter contre les adventices présentes au champ" },
         { "key": "d", "text": "L’ensemble des mesures favorisant la biodiversité du sol" }
@@ -357,7 +357,7 @@
       "choices": [
         { "key": "a", "text": "Je privilégie l’emploi d’herbicides totaux" },
         { "key": "b", "text": "Je privilégie l’emploi d’herbicides sélectifs" },
-        { "key": "c", "text": "Je privilégie l’emploi d’une méthode alternative de désherbage (action mécanique, thermique, ...)" },
+        { "key": "c", "text": "Je privilégie l’emploi d’une méthode alternative de désherbage (action mécanique, thermique...)" },
         { "key": "d", "text": "Aucune de ces propositions n'est correcte" }
       ],
       "answer": "c"
@@ -507,9 +507,9 @@
     },
     {
       "id": 47,
-      "question": "Lors d’un contrôle de l’afsca, on constate un dépassement de la LMR (limite maximale de résidus) pour une culture donnée. Dans la plupart des cas, ce dépassement est dû :",
+      "question": "Lors d’un contrôle de l’AFSCA, on constate un dépassement de la LMR (limite maximale de résidus) pour une culture donnée. Dans la plupart des cas, ce dépassement est dû :",
       "choices": [
-        { "key": "a", "text": "Au non-respect des conditions d’application d’un produit phytopharmaceutique (dose, fréquence du traitement, stade d’application ...)" },
+        { "key": "a", "text": "Au non-respect des conditions d’application d’un produit phytopharmaceutique (dose, fréquence du traitement, stade d’application&nbsp;...)" },
         { "key": "b", "text": "À une situation climatique particulière" },
         { "key": "c", "text": "À un apport excessif d’engrais" },
         { "key": "d", "text": "Toutes ces propositions sont correctes" }
@@ -664,7 +664,7 @@
         "question": "Parmi les classes de fongicides suivantes, laquelle comprend des substances actives autorisées en agriculture biologique ?",
         "choices": [
           { "key": "a", "text": "Les dicarboximides" },
-          { "key": "b", "text": "Les minéraux (soufre,...)" },
+          { "key": "b", "text": "Les minéraux (soufre...)" },
           { "key": "c", "text": "Les benzimidazoles" },
           { "key": "d", "text": "Les thiocarbamates" }
         ],
@@ -1389,8 +1389,8 @@
     "id": 127,
     "question": "Le rinçage extérieur des pulvérisateurs peut se faire entre autres :  ",
     "choices": [
-      { "key": "a", "text": " Sur un sol nu  " },
-      { "key": "b", "text": "ur le champ qui vient d’être traité  " },
+      { "key": "a", "text": "Sur un sol nu  " },
+      { "key": "b", "text": "Sur le champ qui vient d’être traité  " },
       { "key": "c", "text": "Dans la cour de la ferme sur une surface revêtue non cultivable (pavés, graviers…)  " },
       { "key": "d", "text": "À proximité immédiate d’un cours d’eau  " }
     ],
@@ -1400,8 +1400,8 @@
     "id": 128,
     "question": "Le rinçage extérieur des pulvérisateurs peut se faire entre autres :  ",
     "choices": [
-      { "key": "a", "text": " Sur une zone plate enherbée  " },
-      { "key": "b", "text": "ur le champ qui vient d’être traité  " },
+      { "key": "a", "text": "Sur une zone plate enherbée  " },
+      { "key": "b", "text": "Sur le champ qui vient d’être traité  " },
       { "key": "c", "text": "Dans la cour de la ferme sur une surface revêtue non cultivable (pavés, graviers…)  " },
       { "key": "d", "text": "À proximité immédiate d’un cours d’eau  " }
     ],
@@ -1446,7 +1446,7 @@
     "choices": [
       { "key": "a", "text": "Uniquement si la concentration en substance(s) active(s) du fond de cuve résiduel est divisée par 100 par rapport à celle du fond de cuve initial" },
       { "key": "b", "text": "Quel que soit le niveau de dilution   " },
-      { "key": "c", "text": "Uniquement si le produits phytopharmaceutique employés sont dépourvus du pictogramme dangereux pour l'environnement " },
+      { "key": "c", "text": "Uniquement si les produits phytopharmaceutiques employés sont dépourvus du pictogramme dangereux pour l'environnement " },
       { "key": "d", "text": "L'élimination du fond de cuve résiduel n'est pas autorisée de cette manière en Région wallonne" }
     ],
     "answer": "a"
@@ -1458,7 +1458,7 @@
       { "key": "a", "text": "Sur un sol nu" },
       { "key": "b", "text": "Sur une aire étanche réliée à un système de traitement des effluents phytopharmaceutiques   " },
       { "key": "c", "text": "Dans une cour pavée " },
-      { "key": "d", "text": "A proximité immédiate d'un cours d'eau" }
+      { "key": "d", "text": "Á proximité immédiate d'un cours d'eau" }
     ],
     "answer": "b"
   },
@@ -1469,7 +1469,7 @@
       { "key": "a", "text": "Sur un sol nu" },
       { "key": "b", "text": "Sur une aire enherbée " },
       { "key": "c", "text": "Dans une cour de ferme pavée " },
-      { "key": "d", "text": "A proximité immédiate d'un cours d'eau" }
+      { "key": "d", "text": "Á proximité immédiate d'un cours d'eau" }
     ],
     "answer": "b"
   },
@@ -1480,7 +1480,7 @@
       { "key": "a", "text": "Sur un sol nu" },
       { "key": "b", "text": "Sur le champ qui vient d'être traité " },
       { "key": "c", "text": "Dans une cour de ferme pavée " },
-      { "key": "d", "text": "A proximité immédiate d'un cours d'eau" }
+      { "key": "d", "text": "Á proximité immédiate d'un cours d'eau" }
     ],
     "answer": "b"
   },
@@ -1504,7 +1504,8 @@
       { "key": "c", "text": "Vrai, si le local phyto est destiné à acceuillir moins de 25 kg de produits phytopharmaceutiques " },
       { "key": "d", "text": "Faux il est interdit de construire un nouveau local phyto en zone de prévention de captage iia" }
     ],
-    "answer": "d"
+    "answer": "d",
+    "image":"assets/qcm/q2/Q134.png"
   },
   {
     "id": 138,
@@ -1519,7 +1520,7 @@
   },
   {
     "id": 139,
-    "question": "A quelle distance minimale d'une habitation d'un tiers peut-on construire un local phyto :",
+    "question": "Á quelle distance minimale d'une habitation d'un tiers peut-on construire un local phyto&nbsp;:",
     "choices": [
       { "key": "a", "text": "5m" },
       { "key": "b", "text": "10m" },
@@ -1530,7 +1531,7 @@
   },
   {
     "id": 140,
-    "question": "A quelle distance minimale d'une voie publique peut-on construire un local phyto :",
+    "question": "Á quelle distance minimale d'une voie publique peut-on construire un local phyto :",
     "choices": [
       { "key": "a", "text": "5m" },
       { "key": "b", "text": "10m" },
@@ -1541,7 +1542,7 @@
   },
   {
     "id": 141,
-    "question": "A quelle distance minimale d'un cours d'eau peut-on construire un local phyto :",
+    "question": "Á quelle distance minimale d'un cours d'eau peut-on construire un local phyto :",
     "choices": [
       { "key": "a", "text": "5m" },
       { "key": "b", "text": "10m" },
@@ -1585,7 +1586,7 @@
   },
   {
     "id": 145,
-    "question": "Pour identifier,séparer et se débarraser des produits phytopharmaceutiques périmés, la liste actualisée des produits phytopharmaceutiques agréés en Belgique est accesible sur : ",
+    "question": "Pour identifier, séparer et se débarraser des produits phytopharmaceutiques périmés, la liste actualisée des produits phytopharmaceutiques agréés en Belgique est accessible sur : ",
     "choices": [
       { "key": "a", "text": "www.afsca.be" },
       { "key": "b", "text": "www.phytodatabase.be" },
@@ -1596,12 +1597,12 @@
   },
   {
     "id": 146,
-    "question": "Vous remarquez que l'étiquette d'un de vos bidons de produit phytopharmaceutiques est manquante. Que faites-vous de ce bidon ? ",
+    "question": "Vous remarquez que l'étiquette d'un de vos bidons de produit phytopharmaceutique est manquante. Que faites-vous de ce bidon ? ",
     "choices": [
       { "key": "a", "text": "Vous le rangez parmi les PPNU" },
-      { "key": "b", "text": "Vous inscrivez à l'indélébile le nom du produit phytopharmaceutiques et le rangez parmi les autres produits phytopharmaceutiques utilisables." },
+      { "key": "b", "text": "Vous inscrivez à l'indélébile le nom du produit phytopharmaceutiques et le rangez parmi les autres produits phytopharmaceutiques utilisables" },
       { "key": "c", "text": "Vous videz le reste du bidon dans l'évier et vous le rangez parmi les PPNU" },
-      { "key": "d", "text": "Vous le rangez parmi les autres produits phytopharmaceutiques utilisables." }
+      { "key": "d", "text": "Vous le rangez parmi les autres produits phytopharmaceutiques utilisables" }
     ],
     "answer": "a"
   },
@@ -1631,7 +1632,7 @@
     "id": 149,
     "question": "Où doivent être stockés les produits phytopharmaceutiques dont la date de préemption est dépassée",
     "choices": [
-      { "key": "a", "text": "Dans le local phyto avec les produits phytopgarmaceutiques utilisés habitiuellement" },
+      { "key": "a", "text": "Dans le local phyto avec les produits phytopharmaceutiques utilisés habituellement" },
       { "key": "b", "text": "Dans le local phyto séparément des autres produits phytopharmaceutiques avec écriture PPNU" },
       { "key": "c", "text": "Ils doivent être directement rapportés au parc à conteneur" },
       { "key": "d", "text": "En dehors du local phyto s'il n'y a aucun risque de contamination pour l'environnement, les personnes et les animaux " }
@@ -1644,19 +1645,19 @@
     "choices": [
       { "key": "a", "text": "La liste des produits phytopharmaceutiques stockés dans le local phyto et la liste des PPNU" },
       { "key": "b", "text": "Les attestations transmises par AgriRecover lors de la remise des emballages de produits phytopharmaceutiques et la liste des PPNU" },
-      { "key": "c", "text": "uniquement la liste des PPNU" },
+      { "key": "c", "text": "Uniquement la liste des PPNU" },
       { "key": "d", "text": "La liste des produits phytopharmaceutiques stockés dans le local phyto portant l'un des pictogrammes suivants : " }
     ],
     "answer": "b"
   },
   {
     "id": 151,
-    "question": "Les bidons de produit phytopharmaceutiques vides sont placés dans des sacs AgriRecover destinés à la fraction rincée. Parmi les propositions suivantes, quels sacs seront repris par AgriRecover sans frais supplémentaire ? Les sacs contenants uniquement :",
+    "question": "Les bidons de produit phytopharmaceutique vides sont placés dans des sacs AgriRecover destinés à la fraction rincée. Parmi les propositions suivantes, quels sacs seront repris par AgriRecover sans frais supplémentaire ? Les sacs contenants uniquement :",
     "choices": [
       { "key": "a", "text": "Des bidons rincés et directement scellés avec le capuchon d'origine" },
       { "key": "b", "text": "Des bidons pouvant contenir des traces de produits phytopharmaceutiques mais obligatoirement scellés avec le capuchon d'origine" },
       { "key": "c", "text": "Des bidons rincés et séchés, sans capuchon" },
-      { "key": "d", "text": "Des bidons rincés, séchés et scelles avec le capuchon d'origine " }
+      { "key": "d", "text": "Des bidons rincés, séchés et scellés avec le capuchon d'origine " }
     ],
     "answer": "c"
   },
@@ -1893,14 +1894,14 @@
     "question": "Un agriculteur traite un champ à l’aide d’un pulvérisateur à rampe. Le conducteur est-il exposé à la brume de pulvérisation ?",
     "choices": [
       { "key": "a", "text": "Non, à condition que la cabine du tracteur soit hermétiquement fermée" },
-      { "key": "b", "text": "Oui même si la cabine est équipée d’un filtre à charbon actif" },
+      { "key": "b", "text": "Oui, même si la cabine est équipée d’un filtre à charbon actif" },
       {
         "key": "c",
-        "text": "Oui par inhalation, si la cabine n’est pas équipée de système de filtration"
+        "text": "Oui, par inhalation, si la cabine n’est pas équipée de système de filtration"
       },
       {
         "key": "d",
-        "text": "Oui par radiation, si la cabine n’est pas équipée de système de filtration"
+        "text": "Oui, par radiation, si la cabine n’est pas équipée de système de filtration"
       }
     ],
     "answer": "c"
@@ -2003,7 +2004,7 @@
       { "key": "a", "text": "Faire vomir la victime" },
       { "key": "b", "text": "Faire boire du lait" },
       { "key": "c", "text": "Faire boire de l’eau" },
-      { "key": "d", "text": "PLS et appel des secours (112)" }
+      { "key": "d", "text": "Position Latérale de Sécurité et appel des secours (112)" }
     ],
     "answer": "d"
   },
@@ -2152,7 +2153,7 @@
   },
   {
     "id": 194,
-    "question": "Quels filtres protègent contre les vapeurs de produits phytopharmaceutiques organiques ?",
+    "question": "Quels filtres protègent contre les vapeurs de produits phytopharmaceutiques organiques&nbsp;?",
     "choices": [
       { "key": "a", "text": "Filtres anti-poussière P (bande blanche)" },
       { "key": "b", "text": "Filtres à charbon actif A (bande brune)" },
@@ -2510,7 +2511,7 @@
   },
   {
     "id": 234,
-    "question": "A la suite de la pulvérisation d’un produit phytopharmaceutique sur un champ, des dégâts de phytotoxicité (brûlure, décoloration) sont observés :",
+    "question": "Á la suite de la pulvérisation d’un produit phytopharmaceutique sur un champ, des dégâts de phytotoxicité (brûlure, décoloration) sont observés :",
     "choices": [
       { "key": "a", "text": "De façon homogène" },
       { "key": "b", "text": "Par taches réparties aléatoirement" },

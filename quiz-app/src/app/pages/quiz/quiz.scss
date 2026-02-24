@@ -65,21 +65,49 @@ h1 {
    IMAGE
 ========================= */
 
+.image-click-wrap {
+  position: relative;
+  display: block;
+  width: fit-content;
+  margin: 14px auto 16px;
+  cursor: pointer;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.image-click-wrap:hover .question-image {
+  transform: scale(1.03);
+  box-shadow: 0 14px 24px rgba(0, 0, 0, 0.18);
+}
+
+.image-click-wrap:hover .image-zoom-badge {
+  opacity: 1;
+}
+
 .question-image {
   display: block;
   max-width: 320px;
   width: 100%;
   height: auto;
-  margin: 14px auto 16px;
   border-radius: 12px;
-  cursor: pointer;
   transition: transform 0.22s ease, box-shadow 0.22s ease;
   box-shadow: 0 10px 18px rgba(0, 0, 0, 0.10);
 }
 
-.question-image:hover {
-  transform: scale(1.03);
-  box-shadow: 0 14px 24px rgba(0, 0, 0, 0.14);
+.image-zoom-badge {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 20px;
+  pointer-events: none;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+  backdrop-filter: blur(2px);
 }
 
 /* =========================
@@ -375,6 +403,7 @@ h1 {
     font-size: 1.1rem;
   }
 
+  .image-click-wrap,
   .question-image {
     max-width: 100%;
   }
@@ -397,6 +426,56 @@ h1 {
 .train-again:hover {
   filter: brightness(0.98);
 }
+/* =========================
+   FAIL TOP ACTIONS
+========================= */
+
+.fail-top-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px 0 16px;
+}
+
+.btn-home {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: 1.5px solid #cbd5e1;
+  background: #eef2f7;
+  color: #0f172a;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.btn-home:hover {
+  background: #e2e8f0;
+}
+
+.btn-retry {
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  background: #4d9c18;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 10px 18px rgba(77, 156, 24, 0.22);
+  transition: background 0.2s ease, transform 0.05s ease;
+}
+
+.btn-retry:hover {
+  background: #3f8214;
+}
+
+.btn-retry:active {
+  transform: translateY(1px);
+}
+
 /* =========================
    FAIL LINKS (liens visibles)
 ========================= */

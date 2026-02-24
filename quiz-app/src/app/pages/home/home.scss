@@ -66,6 +66,23 @@
   color: #0f172a;
 }
 
+/* liste dans intro-text */
+.home-intro .intro-text ul {
+  margin: 8px 0 14px 22px;
+  padding: 0;
+  line-height: 1.7;
+}
+
+.home-intro .intro-text li {
+  margin: 4px 0;
+}
+
+/* icône flèche avant les liens de référence */
+.ref-icon {
+  margin-right: 4px;
+  color: #009289;
+}
+
 /* liens intro */
 .ref-link,
 .ref-link:visited {

@@ -1,0 +1,111 @@
+<div class="home-page">
+    <div class="breadcrumb"></div>
+  
+    <div class="home-intro">
+      <h1>
+        EXEMPLES DE QUESTIONS POUR L'ÉVALUATION
+        <br />
+        <img
+          src="assets/images/phytolicence visuel.png"
+          alt="Phytolicence"
+          class="phytolicence-title-img"
+        />
+      </h1>
+  
+      <p class="intro-warning">
+        <strong>Attention :</strong> ces quiz sont uniquement destinés à vous entraîner et ne
+        constituent pas l’évaluation Phytolicence officielle, même s’ils se rapprochent fort de
+        ce que vous y verrez. Pour vous inscrire à l’évaluation, nous vous invitons à consulter
+        la page :
+        <a
+          href="https://corder.be/fr/agenda-des-evaluations"
+          target="_blank"
+          rel="noopener"
+          class="ref-link"
+        >
+          Agenda des évaluations phytolicence | CORDER ASBL
+        </a>
+        .
+      </p>
+  
+      <p>
+        L'évaluation porte sur la matière de l'annexe 1 de
+        <a
+          href="assets/pdf/phytol_formation_initiale_programme.pdf"
+          target="_blank"
+          rel="noopener"
+          class="ref-link"
+        >
+          l'Arrêté ministériel du 10/06/2016
+        </a>.
+      </p>
+  
+      <!--<p>
+        Consultez les exemples de questions et les réponses afin de vous préparer efficacement.
+      </p>-->
+    </div>
+  
+    <div class="layout">
+      <section class="cards">
+        <article class="licence-card" *ngFor="let l of licences" [attr.id]="l.bank">
+          <header class="licence-header">
+            <h2>{{ l.title }}</h2>
+          </header>
+  
+          <ng-container *ngIf="l.bank === 'p3'; else defaultLicence">
+            <div class="licence-body" [innerHTML]="l.introHtml"></div>
+  
+            <div class="licence-body">
+              <div class="sub-title">EXEMPLES DE QUESTIONS ÉCRITES</div>
+            </div>
+  
+            <div class="licence-footer inline">
+              <a
+                class="footer-link"
+                [routerLink]="'/quiz'"
+                [queryParams]="{ bank: l.bank, mode: 'random' }"
+              >
+              Quiz : je me teste avec 30 questions aléatoires
+              </a>
+  
+              <a
+                class="footer-link"
+                [routerLink]="'/quiz'"
+                [queryParams]="{ bank: l.bank, mode: 'all' }"
+              >
+              Quiz : je m’entraîne avec l’ensemble des exemples de questions
+              </a>
+            </div>
+  
+            <div class="licence-body">
+              <div class="sub-title">EXEMPLES DE QUESTIONS ORALES</div>
+              <div [innerHTML]="l.oralHtml"></div>
+            </div>
+          </ng-container>
+  
+          <ng-template #defaultLicence>
+            <div class="licence-body" [innerHTML]="l.description"></div>
+  
+            <div class="licence-footer">
+              <a
+                class="footer-link"
+                [routerLink]="'/quiz'"
+                [queryParams]="{ bank: l.bank, mode: 'random' }"
+              >
+              Quiz : je me teste avec 30 questions aléatoires
+              </a>
+  
+              <a
+                class="footer-link"
+                [routerLink]="'/quiz'"
+                [queryParams]="{ bank: l.bank, mode: 'all' }"
+              >
+              Quiz : je m’entraîne avec l’ensemble des exemples de questions
+              </a>
+            </div>
+          </ng-template>
+        </article>
+      </section>
+    </div>
+  </div>
+  

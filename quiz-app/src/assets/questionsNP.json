@@ -185,7 +185,7 @@
       "choices": [
         { "key": "a", "text": "Sa solubilité" },
         { "key": "b", "text": "Sa persistance dans le milieu" },
-        { "key": "c", "text": "Son spectre d’action (les différentes espèces ciblées par le produit" }
+        { "key": "c", "text": "Son spectre d’action (les différentes espèces ciblées par le produit)" }
       ],
       "answer": "c"
     },
@@ -332,7 +332,7 @@
     },
     {
       "id": 34,
-      "question": "Sur quel site internet peut-on trouver des informations concernant les autorisations des produits phytopharmaceutiques ?",
+      "question": "Sur quel site Internet peut-on trouver des informations concernant les autorisations des produits phytopharmaceutiques ?",
       "choices": [
         { "key": "a", "text": "Phytoweb.be / Fytoweb.be" },
         { "key": "b", "text": "Phytophar.be" },
@@ -476,7 +476,7 @@
       "question": "Quand doit-on envisager un traitement phytosanitaire sur une plante ?",
       "choices": [
         { "key": "a", "text": "Les traitements préventifs sont toujours conseillés" },
-        { "key": "b", "text": "il est conseillé de traiter dès l'apparition des premiers symptômes sur la plante" },
+        { "key": "b", "text": "Il est conseillé de traiter dès l'apparition des premiers symptômes sur la plante" },
         { "key": "c", "text": "L'utilité d'un traitement phytosanitaire dépend de l'espèce végetale, du ravageur en présence et de la gravitié des symptômes" }
       ],
       "answer": "c"
@@ -837,7 +837,7 @@
     },
     {
       "id": 84,
-      "question": "à la suite d'une intoxication dont on connait l'origine (le produit phytopharmaceutique), une personne souffre de maux de tête. Quelle mesure doit être prise ?",
+      "question": "Á la suite d'une intoxication dont on connait l'origine (le produit phytopharmaceutique), une personne souffre de maux de tête. Quelle mesure doit être prise ?",
       "choices": [
         { "key": "a", "text": "Boire de l’eau" },
         { "key": "b", "text": "Prendre une aspirine" },
@@ -860,7 +860,7 @@
       "question": "Est-il conseillé de pulvériser un produit phytopharmaceutique en cas de pluie ? :",
       "choices": [
         { "key": "a", "text": "Non, car le produit pourrait être lessivé et emporté vers les eaux de surface ou les eaux souterraines" },
-        { "key": "b", "text": "Oui, car l apluie diminue le risque de lessivage vers les eaux de surface et souterraines" },
+        { "key": "b", "text": "Oui, car la pluie diminue le risque de lessivage vers les eaux de surface et souterraines" },
         { "key": "c", "text": "Aucune de ces propositions n’est correcte" }
       ],
       "answer": "a"
@@ -869,7 +869,7 @@
       "id": 87,
       "question": "Le surdosage d’un produit phytopharmaceutique :",
       "choices": [
-        { "key": "a", "text": "Peut être néfaste pour des organismes non-cibles (non pathogénes et non visés par l'application du produit phytopharmaceutique" },
+        { "key": "a", "text": "Peut être néfaste pour des organismes non-cibles (non pathogénes et non visés par l'application du produit phytopharmaceutique)" },
         { "key": "b", "text": "Augmente le risque de pollution des eaux de surface et des eaux souterraines" },
         { "key": "c", "text": "Ces deux propositions sont correctes" }
       ],
@@ -881,7 +881,7 @@
       "choices": [
         { "key": "a", "text": "N’est pas conseillé" },
         { "key": "b", "text": "Est conseillé" },
-        { "key": "c", "text": "N’i l'un, n'i l'autre : la température n'exerce aucune influence sur la pulvérisation" }
+        { "key": "c", "text": "Ni l'un, ni l'autre : la température n'exerce aucune influence sur la pulvérisation" }
       ],
       "answer": "a"
     },
