@@ -12,8 +12,15 @@
         <div>Question {{ index + 1 }} / {{ questions.length }}</div>
         <div class="topbar-right">
           <span>Score: {{ score }}</span>
+          <button class="btn-pdf-topbar" (click)="exportPdf()">📄 Exporter PDF</button>
+          <button class="btn-pdf-topbar" (click)="downloadHtml()">⬇️ Télécharger</button>
           <a class="back-home" [routerLink]="'/'">Accueil</a>
         </div>
+      </div>
+
+      <!-- BARRE DE PROGRESSION -->
+      <div class="progress-bar-wrap">
+        <div class="progress-bar-fill" [style.width.%]="(index + 1) / questions.length * 100"></div>
       </div>
 
       <!-- QUESTION -->
@@ -178,6 +185,12 @@
       <div class="end-actions">
         <button (click)="restart()">
           Refaire le quiz pour t'améliorer
+        </button>
+        <button class="btn-pdf" (click)="exportPdf()">
+          Exporter en PDF (questions + corrigé)
+        </button>
+        <button class="btn-pdf" (click)="downloadHtml()">
+          Télécharger en HTML
         </button>
         <a class="back-home" [routerLink]="'/'">
           Retour à l'accueil

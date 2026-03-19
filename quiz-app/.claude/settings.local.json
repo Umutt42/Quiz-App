@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm list:*)",
+      "Bash(npx tsc:*)",
+      "Bash(python -c \"import json; data=json.load\\(open\\(r''c:/Users/umutd/Desktop/gitQuiz/Quiz-App/quiz-app/src/assets/questionsP3.json'', encoding=''utf-8''\\)\\); print\\(len\\(data\\), ''questions''\\)\")",
+      "Bash(node -e \"const d=require\\(''./src/assets/questionsP3.json''\\); console.log\\(d.length + '' questions''\\)\")",
+      "Bash(grep -c '\"\"id\"\"' /c/Users/umutd/Desktop/gitQuiz/Quiz-App/quiz-app/src/assets/questions.json)",
+      "Bash(grep -c '\"\"id\"\"' /c/Users/umutd/Desktop/gitQuiz/Quiz-App/quiz-app/src/assets/questionsNP.json)",
+      "Bash(grep -c '\"\"id\"\"' /c/Users/umutd/Desktop/gitQuiz/Quiz-App/quiz-app/src/assets/questionsP2.json)",
+      "Bash(grep -c '\"\"id\"\"' /c/Users/umutd/Desktop/gitQuiz/Quiz-App/quiz-app/src/assets/questionsP3.json)"
+    ]
+  }
+}
